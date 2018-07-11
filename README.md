@@ -18,6 +18,7 @@ All resources and notes from the Complete Web Developer in 2018: Zero to Mastery
 ******************************************************************************************
 Install  sublime text 3
 	https://www.sublimetext.com/
+
 Reference webs:
 	https://www.w3schools.com/
 	https://stackoverflow.com/
@@ -38,8 +39,10 @@ Reference webs:
 	https://unsplash.com/
 	https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Cascada_y_herencia
 	https://specificity.keegan.st/
+
 web for color check:
 	http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+
 web for fonts download:
 	https://fonts.google.com/
 
@@ -512,4 +515,4 @@ create on heroku app a new postgress:
 ******************************************************************************************
 29	Bonus: AMA + Developer Morning Routine
 ******************************************************************************************
-	https://www.computerhope.com/issues/ch000549.htm
+
