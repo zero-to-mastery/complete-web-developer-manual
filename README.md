@@ -19,8 +19,9 @@ All resources and notes from the Complete Web Developer in 2018: Zero to Mastery
 ## 4. __HTML 5__
 
 
-Install  sublime text 3
+Install  a text editor (Select one):
 *	https://www.sublimetext.com/
+*	https://code.visualstudio.com/
 
 Reference websites:
 *	https://www.w3schools.com/
