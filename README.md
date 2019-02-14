@@ -47,6 +47,7 @@ Reference websites:
 
 website for color check:
 *	http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+*	https://coolors.co/
 
 website for fonts download:
 *	https://fonts.google.com/
