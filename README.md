@@ -19,7 +19,7 @@ All resources and notes from the Complete Web Developer in 2018: Zero to Mastery
 ## 4. __HTML 5__
 
 
-Install  a text editor (Select one):
+Install a text editor (Select one):
 *	https://www.sublimetext.com/
 *	https://code.visualstudio.com/
 
@@ -45,11 +45,11 @@ Reference websites:
 * https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Cascada_y_herencia
 *	https://specificity.keegan.st/
 
-website for color check:
+Website for color check:
 *	http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
 *	https://coolors.co/
 
-website for fonts download:
+Website for fonts download:
 *	https://fonts.google.com/
 
 
@@ -65,14 +65,14 @@ Reference websites:
 ## 8.	__Bootstrap 4, Templates, And Building Your Startup Landing Page__
 
 
-app for creating users list
+App for creating users list:
 *	https://mailchimp.com 
 
 
-website with animation examples
+Website with animation examples:
 *	https://daneden.github.io/animate.css
 
-website for patterns:
+Website for patterns:
 *	https://www.creative-tim.com/bootstrap-themes/ui-kit?direction=asc&sort=price
 *	http://mashup-template.com/templates.html
 *	https://startbootstrap.com/template-categories/all/
@@ -80,11 +80,11 @@ website for patterns:
 *	https://www.creative-tim.com/
 
 
-generating animatied patterns 
+Generating animated patterns:
 *	https://daneden.github.io/animate.css/
 
 
-Installing  Github
+Installing Github:
 *	https://desktop.github.com/
 
 ******************************************************************************************
@@ -234,7 +234,7 @@ npm install
 npm install –g browserify
 ```
 
-install node and npm	
+Install node and npm:	
 *	https://www.npmjs.com/get-npm
 *	https://nodejs.org/es/
 
@@ -254,7 +254,7 @@ npm install tachyons
 ```
 
 
-website for fonts download:
+Website for fonts download:
 *	http://www.cufonfonts.com/en
 
 
@@ -315,23 +315,23 @@ Animated objects library:
 	npm install –save react-tilt
 	```
 
-background patterns:
+Background patterns:
 *	http://lea.verou.me/css3patterns/
 
 
-animated background library:
+Animated background library:
 *	https://vincentgarreau.com/particles.js/
 
 	```
 	npm install react-particles-js
 	```
 
-image and video recognition:
+Image and video recognition:
 *	https://clarifai.com/developer/guide/
 	```
 	npm install clarifai
 	```
-icons library:
+Icons library:
 *	https://icons8.com/icon
 	
 ******************************************************************************************
@@ -340,7 +340,7 @@ icons library:
 Install Postman:
 *	https://www.getpostman.com/apps
 
-Express.js
+Express.js:
 *	https://expressjs.com/en/api.html
 
 (Getting start guide)
@@ -351,11 +351,11 @@ npm install express --save
 npm install --save-dev nodemon
 ```	
 
-Reference webs:
+Node.js Reference websites:
 *	https://nodejs.org/en/
 *	https://nodejs.org/api/modules.html
 
-storing passwords securely:
+Storing passwords securely:
 ```
 npm install bcrypt-nodejs
 ```
@@ -418,7 +418,7 @@ Linux (tested on Ubuntu 14.04/16.04) and MacOS (tested by @aswin-s on MacOS Sier
 
 ```"start": "PORT=3006 react-scripts start"```
 
-or (may be) more general solution by @IsaacPak to:
+or (maybe) more general solution by @IsaacPak to:
 
 ```"start": "export PORT=3006 react-scripts start"```
 
@@ -433,7 +433,7 @@ Front-end and back-end connection:
 	npm install cors
 	```
 
-front-end:  
+Front-end:  
 
 ```Javascript
 fetch('http://localhost:3000/image', {
@@ -493,17 +493,17 @@ Install PostgreSQL:
 data types
 *	https://www.techonthenet.com/postgresql/datatypes.php
 
-terminal commands for windows
+Terminal commands for windows:
 
-login: (-U usuario)
+Login: (-U usuario)
 
 	psql -h localhost -U postgres
 
-create database	
+Create database:	
 
 	create database database_name;
 
-show all datatables:
+Show all datatables:
 
 	\l
 
@@ -511,95 +511,97 @@ Create a user:
 
 	create user moni with password ‘moni’;
 
-delete database
+Delete a database:
 
 	drop database database_name;
 
-connect to a database:
+Connect to a database:
 
 	\c database_name;
 
-Create a squema:
+Create a schema:
 
 	create schema friends;
 
-Create a table
+Create a table:
 
 	create table Friends.test( firstname CHAR(15), lastname CHAR(20)); 
 
 	create table Friends.login(id serial not null primary key, secret varchar (100) not null, name text unique not null, entries bigint default 0, joined timestamp not null);
 
-show all information of a table
+Show all information of a table:
 
 	select * from friends.test;
-describe database
+
+Describe database:
 
 	\d friends.test
 
-Insert data
+Insert data:
 
 	insert into friends.test values( ‘Mike’, ‘Smith’); 
 
 	insert into friends.test (firstname, lastname )values( ‘Sally’, ‘Jones’);
 
-add a column to an existing table
+Add a column to an existing table:
 
 	alter table Friends.test add age smallint;
 
-update data from the table
+Update data from the table:
 
 	update friends.test set age = 25 where firstname= ‘Mike’;
 
-delete data from the table
+Delete data from the table:
 
 	delete from friends.test where firstname = ‘Mike’;
 
-delete column from a tableinae
+Delete column from a table:
 
 	alter table friends.test drop column age;
 
-delete a table
+Delete a table:
 
 	drop table friends.test;
 
-functions
+Functions:
 
 	select avg(age) from friends.test;
 
-join tables
+Join tables:
 
 	select * from friends.test join friends.login on friends.test.firstname = friends.login.name;
 
-exit
+Exit:
 
 	\q
 
-List users in postgres: 
+List all users in postgresSQL database server: 
 
 	\du
-List all tables in a squeme: 
 
-	\d+ nombre_Esquema.*
+List all tables in a schema: 
 
-List all tables in a database : 
+	\d+ schema_name.*
+
+List all tables in a database: 
 
 	\dt *.* 
 
-List a table in a squeme: 
+List a table in a schema: 
 
-	\d+ nombre_Esquema . nombre_Tabla
+	\d+ schema_name . table_name
 
-Show description of a tavle, columns, type, modifications,....: 
+Show description of a table, columns, type, modifications, etc.: 
 
-	\d+ nombre_Tabla
+	\d+ table_name
 
 Create a backup of a database: 
 
-	pg_dum -h localhost -U postgres nombre_Base > nombre_Base.sql
+	pg_dump -h localhost -U postgres database_name > database_name.sql
 
-Restore a database: 1. Create a new database where the restore file is going to be placed
+Restore a database: 1. Create a new database where the restore file is going to be placed:
 
-	psql -U postgres -d nombre_nuevaBase -f respaldo.sql
+	psql -U postgres -d new_database_name -f respaldo.sql
 
 	*Note:  it is important to create the restore in the same root where the database copy is saved. 
 
@@ -616,7 +618,7 @@ Enter to a database with a different user:
 ## 26.	__FINAL PROJECT: SmartBrain Back-End – Database__
 
 
-Tool for db connection with back-end
+Tool for db connection with back-end:
 *	https://knexjs.org/
 *	https://knexjs.org/#Installation-node
 *	https://github.com/vitaly-t/pg-promise
@@ -625,17 +627,17 @@ Tool for db connection with back-end
 ## 27.	__Production + Deployment__
 
 
-Environmental variables 
+Environmental variables:
 *	http://www.dowdandassociates.com/blog/content/howto-set-an-environment-variable-in-windows-command-line-and-registry/
 
 ### PORT
 
-on terminal
+On terminal:
 
 	bash
 	-->PORT-3000 node server.js
 
-On server.js
+On server.js:
 ```JSX
 	const PORT = process.env.PORT
 	app.listen(PORT, ()=>{
@@ -645,12 +647,12 @@ On server.js
 
 ### DATABASE
 
-on terminal
+On terminal:
 
 	bash
 	-->DATABASE_URL-123  node server.js
 
-On server.js
+On server.js:
 
 ```jsx
 	const DATABASE_URL = process.env. DATABASE_URL
@@ -661,7 +663,7 @@ On server.js
 
 ### OTHER OPTION
 
-On terminal
+On terminal:
 
 	fish
 	-->env DATABASE_URL-‘hello’ node server.js
@@ -678,24 +680,24 @@ Not the best one:
 
 
 
-commands for heroku on backend folder:
-install heroku:
+Commands for heroku on backend folder:
+Install heroku:
 ```
 npm install -g heroku
 heroku login
 heroku create
 ```
-In the terminal there will be an URL : ” https://limitless-bastion-10041.herokuapp.com/”
+In the terminal there will be a URL : ” https://limitless-bastion-10041.herokuapp.com/”
 ```
 git remote –v
 git push origin master
 heroku git: remote –a limitless-bastion-10041
 ```
 
-changes required in:
+Changes required in:
 
-*	BACKEND: PORT in server.js needs to be changed by an environment variable
-*	FRONT: fetch URL needs to be changed by the URL of HEROKU + “:3000”
+*	BACK END: PORT in server.js needs to be changed by an environment variable
+*	FRONT END: fetch URL needs to be changed by the URL of HEROKU + “:3000”
 
 ```
 git push heroku master
@@ -705,12 +707,12 @@ heroku open
 ```
 
 
-connect to pg database:
+Connect to pg database:
 *	https://devcenter.heroku.com/articles/heroku-postgresql
 *	https://docs.aws.amazon.com/es_es/AmazonRDS/latest/UserGuide/USER_ConnectToPostgreSQLInstance.html
 *	https://msdn.microsoft.com/en-us/library/ms175043(v=sql.120).aspx#SSMSProcedure
 	
-create on heroku app a new postgress:
+Create a new postgres database using Heroku:
 
 Data: Heroku postgres: create new: install heroku postgres: select the app created
 ```
