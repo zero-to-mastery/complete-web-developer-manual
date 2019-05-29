@@ -58,6 +58,7 @@ Website for fonts download:
 
 
 Reference websites:
+*	http://flexboxfroggy.com/
 *	https://caniuse.com/
 *	https://www.w3schools.com/cssref/css3_browsersupport.asp
 
