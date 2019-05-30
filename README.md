@@ -10,9 +10,14 @@ All resources and notes from the Complete Web Developer in 2018: Zero to Mastery
 ******************************************************************************************
 ## 2.	__How The Internet Works__
 ******************************************************************************************
-
+Submarine Cable Map:
+*	https://www.submarinecablemap.com/
 ******************************************************************************************
 ## 3.	__History Of The Web__
+Maps that explain the Internet:
+*	https://www.vox.com/a/internet-maps
+First Webpage in the world:
+*	http://info.cern.ch/hypertext/WWW/TheProject.html
 ******************************************************************************************
 
 ******************************************************************************************
@@ -58,8 +63,10 @@ Website for fonts download:
 
 
 Reference websites:
+*	http://flexboxfroggy.com/
 *	https://caniuse.com/
 *	https://www.w3schools.com/cssref/css3_browsersupport.asp
+*	http://shouldiprefix.com/
 
 ******************************************************************************************
 ## 8.	__Bootstrap 4, Templates, And Building Your Startup Landing Page__
@@ -88,15 +95,27 @@ Installing Github:
 *	https://desktop.github.com/
 
 ******************************************************************************************
-## 9.	__Career Of A Web Developer__
+## 9.	__CSS Grid + CSS Layout__
+
+Grid Cheat Sheet:
+*	http://grid.malven.co/
+
+Grid Garden:
+*	https://cssgridgarden.com/
+
+Free Design resources:
+*	https://interfacer.xyz/
+
+******************************************************************************************
+## 10.	__Career Of A Web Developer__
 ******************************************************************************************
 
 ******************************************************************************************
-## 10.	__Javascript__
+## 12.	__Javascript__
 ******************************************************************************************
 
 ******************************************************************************************
-## 11.	__DOM Manipulation__
+## 12.	__DOM Manipulation__
 
 
 
@@ -108,11 +127,11 @@ Reference websites:
 *	https://babeljs.io/
 
 ******************************************************************************************
-## 12.	__Advanced Javascript__
+## 13.	__Advanced Javascript__
 ******************************************************************************************
 
 ******************************************************************************************
-## 13. __Command Line__
+## 14. __Command Line__
 
 
 
@@ -162,11 +181,11 @@ cls - clear the terminal screen
 
 
 ******************************************************************************************
-## 14.	__Developer Environment__
+## 15.	__Developer Environment__
 ******************************************************************************************
 
 ******************************************************************************************
-## 15.	__Git + Github + Open Source Projects__
+## 16.	__Git + Github + Open Source Projects__
 
 
 
@@ -221,11 +240,11 @@ Once you are in your forked project directory in your command prompt....
 ```git pull upstream master```
 
 ******************************************************************************************
-## 16.	__A Day In The Life Of A Developer__
+## 17.	__A Day In The Life Of A Developer__
 ******************************************************************************************
 
 ******************************************************************************************
-## 17.	__NPM + NPM Scripts__
+## 18.	__NPM + NPM Scripts__
 
 
 ```
@@ -244,7 +263,7 @@ Reference websites:
 *	https://lodash.com/
 
 ******************************************************************************************
-## 18.	__React.js + Redux__
+## 19.	__React.js + Redux__
 
 ```
 npm install –g create-react-app
@@ -290,15 +309,15 @@ npm install redux-thunk
 *	https://facebook.github.io/immutable-js/
 
 ******************************************************************************************
-## 19.	__HTTP/JSON/AJAX + Asynchronous Javascript__
+## 20.	__HTTP/JSON/AJAX + Asynchronous Javascript__
 ******************************************************************************************
 
 ******************************************************************************************
-## 20.	__Backend Basics__
+## 21.	__Backend Basics__
 ******************************************************************************************
 
 ******************************************************************************************
-## 21. __APIs__
+## 22. __APIs__
 ******************************************************************************************
 *	https://stripe.com/docs/api
 *	https://www.twilio.com/docs/api/messaging/send-messages
@@ -306,7 +325,7 @@ npm install redux-thunk
 
 
 ******************************************************************************************
-## 22.	__FINAL PROJECT: SmartBrain Front-End__
+## 23.	__FINAL PROJECT: SmartBrain Front-End__
 
 
 Animated objects library:
@@ -335,7 +354,7 @@ Icons library:
 *	https://icons8.com/icon
 	
 ******************************************************************************************
-## 23.	__Node.js + Express.js__
+## 24.	__Node.js + Express.js__
 
 Install Postman:
 *	https://www.getpostman.com/apps
@@ -404,7 +423,7 @@ $ npm install bcrypt
 
 
 ******************************************************************************************
-## 24.	__FINAL PROJECT: SmartBrain Back-End -- Server__
+## 25.	__FINAL PROJECT: SmartBrain Back-End -- Server__
 
 
 Change localhost:
@@ -456,7 +475,7 @@ app.use(cors());
 ```	
 
 ******************************************************************************************
-## 25.	__Databases__
+## 26.	__Databases__
 
 
 Install PostgreSQL:
@@ -615,7 +634,7 @@ Enter to a database with a different user:
 
 
 ******************************************************************************************
-## 26.	__FINAL PROJECT: SmartBrain Back-End – Database__
+## 27.	__FINAL PROJECT: SmartBrain Back-End – Database__
 
 
 Tool for db connection with back-end:
@@ -624,7 +643,7 @@ Tool for db connection with back-end:
 *	https://github.com/vitaly-t/pg-promise
 
 ******************************************************************************************
-## 27.	__Production + Deployment__
+## 28.	__Production + Deployment__
 
 
 Environmental variables:
@@ -722,13 +741,16 @@ heroku pg:psql
 ```
 
 ******************************************************************************************
-## 28.	__Where To Go From Here?__
+## 29.	__Where To Go From Here?__
 ******************************************************************************************
 
 The Complete Junior to Senior Web Developer Roadmap (2019):
 *	https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap/
 
 ******************************************************************************************
-## 29.	__Bonus: AMA + Developer Morning Routine__
+## 30.	__Bonus: AMA + Developer Morning Routine__
+******************************************************************************************
+******************************************************************************************
+## 31.	__Extra: For Windows Users__
 ******************************************************************************************
 
