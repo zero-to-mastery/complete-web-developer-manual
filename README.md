@@ -1,24 +1,38 @@
 # Complete-Web-Developer-Manual
 
 
-All resources and notes from the Complete Web Developer in 2018: Zero to Mastery course
+All resources and notes from the Complete Web Developer in 2020: Zero to Mastery course
 
 ******************************************************************************************
 ## 1.	__Introduction__
-******************************************************************************************
 
+Discord Channel:
+*	https://discord.gg/nVmbHYY
 ******************************************************************************************
 ## 2.	__How The Internet Works__
-******************************************************************************************
+
+Tools:
+*	Chrome Developer Tools
+
+Topics:
+*	ISP, DNS and Servers
+*	Traceroute (Windows: tracert)
+
 Submarine Cable Map:
 *	https://www.submarinecablemap.com/
 ******************************************************************************************
 ## 3.	__History Of The Web__
+
 Maps that explain the Internet:
 *	https://www.vox.com/a/internet-maps
+
 First Webpage in the world:
 *	http://info.cern.ch/hypertext/WWW/TheProject.html
-******************************************************************************************
+
+Optional Videos:
+*	https://www.youtube.com/watch?v=3QhU9jd03a0&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=29
+*	https://www.youtube.com/watch?v=AEaKrq3SpW8&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=30
+*	https://www.youtube.com/watch?v=guvsH5OFizE&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=31
 
 ******************************************************************************************
 ## 4. __HTML 5__
@@ -26,32 +40,158 @@ First Webpage in the world:
 
 Install a text editor (Select one):
 *	https://www.sublimetext.com/
+*	https://atom.io/
 *	https://code.visualstudio.com/
+
+Tags:
+*	`<html>`
+*	`<head>`
+*	`<title>`
+*	`<body>`
+*	headings (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`)
+*	paragraph `<p>`
+*	bold `<strong>`, italic `<em>`
+*	ordered list `<ol>`, unordered list `<ul>`, list item`<li>`
+*	break `<br>`, horizontal rule `<hr>`
+*	image `<img>` and attributes: `src`, `width`, `height`
+*	anchor `<a href="">`
+
+Topics:
+*	Relative vs Absolute Path
+
+Zero to Mastery resources:
+*	https://github.com/zero-to-mastery/complete-web-developer-manual
+*	https://github.com/zero-to-mastery/zero-to-mastery-captions
 
 Reference websites:
 *	https://www.w3schools.com/
+*	https://developer.mozilla.org/en-US/
 *	https://stackoverflow.com/
 
 
 ******************************************************************************************
-## 5.	Advanced HTML 5
-******************************************************************************************
+## 5.	__Advanced HTML 5__
+
+
+Tags:
+*	`<form>`
+	*	`method`, `action`
+*	`<input>`: 
+	*	`type`= `"text"`, `"submit"`, `"reset"`, `"email"`, `"date"`, `"radio"`, `"password"`
+	*	`required`, `value`, `name`, `min`
+*	dropdown `<select>`
+	*	option `<option>`
+*	comment `<!-- -->`
+*	`<div>` and `<span>`
+
+Semantic Elements
+*	`<header>`
+*	`<nav>`
+*	`<main>`
+*	`<footer>`
+
+Topics:
+*	Chrome view Source
+
+Resources:
+*	https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5
+*	https://waitbutwhy.com/
+
+> "__If you take one thing from this, it is this__: Don't worry if you don't feel 100% confident in HTML. Keep going as we will keep building on top of this knowledge."
+
 
 ******************************************************************************************
 ## 6.	__CSS__
 
+Syntax:
+```css
+Selector {
+	property: value;
+}
+```
+
+How to:
+*	External
+	```html
+	<link rel="stylesheet type="text/css" href="style.css">
+	```
+*	Internal
+	```html
+	<style>
+		body {
+			background-color: purple;
+		}
+	</style>
+	```
+*	Inline
+	```html
+	<header style="background-color: green;">
+	```
+
+Tools:
+*	Chrome Inspector
+
+Properties:
+*	text-align
+*	border
+*	background
+*	list-style
+*	cursor
+*	color: html, hex, rgb or rgba
+
+Selectors:
+*	`.class`
+*	`#id`
+*	`*` (all elements)
+*	`element`
+*	`element, element`
+*	`element element`
+*	`element > element`
+*	`element + element`
+*	`v:hover`
+*	`:last-child`
+*	`:first-child`
+*	`!important` (not recommended)
+
+Text Properties
+*	`text-decoration`
+*	`text-transform`
+*	`line-height`
+*	`font-style`
+*	`font-weight`
+*	`font-size`
+*	`font-family`
+
+Layout Properties
+*	`float` and `clear`
+
+Box Model
+*	`margin`
+*	`border`
+*	`padding`
+*	`width` and `height`
+
+Sizes
+*	`px`
+*	`em` and `rem`
+
+Topics:
+*	Cascading: Specificity, Importance `!`, Source Order
+*	Linking fonts and external stylesheets
+
+Exercises:
+*	https://flukeout.github.io/
 
 Reference websites:
 *	https://css-tricks.com/
 *	https://www.supremo.co.uk/typeterms/
 *	https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-*	https://waitbutwhy.com/
 *	https://unsplash.com/
 * https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Cascada_y_herencia
 *	https://specificity.keegan.st/
 
 Website for color check:
-*	http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+*	http://paletton.com/
 *	https://coolors.co/
 
 Website for fonts download:
@@ -61,12 +201,37 @@ Website for fonts download:
 ******************************************************************************************
 ## 7.	__Advanced CSS__
 
+Flexbox
+*	`display: flex`
+*	`flex-direction`
+*	`flex-wrap`
+*	`flex-flow`
+*	`justify-content`
+*	`align-items`
+*	`align-content`
+*	`order`
+*	`flex`: `flex-grow`, `flex-shrink` and `flex-basis`
+*	`align-self`
+
+Properties
+*	`transition`
+*	`transform`
+*	`box-shadow`
+
+Tools
+*	Chrome Toggle Device
+*	https://codepen.io/
+
+Exercises:
+*	http://flexboxfroggy.com/
 
 Reference websites:
-*	http://flexboxfroggy.com/
 *	https://caniuse.com/
 *	https://www.w3schools.com/cssref/css3_browsersupport.asp
 *	http://shouldiprefix.com/
+*	https://robots.thoughtbot.com/transitions-and-transforms
+
+> __If you take one thing from this, it is this__: Don't worry if you don't feel 100% confident in CSS. Keep going as we will keep building on top of this knowledge. 
 
 ******************************************************************************************
 ## 8.	__Bootstrap 4, Templates, And Building Your Startup Landing Page__
