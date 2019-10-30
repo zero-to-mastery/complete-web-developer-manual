@@ -77,7 +77,7 @@ Tags:
 *	`<form>`
 	*	`method`, `action`
 *	`<input>`: 
-	*	type= `"text"`, `"submit"`, `"reset"`, `"email"`, `"date"`, `"radio"`, `"password"`
+	*	`type`= `"text"`, `"submit"`, `"reset"`, `"email"`, `"date"`, `"radio"`, `"password"`
 	*	`required`, `value`, `name`, `min`
 *	dropdown `<select>`
 	*	option `<option>`
@@ -92,6 +92,7 @@ Semantic Elements
 
 Topics:
 *	Chrome view Source
+
 Resources:
 *	https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5
 *	https://waitbutwhy.com/
