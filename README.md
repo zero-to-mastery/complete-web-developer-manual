@@ -5,27 +5,35 @@ All resources and notes from the Complete Web Developer in 2020: Zero to Mastery
 
 ******************************************************************************************
 ## 1.	__Introduction__
+
 Discord Channel:
 *	https://discord.gg/nVmbHYY
 ******************************************************************************************
 ## 2.	__How The Internet Works__
+
 Tools:
 *	Chrome Developer Tools
+
 Topics:
 *	ISP, DNS and Servers
 *	Traceroute (Windows: tracert)
+
 Submarine Cable Map:
 *	https://www.submarinecablemap.com/
 ******************************************************************************************
 ## 3.	__History Of The Web__
+
 Maps that explain the Internet:
 *	https://www.vox.com/a/internet-maps
+
 First Webpage in the world:
 *	http://info.cern.ch/hypertext/WWW/TheProject.html
+
 Optional Videos:
 *	https://www.youtube.com/watch?v=3QhU9jd03a0&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=29
 *	https://www.youtube.com/watch?v=AEaKrq3SpW8&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=30
 *	https://www.youtube.com/watch?v=guvsH5OFizE&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=31
+
 ******************************************************************************************
 ## 4. __HTML 5__
 
@@ -34,6 +42,7 @@ Install a text editor (Select one):
 *	https://www.sublimetext.com/
 *	https://atom.io/
 *	https://code.visualstudio.com/
+
 Tags:
 *	`<html>`
 *	`<head>`
@@ -46,11 +55,14 @@ Tags:
 *	break `<br>`, horizontal rule `<hr>`
 *	image `<img>` and attributes: `src`, `width`, `height`
 *	anchor `<a href="">`
+
 Topics:
 *	Relative vs Absolute Path
+
 Zero to Mastery resources:
 *	https://github.com/zero-to-mastery/complete-web-developer-manual
 *	https://github.com/zero-to-mastery/zero-to-mastery-captions
+
 Reference websites:
 *	https://www.w3schools.com/
 *	https://developer.mozilla.org/en-US/
@@ -71,11 +83,13 @@ Tags:
 	*	option `<option>`
 *	comment `<!-- -->`
 *	`<div>` and `<span>`
+
 Semantic Elements
 *	`<header>`
 *	`<nav>`
 *	`<main>`
 *	`<footer>`
+
 Topics:
 *	Chrome view Source
 Resources:
@@ -87,12 +101,14 @@ Resources:
 
 ******************************************************************************************
 ## 6.	__CSS__
+
 Syntax:
 ```css
 Selector {
 	property: value;
 }
 ```
+
 How to:
 *	External
 	```html
@@ -110,8 +126,10 @@ How to:
 	```html
 	<header style="background-color: green;">
 	```
+
 Tools:
 *	Chrome Inspector
+
 Properties:
 *	text-align
 *	border
@@ -119,6 +137,7 @@ Properties:
 *	list-style
 *	cursor
 *	color: html, hex, rgb or rgba
+
 Selectors:
 *	`.class`
 *	`#id`
@@ -132,6 +151,7 @@ Selectors:
 *	`:last-child`
 *	`:first-child`
 *	`!important` (not recommended)
+
 Text Properties
 *	`text-decoration`
 *	`text-transform`
@@ -140,13 +160,16 @@ Text Properties
 *	`font-weight`
 *	`font-size`
 *	`font-family`
+
 Layout Properties
 *	`float` and `clear`
+
 Box Model
 *	`margin`
 *	`border`
 *	`padding`
 *	`width` and `height`
+
 Sizes
 *	`px`
 *	`em` and `rem`
@@ -188,6 +211,7 @@ Flexbox
 *	`order`
 *	`flex`: `flex-grow`, `flex-shrink` and `flex-basis`
 *	`align-self`
+
 Properties
 *	`transition`
 *	`transform`
