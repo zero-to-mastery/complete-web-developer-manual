@@ -76,7 +76,7 @@ Reference websites:
 Tags:
 *	`<form>`
 	*	`method`, `action`
-*	`<input>`: 
+*	`<input>`:
 	*	`type`= `"text"`, `"submit"`, `"reset"`, `"email"`, `"date"`, `"radio"`, `"password"`
 	*	`required`, `value`, `name`, `min`
 *	dropdown `<select>`
@@ -231,14 +231,14 @@ Reference websites:
 *	http://shouldiprefix.com/
 *	https://robots.thoughtbot.com/transitions-and-transforms
 
-> __If you take one thing from this, it is this__: Don't worry if you don't feel 100% confident in CSS. Keep going as we will keep building on top of this knowledge. 
+> __If you take one thing from this, it is this__: Don't worry if you don't feel 100% confident in CSS. Keep going as we will keep building on top of this knowledge.
 
 ******************************************************************************************
 ## 8.	__Bootstrap 4, Templates, And Building Your Startup Landing Page__
 
 
 App for creating users list:
-*	https://mailchimp.com 
+*	https://mailchimp.com
 
 
 Website with animation examples:
@@ -313,10 +313,10 @@ clear | clear current terminal screen
 cd / | change current directory to root directory
 cd ~ | change current directory to user directory
 cd path/to/folder | changes working directory to specified path
-mkdir name | create folder called 'name' within current directory 
-open foldername | opens folder called 'foldername' using OS GUI 
+mkdir name | create folder called 'name' within current directory
+open foldername | opens folder called 'foldername' using OS GUI
 touch index.html | creates new file titled index.html within working directory
-open  index.html | opens file named index.html using default system program  
+open  index.html | opens file named index.html using default system program
 open -a “Sublime Text” | opens sublime text program. This syntax can be used to open other programs
 open . | opens and displays current folder within OS GUI
 mv index.html about.html | renames index.html file to about.html
@@ -341,13 +341,17 @@ rmdir {directory name} - remove a directory and all files within
 rename {filename} {new filename} - rename a file or folder
 start {filename} - open file in default program
 start . - open current directory
-cls - clear the terminal screen 
+cls - clear the terminal screen
 ```
 
 
 ******************************************************************************************
 ## 15.	__Developer Environment__
-******************************************************************************************
+
+Popular code editors:
+* [Sublime Text 3](https://www.sublimetext.com/3)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Atom](https://atom.io/)
 
 ******************************************************************************************
 ## 16.	__Git + Github + Open Source Projects__
@@ -400,8 +404,8 @@ Once you are in your forked project directory in your command prompt....
 3.	To verify the new upstream repository you've specified for your fork, type ```git remote -v``` again. You should see the URL for your fork as origin, and the URL for the original repository as upstream.
 
 
-4.	Now, you can keep your fork synced with the upstream repository with a few Git commands. 
-	One simple way is to do the below command from the master of your forked repository: 
+4.	Now, you can keep your fork synced with the upstream repository with a few Git commands.
+	One simple way is to do the below command from the master of your forked repository:
 ```git pull upstream master```
 
 ******************************************************************************************
@@ -418,7 +422,7 @@ npm install
 npm install –g browserify
 ```
 
-Install node and npm:	
+Install node and npm:
 *	https://www.npmjs.com/get-npm
 *	https://nodejs.org/es/
 
@@ -453,7 +457,7 @@ Action --> Reducer --> Store --> Make changes
 ```
 npm install redux
 npm install react-redux
-npm install redux-logger 
+npm install redux-logger
 npm install redux-thunk
 ```
 
@@ -517,7 +521,7 @@ Image and video recognition:
 	```
 Icons library:
 *	https://icons8.com/icon
-	
+
 ******************************************************************************************
 ## 24.	__Node.js + Express.js__
 
@@ -533,7 +537,7 @@ Express.js:
 npm install body-parser
 npm install express --save
 npm install --save-dev nodemon
-```	
+```
 
 Node.js Reference websites:
 *	https://nodejs.org/en/
@@ -557,27 +561,27 @@ $ npm install bcrypt
 3.	* However this is for demonstration purposes only. Use these concepts
 4.	* to adapt to your own project needs.
 5.	*/
-6.	 
+6.
 7.	import bcrypt from'bcrypt'
-8.	const saltRounds = 10 // increase this if you want more iterations  
-9.	const userPassword = 'supersecretpassword'  
+8.	const saltRounds = 10 // increase this if you want more iterations
+9.	const userPassword = 'supersecretpassword'
 10.	const randomPassword = 'fakepassword'
-11.	 
-12.	const storeUserPassword = (password, salt) =>  
+11.
+12.	const storeUserPassword = (password, salt) =>
 13.	  bcrypt.hash(password, salt).then(storeHashInDatabase)
-14.	 
-15.	const storeHashInDatabase = (hash) => {  
+14.
+15.	const storeHashInDatabase = (hash) => {
 16.	   // Store the hash in your password DB
 17.	   return hash // For now we are returning the hash for testing at the bottom
 18.	}
-19.	 
+19.
 20.	// Returns true if user password is correct, returns false otherwise
-21.	const checkUserPassword = (enteredPassword, storedPasswordHash) =>  
+21.	const checkUserPassword = (enteredPassword, storedPasswordHash) =>
 22.	  bcrypt.compare(enteredPassword, storedPasswordHash)
-23.	 
-24.	 
+23.
+24.
 25.	// This is for demonstration purposes only.
-26.	storeUserPassword(userPassword, saltRounds)  
+26.	storeUserPassword(userPassword, saltRounds)
 27.	  .then(hash =>
 28.	    // change param userPassword to randomPassword to get false
 29.	    checkUserPassword(userPassword, hash)
@@ -617,7 +621,7 @@ Front-end and back-end connection:
 	npm install cors
 	```
 
-Front-end:  
+Front-end:
 
 ```Javascript
 fetch('http://localhost:3000/image', {
@@ -631,13 +635,13 @@ fetch('http://localhost:3000/image', {
 .then(count => {
 	this.setState(Object.assign(this.state.user, { entries:count}))
 })
-```	
+```
 Back-end:
 
 ```Javascript
 const cors = require('cors')
 app.use(cors());
-```	
+```
 
 ******************************************************************************************
 ## 26.	__Databases__
@@ -683,7 +687,7 @@ Login: (-U usuario)
 
 	psql -h localhost -U postgres
 
-Create database:	
+Create database:
 
 	create database database_name;
 
@@ -709,7 +713,7 @@ Create a schema:
 
 Create a table:
 
-	create table Friends.test( firstname CHAR(15), lastname CHAR(20)); 
+	create table Friends.test( firstname CHAR(15), lastname CHAR(20));
 
 	create table Friends.login(id serial not null primary key, secret varchar (100) not null, name text unique not null, entries bigint default 0, joined timestamp not null);
 
@@ -723,7 +727,7 @@ Describe database:
 
 Insert data:
 
-	insert into friends.test values( ‘Mike’, ‘Smith’); 
+	insert into friends.test values( ‘Mike’, ‘Smith’);
 
 	insert into friends.test (firstname, lastname )values( ‘Sally’, ‘Jones’);
 
@@ -759,27 +763,27 @@ Exit:
 
 	\q
 
-List all users in postgresSQL database server: 
+List all users in postgresSQL database server:
 
 	\du
 
-List all tables in a schema: 
+List all tables in a schema:
 
 	\d+ schema_name.*
 
-List all tables in a database: 
+List all tables in a database:
 
-	\dt *.* 
+	\dt *.*
 
-List a table in a schema: 
+List a table in a schema:
 
 	\d+ schema_name . table_name
 
-Show description of a table, columns, type, modifications, etc.: 
+Show description of a table, columns, type, modifications, etc.:
 
 	\d+ table_name
 
-Create a backup of a database: 
+Create a backup of a database:
 
 	pg_dump -h localhost -U postgres database_name > database_name.sql
 
@@ -787,13 +791,13 @@ Restore a database: 1. Create a new database where the restore file is going to 
 
 	psql -U postgres -d new_database_name -f respaldo.sql
 
-	*Note:  it is important to create the restore in the same root where the database copy is saved. 
+	*Note:  it is important to create the restore in the same root where the database copy is saved.
 
-Enter to postgres with a user different to postgres: 
+Enter to postgres with a user different to postgres:
 
 	psql -h localhost -d postgres -U usuario
 
-Enter to a database with a different user: 
+Enter to a database with a different user:
 
 	psql -h localhost -d nombre_base -U nombre_usuario
 
@@ -895,7 +899,7 @@ Connect to pg database:
 *	https://devcenter.heroku.com/articles/heroku-postgresql
 *	https://docs.aws.amazon.com/es_es/AmazonRDS/latest/UserGuide/USER_ConnectToPostgreSQLInstance.html
 *	https://msdn.microsoft.com/en-us/library/ms175043(v=sql.120).aspx#SSMSProcedure
-	
+
 Create a new postgres database using Heroku:
 
 Data: Heroku postgres: create new: install heroku postgres: select the app created
