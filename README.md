@@ -277,7 +277,91 @@ Free Design resources:
 
 ******************************************************************************************
 ## 11.	__Javascript__
-******************************************************************************************
+
+Javascript types:
+1. Number
+2. String
+3. Boolean
+4. Undefined
+5. Null
+6. Symbol (new in ECMAScript 6)
+7. Object
+
+Javascript comparisons:
+- \!==
+- \===
+- \>=
+- \<=
+- \>
+- \<
+
+Javascript variables:
+- var
+- let (new in ECMAScript 6)
+- const (new in ECMAScript 6)
+
+Javascript conditionals:
+- if
+- else
+- else if
+- ternary operator
+- switch
+
+Javascript logical operators:
+- &&
+- ||
+- !
+
+Javascript functions:
+- var a = function name() {}
+- function name() {}
+- return
+- () => (new in ECMAScript 6)
+
+Javascript data structures:
+- Array
+- Object
+
+Javascript looping:
+- for
+- while
+- do
+- forEach (new in ECMAScript 5)
+
+Javascript keywords:
+- break
+- case
+- catch
+- class
+- const
+- continue
+- debugger
+- default
+- delete
+- do
+- else
+- export
+- extends
+- finally
+- for
+- function
+- if
+- import
+- in
+- instanceof
+- new
+- return
+- super
+- switch
+- this
+- throw
+- try
+- typeof
+- var
+- void
+- while
+- with
+- yield
 
 ******************************************************************************************
 ## 12.	__DOM Manipulation__
@@ -925,4 +1009,3 @@ The Complete Junior to Senior Web Developer Roadmap (2019):
 ******************************************************************************************
 ## 32.	__Bonus: Part 2 - Special Thank You Gift (Discount Coupons)__
 ******************************************************************************************
-
