@@ -592,7 +592,7 @@ Background patterns:
 
 
 Animated background library:
-*	https://vincentgarreau.com/particles.js/
+*	https://particles.matteobruni.it/
 
 	```
 	npm install react-particles-js
