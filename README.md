@@ -230,6 +230,7 @@ Reference websites:
 *	https://www.w3schools.com/cssref/css3_browsersupport.asp
 *	http://shouldiprefix.com/
 *	https://robots.thoughtbot.com/transitions-and-transforms
+*	https://darekkay.com/dev/flexbox-cheatsheet.html
 
 > __If you take one thing from this, it is this__: Don't worry if you don't feel 100% confident in CSS. Keep going as we will keep building on top of this knowledge.
 
