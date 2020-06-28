@@ -596,7 +596,7 @@ Animated background library:
 *	https://particles.matteobruni.it/
 
 	```
-	npm install react-particles-js
+	npm install react-tsparticles
 	```
 
 Image and video recognition:
