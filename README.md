@@ -999,7 +999,7 @@ heroku pg:psql
 ******************************************************************************************
 
 The Complete Junior to Senior Web Developer Roadmap (2020):
-*	https://academy.zerotomastery.io/p/the-complete-junior-to-senior-web-developer-roadmap
+*	https://academy.zerotomastery.io/p/the-complete-junior-to-senior-web-developer-roadmap?utm_source=github&utm_medium=complete-web-developer-manual
 
 ******************************************************************************************
 ## 30.	__Bonus: Extra Bits (Coding Challenges + AMA)__
