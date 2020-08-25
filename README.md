@@ -587,10 +587,9 @@ Reference websites:
 ## 19.	__React.js + Redux__
 
 ```
-npm install –g create-react-app
-create-react-app “name”
+npx create-react-app <App-Name>
+cd <App-Name>
 npm start
-npm install tachyons
 ```
 
 
