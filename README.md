@@ -189,6 +189,7 @@ Reference websites:
 *	https://unsplash.com/
 * https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Cascada_y_herencia
 *	https://specificity.keegan.st/
+* 	https://css-tricks.com/snippets/css/complete-guide-grid/
 
 Website for color check:
 *	http://paletton.com/
