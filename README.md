@@ -4,12 +4,47 @@
 All resources and notes from the [Complete Web Developer in 2020: Zero to Mastery course](https://academy.zerotomastery.io/p/complete-web-developer-zero-to-mastery?utm_source=github&utm_medium=complete-web-developer-manual)
 
 ******************************************************************************************
-## 1.	__Introduction__
+##  __Content__
+
+[1.	__Introduction__](#01)<br>
+[2.	__How The Internet Works__](#02)<br>
+[3.	__History Of The Web__](#03)<br>
+[4.  __HTML 5__](#04)<br>
+[5.	__Advanced HTML 5__](#05)<br>
+[6.	__CSS__](#06)<br>
+[7.	__Advanced CSS__](#07)<br>
+[8.	__Bootstrap 4, Templates, And Building Your Startup Landing Page__](#08)<br>
+[9.	__CSS Grid + CSS Layout__](#09)<br>
+[10.__Career Of A Web Developer__](#10)<br>
+[11.__Javascript__](#11)<br>
+[12.__DOM Manipulation__](#12)<br>
+[13.__Advanced Javascript__](#13)<br>
+[14.__Command Line__](#14)<br>
+[15.__Developer Environment__](#15)<br>
+[16.__Git + Github + Open Source Projects__](#16)<br>
+[17.__A Day In The Life Of A Developer__](#17)<br>
+[18.__NPM + NPM Scripts__](#18)<br>
+[19.__React.js + Redux__](#19)<br>
+[20.__HTTP/JSON/AJAX + Asynchronous Javascript__](#20)<br>
+[21.__Backend Basics__](#21)<br>
+[22.__APIs__](#22)<br>
+[23.__FINAL PROJECT: SmartBrain Front-End__](#23)<br>
+[24.__Node.js + Express.js__](#24)<br>
+[25.__FINAL PROJECT: SmartBrain Back-End -- Server__](#25)<br>
+[26.__Databases__](#26)<br>
+[27.__FINAL PROJECT: SmartBrain Back-End – Database__](#27)<br>
+[28.__Production + Deployment__](#28)<br>
+[29.__Where To Go From Here?__](#29)<br>
+[30.__Bonus: Extra Bits (Coding Challenges + AMA)__](#30)<br>
+[31.__Extra: For Windows Users__](#31)<br>
+[32.__Bonus: Part 2 - Special Thank You Gift (Discount Coupons)__](#32)<br>
+******************************************************************************************
+## <a name ="01"></a>1.	__Introduction__
 
 Discord Channel:
 *	~~https://discord.gg/nVmbHYY~~ You will find it inside course
 ******************************************************************************************
-## 2.	__How The Internet Works__
+## <a name ="02"></a>2.	__How The Internet Works__
 
 Tools:
 *	Chrome Developer Tools
@@ -21,7 +56,7 @@ Topics:
 Submarine Cable Map:
 *	https://www.submarinecablemap.com/
 ******************************************************************************************
-## 3.	__History Of The Web__
+## <a name ="03"></a>3.	__History Of The Web__
 
 Maps that explain the Internet:
 *	https://www.vox.com/a/internet-maps
@@ -35,7 +70,7 @@ Optional Videos:
 *	https://www.youtube.com/watch?v=guvsH5OFizE&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=31
 
 ******************************************************************************************
-## 4. __HTML 5__
+## <a name ="04"></a>4. __HTML 5__
 
 
 Install a text editor (Select one):
@@ -70,7 +105,7 @@ Reference websites:
 
 
 ******************************************************************************************
-## 5.	__Advanced HTML 5__
+## <a name ="05"></a>5.	__Advanced HTML 5__
 
 
 Tags:
@@ -101,7 +136,7 @@ Resources:
 
 
 ******************************************************************************************
-## 6.	__CSS__
+## <a name ="06"></a>6.	__CSS__
 
 Syntax:
 ```css
@@ -200,7 +235,7 @@ Website for fonts download:
 
 
 ******************************************************************************************
-## 7.	__Advanced CSS__
+## <a name ="07"></a>7.	__Advanced CSS__
 
 Flexbox
 *	`display: flex`
@@ -236,7 +271,7 @@ Reference websites:
 > __If you take one thing from this, it is this__: Don't worry if you don't feel 100% confident in CSS. Keep going as we will keep building on top of this knowledge.
 
 ******************************************************************************************
-## 8.	__Bootstrap 4, Templates, And Building Your Startup Landing Page__
+## <a name ="08"></a>8.	__Bootstrap 4, Templates, And Building Your Startup Landing Page__
 
 
 App for creating users list:
@@ -262,7 +297,7 @@ Installing Github:
 *	https://desktop.github.com/
 
 ******************************************************************************************
-## 9.	__CSS Grid + CSS Layout__
+## <a name ="09"></a>9.	__CSS Grid + CSS Layout__
 
 Grid Cheat Sheet:
 *	http://grid.malven.co/
@@ -274,11 +309,11 @@ Free Design resources:
 *	https://interfacer.xyz/
 
 ******************************************************************************************
-## 10.	__Career Of A Web Developer__
+## <a name ="10"></a>10.	__Career Of A Web Developer__
 ******************************************************************************************
 
 ******************************************************************************************
-## 11.	__Javascript__
+## <a name ="11"></a>11.	__Javascript__
 
 Javascript types:
 1. Number
@@ -366,7 +401,7 @@ Javascript keywords:
 - yield
 
 ******************************************************************************************
-## 12.	__DOM Manipulation__
+## <a name ="12"></a>12.	__DOM Manipulation__
 
 
 
@@ -378,7 +413,7 @@ Reference websites:
 *	https://babeljs.io/
 
 ******************************************************************************************
-## 13.	__Advanced Javascript__
+## <a name ="13"></a>13.	__Advanced Javascript__
 
 Variable declaration:  
 + let variableName (new in ECMAScript 6) /* its value can be altered  
@@ -449,7 +484,7 @@ Loops:
 ******************************************************************************************
 
 ******************************************************************************************
-## 14. __Command Line__
+## <a name ="14"></a>14. __Command Line__
 
 
 
@@ -499,7 +534,7 @@ cls - clear the terminal screen
 
 
 ******************************************************************************************
-## 15.	__Developer Environment__
+## <a name ="15"></a>15.	__Developer Environment__
 
 Popular code editors:
 * [Sublime Text 3](https://www.sublimetext.com/3)
@@ -507,7 +542,7 @@ Popular code editors:
 * [Atom](https://atom.io/)
 
 ******************************************************************************************
-## 16.	__Git + Github + Open Source Projects__
+## <a name ="16"></a>16.	__Git + Github + Open Source Projects__
 
 
 
@@ -562,11 +597,11 @@ Once you are in your forked project directory in your command prompt....
 ```git pull upstream master```
 
 ******************************************************************************************
-## 17.	__A Day In The Life Of A Developer__
+## <a name ="17"></a>17.	__A Day In The Life Of A Developer__
 ******************************************************************************************
 
 ******************************************************************************************
-## 18.	__NPM + NPM Scripts__
+## <a name ="18"></a>18.	__NPM + NPM Scripts__
 
 
 ```
@@ -585,7 +620,7 @@ Reference websites:
 *	https://lodash.com/
 
 ******************************************************************************************
-## 19.	__React.js + Redux__
+## <a name ="19"></a>19.	__React.js + Redux__
 
 ```
 npx create-react-app <App-Name>
@@ -630,15 +665,15 @@ npm install redux-thunk
 *	https://facebook.github.io/immutable-js/
 
 ******************************************************************************************
-## 20.	__HTTP/JSON/AJAX + Asynchronous Javascript__
+## <a name ="20"></a>20.	__HTTP/JSON/AJAX + Asynchronous Javascript__
 ******************************************************************************************
 
 ******************************************************************************************
-## 21.	__Backend Basics__
+## <a name ="21"></a>21.	__Backend Basics__
 ******************************************************************************************
 
 ******************************************************************************************
-## 22. __APIs__
+## <a name ="22"></a>22. __APIs__
 ******************************************************************************************
 *	https://stripe.com/docs/api
 *	https://www.twilio.com/docs/api/messaging/send-messages
@@ -646,7 +681,7 @@ npm install redux-thunk
 
 
 ******************************************************************************************
-## 23.	__FINAL PROJECT: SmartBrain Front-End__
+## <a name ="23"></a>23.	__FINAL PROJECT: SmartBrain Front-End__
 
 
 Animated objects library:
@@ -675,7 +710,7 @@ Icons library:
 *	https://icons8.com/icon
 
 ******************************************************************************************
-## 24.	__Node.js + Express.js__
+## <a name ="24"></a>24.	__Node.js + Express.js__
 
 Install Postman:
 *	https://www.getpostman.com/apps
@@ -744,7 +779,7 @@ $ npm install bcrypt
 
 
 ******************************************************************************************
-## 25.	__FINAL PROJECT: SmartBrain Back-End -- Server__
+## <a name ="25"></a>25.	__FINAL PROJECT: SmartBrain Back-End -- Server__
 
 
 Change localhost:
@@ -796,7 +831,7 @@ app.use(cors());
 ```
 
 ******************************************************************************************
-## 26.	__Databases__
+## <a name ="26"></a>26.	__Databases__
 
 
 Install PostgreSQL:
@@ -955,7 +990,7 @@ Enter to a database with a different user:
 
 
 ******************************************************************************************
-## 27.	__FINAL PROJECT: SmartBrain Back-End – Database__
+## <a name ="27"></a>27.	__FINAL PROJECT: SmartBrain Back-End – Database__
 
 
 Tool for db connection with back-end:
@@ -964,7 +999,7 @@ Tool for db connection with back-end:
 *	https://github.com/vitaly-t/pg-promise
 
 ******************************************************************************************
-## 28.	__Production + Deployment__
+## <a name ="28"></a>28.	__Production + Deployment__
 
 
 Environmental variables:
@@ -1062,18 +1097,18 @@ heroku pg:psql
 ```
 
 ******************************************************************************************
-## 29.	__Where To Go From Here?__
+## <a name ="29"></a>29.	__Where To Go From Here?__
 ******************************************************************************************
 
 The Complete Junior to Senior Web Developer Roadmap (2020):
 *	https://academy.zerotomastery.io/p/the-complete-junior-to-senior-web-developer-roadmap?utm_source=github&utm_medium=complete-web-developer-manual
 
 ******************************************************************************************
-## 30.	__Bonus: Extra Bits (Coding Challenges + AMA)__
+## <a name ="30"></a>30.	__Bonus: Extra Bits (Coding Challenges + AMA)__
 ******************************************************************************************
 ******************************************************************************************
-## 31.	__Extra: For Windows Users__
+## <a name ="31"></a>31.	__Extra: For Windows Users__
 ******************************************************************************************
 ******************************************************************************************
-## 32.	__Bonus: Part 2 - Special Thank You Gift (Discount Coupons)__
+## <a name ="32"></a>32.	__Bonus: Part 2 - Special Thank You Gift (Discount Coupons)__
 ******************************************************************************************
