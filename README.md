@@ -424,14 +424,14 @@ Variable declaration:
 + .padEnd(param1,param2) /* Same as above but at the end  
 + .trimStart() /* eliminates empty spaces from the start of a variable  
 + .trimEnd() /* Same as above but from the end  
-+ debugger; /* Stops running the code and opens console for a step by step check  
-  
-Functions:  
++ debugger; /* Stops running the code and opens console for a step by step check 
+
+*************************************************************************************************************************************** Functions:  
 + Function declaration syntax: const functionname=(param1,param2...) => action /* If there is an only return, there is no need to type "return" and if it's just one parameter, no need to add "()"  
 + Currying: const functionname= param1 => param2 => action /* To properly call function syntax is:  functionname (param1)(param2)  
 + Compose: const functionname= (param2,param3) => param1 => param2(param3(param1)) /* Being param2 and 3 functions y param1 a value. Executes a function inside a function executed with the initial param1  
-  
-Arrays:  
+
+****************************************************************************************************************************************Arrays:  
 + array.forEach(num=>{}) /* For each element num of the array, executes the actions inside {}  
 + array.map(num=>{}) /* For each element num in the array, executes actions inside {} and return needs to be specified since the return will be placed in a new array.  
 + array.filter(num=>{}) /* For each element num of the array a condition is checked. If the value turns out true, it will be added to teh new array. Return needs to be specified  
@@ -441,8 +441,8 @@ Arrays:
 + array.flat(param1) /* Elminates the nested arrays to a param1 level  
 + array.flatMap(param1=>{}) /* For each element num, the operation inside {} is performed and the array is lowered to a level 1 nesting  
 + array.fromEntries /* Turns the array into an object, making the first element of the array the property and the second the value of such property  
-  
-Objects:  
+
+*************************************************************************************************************************************** Objects:  
 + const(/let) {property1, property2,...} = obj  /* Given an object obj, keeps the value of the properties in new variables property1, property2,...etc  
 + {...obj} /* Creates a clone object of the object obj  
 + Object.assign(param1,param2) /* Clones the lements of an object param2 in an object param1  
@@ -450,7 +450,7 @@ Objects:
 + Object.entries(obj) /* returns an array with property,value of each element of an object obj  
 /* .entries and .values can be used with array methods such as .map, .forEach, etc.  
 + this: When using this parameter, the method/action is applied exclusively to the element in which "this" has been summoned.   
-  
+***********************************************************************************************************************************  
 Class:  
 + Class creator syntax: Classname {  
 &nbsp;&nbsp;&nbsp;&nbsp;constructor (param1,param2){  
@@ -622,7 +622,16 @@ Reference websites:
 ******************************************************************************************
 ## <a name ="19"></a>19.	__React.js + Redux__
 
+old version
+---
+npm install –g create-react-app
+create-react-app “name”
+[cd "name"]
+npm start
+npm install tachyons
 ```
+new version
+---
 npx create-react-app <App-Name>
 cd <App-Name>
 npm start
