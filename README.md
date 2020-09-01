@@ -6,7 +6,7 @@ All resources and notes from the [Complete Web Developer in 2020: Zero to Master
 ******************************************************************************************
 ##  __Content__
 
-[1.	__Introduction__](#01)<br>
+[1.	Introduction](#01)<br>
 [2.	__How The Internet Works__](#02)<br>
 [3.	__History Of The Web__](#03)<br>
 [4.  __HTML 5__](#04)<br>
