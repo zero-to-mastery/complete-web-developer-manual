@@ -6,38 +6,38 @@ All resources and notes from the [Complete Web Developer in 2020: Zero to Master
 ******************************************************************************************
 ##  __*Contents*__
 
-[1.	*Introduction*](#01)<br>
-[2.	*How The Internet Works*](#02)<br>
-[3.	*History Of The Web*](#03)<br>
-[4. *HTML 5*](#04)<br>
-[5.	*Advanced HTML 5*](#05)<br>
-[6.	*CSS*](#06)<br>
-[7.	*Advanced CSS*](#07)<br>
-[8.	*Bootstrap 4, Templates, And Building Your Startup Landing Page*](#08)<br>
-[9.	*CSS Grid + CSS Layout*](#09)<br>
-[10.*Career Of A Web Developer*](#10)<br>
-[11.*Javascript*](#11)<br>
-[12.*DOM Manipulation*](#12)<br>
-[13.*Advanced Javascript*](#13)<br>
-[14.*Command Line*](#14)<br>
-[15.*Developer Environment*](#15)<br>
-[16.*Git + Github + Open Source Projects*](#16)<br>
-[17.*A Day In The Life Of A Developer*](#17)<br>
-[18.*NPM + NPM Scripts*](#18)<br>
-[19.*React.js + Redux*](#19)<br>
-[20.*HTTP/JSON/AJAX + Asynchronous Javascript*](#20)<br>
-[21.*Backend Basics*](#21)<br>
-[22.*APIs*](#22)<br>
-[23.*FINAL PROJECT: SmartBrain Front-End*](#23)<br>
-[24.*Node.js + Express.js*](#24)<br>
-[25.*FINAL PROJECT: SmartBrain Back-End -- Server*](#25)<br>
-[26.*Databases*](#26)<br>
-[27.*FINAL PROJECT: SmartBrain Back-End – Database*](#27)<br>
-[28.*Production + Deployment*](#28)<br>
-[29.*Where To Go From Here?*](#29)<br>
-[30.*Bonus: Extra Bits (Coding Challenges + AMA)*](#30)<br>
-[31.*Extra: For Windows Users*](#31)<br>
-[32.*Bonus: Part 2 - Special Thank You Gift (Discount Coupons)*](#32)<br>
+[ 1. *Introduction*](#01)<br>
+[ 2. *How The Internet Works*](#02)<br>
+[ 3. *History Of The Web*](#03)<br>
+[ 4. *HTML 5*](#04)<br>
+[ 5. *Advanced HTML 5*](#05)<br>
+[ 6. *CSS*](#06)<br>
+[ 7. *Advanced CSS*](#07)<br>
+[ 8. *Bootstrap 4, Templates, And Building Your Startup Landing Page*](#08)<br>
+[ 9. *CSS Grid + CSS Layout*](#09)<br>
+[10. *Career Of A Web Developer*](#10)<br>
+[11. *Javascript*](#11)<br>
+[12. *DOM Manipulation*](#12)<br>
+[13. *Advanced Javascript*](#13)<br>
+[14. *Command Line*](#14)<br>
+[15. *Developer Environment*](#15)<br>
+[16. *Git + Github + Open Source Projects*](#16)<br>
+[17. *A Day In The Life Of A Developer*](#17)<br>
+[18. *NPM + NPM Scripts*](#18)<br>
+[19. *React.js + Redux*](#19)<br>
+[20. *HTTP/JSON/AJAX + Asynchronous Javascript*](#20)<br>
+[21. *Backend Basics*](#21)<br>
+[22. *APIs*](#22)<br>
+[23. *FINAL PROJECT: SmartBrain Front-End*](#23)<br>
+[24. *Node.js + Express.js*](#24)<br>
+[25. *FINAL PROJECT: SmartBrain Back-End -- Server*](#25)<br>
+[26. *Databases*](#26)<br>
+[27. *FINAL PROJECT: SmartBrain Back-End – Database*](#27)<br>
+[28. *Production + Deployment*](#28)<br>
+[29. *Where To Go From Here?*](#29)<br>
+[30. *Bonus: Extra Bits (Coding Challenges + AMA)*](#30)<br>
+[31. *Extra: For Windows Users*](#31)<br>
+[32. *Bonus: Part 2 - Special Thank You Gift (Discount Coupons)*](#32)<br>
 ******************************************************************************************
 ## <a name ="01"></a>1.	__Introduction__
 
