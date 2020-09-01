@@ -622,7 +622,16 @@ Reference websites:
 ******************************************************************************************
 ## <a name ="19"></a>19.	__React.js + Redux__
 
+old version
+---
+npm install –g create-react-app
+create-react-app “name”
+[cd "name"]
+npm start
+npm install tachyons
 ```
+new version
+---
 npx create-react-app <App-Name>
 cd <App-Name>
 npm start
