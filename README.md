@@ -4,40 +4,40 @@
 All resources and notes from the [Complete Web Developer in 2020: Zero to Mastery course](https://academy.zerotomastery.io/p/complete-web-developer-zero-to-mastery?utm_source=github&utm_medium=complete-web-developer-manual)
 
 ******************************************************************************************
-##  __Content__
+##  __*Contents*__
 
-[1.	__Introduction__](#01)<br>
-[2.	__How The Internet Works__](#02)<br>
-[3.	__History Of The Web__](#03)<br>
-[4.  __HTML 5__](#04)<br>
-[5.	__Advanced HTML 5__](#05)<br>
-[6.	__CSS__](#06)<br>
-[7.	__Advanced CSS__](#07)<br>
-[8.	__Bootstrap 4, Templates, And Building Your Startup Landing Page__](#08)<br>
-[9.	__CSS Grid + CSS Layout__](#09)<br>
-[10.__Career Of A Web Developer__](#10)<br>
-[11.__Javascript__](#11)<br>
-[12.__DOM Manipulation__](#12)<br>
-[13.__Advanced Javascript__](#13)<br>
-[14.__Command Line__](#14)<br>
-[15.__Developer Environment__](#15)<br>
-[16.__Git + Github + Open Source Projects__](#16)<br>
-[17.__A Day In The Life Of A Developer__](#17)<br>
-[18.__NPM + NPM Scripts__](#18)<br>
-[19.__React.js + Redux__](#19)<br>
-[20.__HTTP/JSON/AJAX + Asynchronous Javascript__](#20)<br>
-[21.__Backend Basics__](#21)<br>
-[22.__APIs__](#22)<br>
-[23.__FINAL PROJECT: SmartBrain Front-End__](#23)<br>
-[24.__Node.js + Express.js__](#24)<br>
-[25.__FINAL PROJECT: SmartBrain Back-End -- Server__](#25)<br>
-[26.__Databases__](#26)<br>
-[27.__FINAL PROJECT: SmartBrain Back-End – Database__](#27)<br>
-[28.__Production + Deployment__](#28)<br>
-[29.__Where To Go From Here?__](#29)<br>
-[30.__Bonus: Extra Bits (Coding Challenges + AMA)__](#30)<br>
-[31.__Extra: For Windows Users__](#31)<br>
-[32.__Bonus: Part 2 - Special Thank You Gift (Discount Coupons)__](#32)<br>
+[ 1. *Introduction*](#01)<br>
+[ 2. *How The Internet Works*](#02)<br>
+[ 3. *History Of The Web*](#03)<br>
+[ 4. *HTML 5*](#04)<br>
+[ 5. *Advanced HTML 5*](#05)<br>
+[ 6. *CSS*](#06)<br>
+[ 7. *Advanced CSS*](#07)<br>
+[ 8. *Bootstrap 4, Templates, And Building Your Startup Landing Page*](#08)<br>
+[ 9. *CSS Grid + CSS Layout*](#09)<br>
+[10. *Career Of A Web Developer*](#10)<br>
+[11. *Javascript*](#11)<br>
+[12. *DOM Manipulation*](#12)<br>
+[13. *Advanced Javascript*](#13)<br>
+[14. *Command Line*](#14)<br>
+[15. *Developer Environment*](#15)<br>
+[16. *Git + Github + Open Source Projects*](#16)<br>
+[17. *A Day In The Life Of A Developer*](#17)<br>
+[18. *NPM + NPM Scripts*](#18)<br>
+[19. *React.js + Redux*](#19)<br>
+[20. *HTTP/JSON/AJAX + Asynchronous Javascript*](#20)<br>
+[21. *Backend Basics*](#21)<br>
+[22. *APIs*](#22)<br>
+[23. *FINAL PROJECT: SmartBrain Front-End*](#23)<br>
+[24. *Node.js + Express.js*](#24)<br>
+[25. *FINAL PROJECT: SmartBrain Back-End -- Server*](#25)<br>
+[26. *Databases*](#26)<br>
+[27. *FINAL PROJECT: SmartBrain Back-End – Database*](#27)<br>
+[28. *Production + Deployment*](#28)<br>
+[29. *Where To Go From Here?*](#29)<br>
+[30. *Bonus: Extra Bits (Coding Challenges + AMA)*](#30)<br>
+[31. *Extra: For Windows Users*](#31)<br>
+[32. *Bonus: Part 2 - Special Thank You Gift (Discount Coupons)*](#32)<br>
 ******************************************************************************************
 ## <a name ="01"></a>1.	__Introduction__
 
