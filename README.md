@@ -618,6 +618,14 @@ npm install –g browserify
 Install node and npm:
 *	https://www.npmjs.com/get-npm
 *	https://nodejs.org/es/
+(Though with newer version of node, npm come pre-installed. So you don't need to do that separately)
+
+Check node and npm installed on your system by:
+```
+node -v
+npm -v
+```
+If any of these command result in error then that (node/npm) deosen't installed on your system.
 
 Reference websites:
 *	https://www.npmjs.com/
