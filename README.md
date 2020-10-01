@@ -553,6 +553,11 @@ Install Git:
 
 ```
 git clone “https:……”
+git remote -v
+git remote add url “https:……”
+git remote add upstream “https:……”
+git fetch upstream
+git merge upstream/master
 git status
 git add “filename”
 git add .
