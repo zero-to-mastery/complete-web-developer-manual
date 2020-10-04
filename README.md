@@ -702,6 +702,7 @@ npm install redux-thunk
 *	https://stripe.com/docs/api
 *	https://www.twilio.com/docs/api/messaging/send-messages
 *	https://apilist.fun
+*	https://www.pexels.com/api/documentation/
 * https://apihouse.now.sh/
 
 
