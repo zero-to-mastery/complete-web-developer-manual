@@ -293,9 +293,6 @@ Generating animated patterns:
 *	https://daneden.github.io/animate.css/
 
 
-Installing Github:
-*	https://desktop.github.com/
-
 ******************************************************************************************
 ## <a name ="09"></a>9.	__CSS Grid + CSS Layout__
 
@@ -549,6 +546,9 @@ Popular code editors:
 Install Git:
 *	https://www.atlassian.com/git/tutorials/install-git#windows
 *	https://www.atlassian.com/git/tutorials/install-git
+
+Installing Github App for Desktop:
+*	https://desktop.github.com/
 
 
 ```
