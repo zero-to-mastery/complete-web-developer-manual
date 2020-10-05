@@ -605,6 +605,8 @@ Once you are in your forked project directory in your command prompt....
 ## <a name ="17"></a>17.	__A Day In The Life Of A Developer__
 ******************************************************************************************
 
+*  https://www.madgex.com/newsroom/a-day-in-the-life-of-a-software-developer
+*  https://www.nickang.com/2020-01-02-a-day-in-the-life-of-a-software-developer/
 ******************************************************************************************
 ## <a name ="18"></a>18.	__NPM + NPM Scripts__
 
