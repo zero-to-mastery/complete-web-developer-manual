@@ -537,6 +537,7 @@ Popular code editors:
 * [Sublime Text 3](https://www.sublimetext.com/3)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Atom](https://atom.io/)
+* [Atom](http://brackets.io/)
 
 ******************************************************************************************
 ## <a name ="16"></a>16.	__Git + Github + Open Source Projects__
@@ -754,6 +755,7 @@ Using unpkg CDN:
 *	https://stripe.com/docs/api
 *	https://www.twilio.com/docs/api/messaging/send-messages
 *	https://apilist.fun
+*	https://www.pexels.com/api/documentation/
 * https://apihouse.now.sh/
 
 
