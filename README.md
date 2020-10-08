@@ -293,9 +293,6 @@ Generating animated patterns:
 *	https://daneden.github.io/animate.css/
 
 
-Installing Github:
-*	https://desktop.github.com/
-
 ******************************************************************************************
 ## <a name ="09"></a>9.	__CSS Grid + CSS Layout__
 
@@ -550,6 +547,9 @@ Install Git:
 *	https://www.atlassian.com/git/tutorials/install-git#windows
 *	https://www.atlassian.com/git/tutorials/install-git
 
+Installing Github App for Desktop:
+*	https://desktop.github.com/
+
 
 ```
 git clone “https:……”
@@ -689,6 +689,58 @@ npm install redux-thunk
 ******************************************************************************************
 ## <a name ="20"></a>20.	__HTTP/JSON/AJAX + Asynchronous Javascript__
 ******************************************************************************************
+
+There are many ways for making an API call, but the one I recommend using is Axios. 
+Here is why [https://medium.com/@thejasonfile/fetch-vs-axios-js-for-making-http-requests-2b261cdd3af5]
+
+Other available options are Fetch API or G(old) XMLHttpRequests.
+
+Axios is a Javascript library used to make HTTP requests from node.js or XMLHttpRequests from the browser
+that also supports the ES6 Promise API.
+
+### Features
+
+- Make [XMLHttpRequests](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) from the browser
+- Make [http](http://nodejs.org/api/http.html) requests from node.js
+- Supports the [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) API
+- Intercept request and response
+- Transform request and response data
+- Cancel requests
+- Automatic transforms for JSON data
+- Client side support for protecting against [XSRF](http://en.wikipedia.org/wiki/Cross-site_request_forgery)
+
+### Installing
+
+Using npm:
+
+```bash
+$ npm install axios
+```
+
+Using bower:
+
+```bash
+$ bower install axios
+```
+
+Using yarn:
+
+```bash
+$ yarn add axios
+```
+
+Using jsDelivr CDN:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+```
+
+Using unpkg CDN:
+
+```html
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+```
+
 
 ******************************************************************************************
 ## <a name ="21"></a>21.	__Backend Basics__
