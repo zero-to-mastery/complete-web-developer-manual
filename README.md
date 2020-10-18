@@ -1,76 +1,288 @@
 # Complete-Web-Developer-Manual
 
 
-All resources and notes from the Complete Web Developer in 2018: Zero to Mastery course
+All resources and notes from the [Complete Web Developer in 2020: Zero to Mastery course](https://academy.zerotomastery.io/p/complete-web-developer-zero-to-mastery?utm_source=github&utm_medium=complete-web-developer-manual)
 
 ******************************************************************************************
-## 1.	__Introduction__
+##  __*Contents*__
+
+[ 1. *Introduction*](#01)<br>
+[ 2. *How The Internet Works*](#02)<br>
+[ 3. *History Of The Web*](#03)<br>
+[ 4. *HTML 5*](#04)<br>
+[ 5. *Advanced HTML 5*](#05)<br>
+[ 6. *CSS*](#06)<br>
+[ 7. *Advanced CSS*](#07)<br>
+[ 8. *Bootstrap 4, Templates, And Building Your Startup Landing Page*](#08)<br>
+[ 9. *CSS Grid + CSS Layout*](#09)<br>
+[10. *Career Of A Web Developer*](#10)<br>
+[11. *Javascript*](#11)<br>
+[12. *DOM Manipulation*](#12)<br>
+[13. *Advanced Javascript*](#13)<br>
+[14. *Command Line*](#14)<br>
+[15. *Developer Environment*](#15)<br>
+[16. *Git + Github + Open Source Projects*](#16)<br>
+[17. *A Day In The Life Of A Developer*](#17)<br>
+[18. *NPM + NPM Scripts*](#18)<br>
+[19. *React.js + Redux*](#19)<br>
+[20. *HTTP/JSON/AJAX + Asynchronous Javascript*](#20)<br>
+[21. *Backend Basics*](#21)<br>
+[22. *APIs*](#22)<br>
+[23. *FINAL PROJECT: SmartBrain Front-End*](#23)<br>
+[24. *Node.js + Express.js*](#24)<br>
+[25. *FINAL PROJECT: SmartBrain Back-End -- Server*](#25)<br>
+[26. *Databases*](#26)<br>
+[27. *FINAL PROJECT: SmartBrain Back-End – Database*](#27)<br>
+[28. *Production + Deployment*](#28)<br>
+[29. *Where To Go From Here?*](#29)<br>
+[30. *Bonus: Extra Bits (Coding Challenges + AMA)*](#30)<br>
+[31. *Extra: For Windows Users*](#31)<br>
+[32. *Bonus: Part 2 - Special Thank You Gift (Discount Coupons)*](#32)<br>
 ******************************************************************************************
+## <a name ="01"></a>1.	__Introduction__
+
+Discord Channel:
+*	~~https://discord.gg/nVmbHYY~~ You will find it inside course
+******************************************************************************************
+## <a name ="02"></a>2.	__How The Internet Works__
+
+Tools:
+*	Chrome Developer Tools
+
+Topics:
+*	ISP, DNS and Servers
+*	Traceroute (Windows: tracert)
+
+Submarine Cable Map:
+*	https://www.submarinecablemap.com/
+******************************************************************************************
+## <a name ="03"></a>3.	__History Of The Web__
+
+Maps that explain the Internet:
+*	https://www.vox.com/a/internet-maps
+
+First Webpage in the world:
+*	http://info.cern.ch/hypertext/WWW/TheProject.html
+
+Optional Videos:
+*	https://www.youtube.com/watch?v=3QhU9jd03a0&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=29
+*	https://www.youtube.com/watch?v=AEaKrq3SpW8&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=30
+*	https://www.youtube.com/watch?v=guvsH5OFizE&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=31
 
 ******************************************************************************************
-## 2.	__How The Internet Works__
-******************************************************************************************
-
-******************************************************************************************
-## 3.	__History Of The Web__
-******************************************************************************************
-
-******************************************************************************************
-## 4. __HTML 5__
+## <a name ="04"></a>4. __HTML 5__
 
 
-Install  sublime text 3
+Install a text editor (Select one):
 *	https://www.sublimetext.com/
+*	https://atom.io/
+*	https://code.visualstudio.com/
+
+Tags:
+*	`<html>`
+*	`<head>`
+*	`<title>`
+*	`<body>`
+*	headings (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`)
+*	paragraph `<p>`
+*	bold `<strong>`, italic `<em>`
+*	ordered list `<ol>`, unordered list `<ul>`, list item`<li>`
+*	break `<br>`, horizontal rule `<hr>`
+*	image `<img>` and attributes: `src`, `width`, `height`
+*	anchor `<a href="">`
+
+Topics:
+*	Relative vs Absolute Path
+
+Zero to Mastery resources:
+*	https://github.com/zero-to-mastery/complete-web-developer-manual
+*	https://github.com/zero-to-mastery/zero-to-mastery-captions
 
 Reference websites:
 *	https://www.w3schools.com/
+*	https://developer.mozilla.org/en-US/
 *	https://stackoverflow.com/
 
 
 ******************************************************************************************
-## 5.	Advanced HTML 5
-******************************************************************************************
+## <a name ="05"></a>5.	__Advanced HTML 5__
+
+
+Tags:
+*	`<form>`
+	*	`method`, `action`
+*	`<input>`:
+	*	`type`= `"text"`, `"submit"`, `"reset"`, `"email"`, `"date"`, `"radio"`, `"password"`
+	*	`required`, `value`, `name`, `min`
+*	dropdown `<select>`
+	*	option `<option>`
+*	comment `<!-- -->`
+*	`<div>` and `<span>`
+
+Semantic Elements
+*	`<header>`
+*	`<nav>`
+*	`<main>`
+*	`<footer>`
+
+Topics:
+*	Chrome view Source
+
+Resources:
+*	https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5
+*	https://waitbutwhy.com/
+
+> "__If you take one thing from this, it is this__: Don't worry if you don't feel 100% confident in HTML. Keep going as we will keep building on top of this knowledge."
+
 
 ******************************************************************************************
-## 6.	__CSS__
+## <a name ="06"></a>6.	__CSS__
 
+Syntax:
+```css
+Selector {
+	property: value;
+}
+```
+
+How to:
+*	External
+	```html
+	<link rel="stylesheet type="text/css" href="style.css">
+	```
+*	Internal
+	```html
+	<style>
+		body {
+			background-color: purple;
+		}
+	</style>
+	```
+*	Inline
+	```html
+	<header style="background-color: green;">
+	```
+
+Tools:
+*	Chrome Inspector
+
+Properties:
+*	text-align
+*	border
+*	background
+*	list-style
+*	cursor
+*	color: html, hex, rgb or rgba
+
+Selectors:
+*	`.class`
+*	`#id`
+*	`*` (all elements)
+*	`element`
+*	`element, element`
+*	`element element`
+*	`element > element`
+*	`element + element`
+*	`v:hover`
+*	`:last-child`
+*	`:first-child`
+*	`::before` (pseudo-element)
+*	`!important` (not recommended)
+
+Text Properties
+*	`text-decoration`
+*	`text-transform`
+*	`line-height`
+*	`font-style`
+*	`font-weight`
+*	`font-size`
+*	`font-family`
+
+Layout Properties
+*	`float` and `clear`
+
+Box Model
+*	`margin`
+*	`border`
+*	`padding`
+*	`width` and `height`
+
+Sizes
+*	`px`
+*	`em` and `rem`
+
+Topics:
+*	Cascading: Specificity, Importance `!`, Source Order
+*	Linking fonts and external stylesheets
+
+Exercises:
+*	https://flukeout.github.io/
 
 Reference websites:
 *	https://css-tricks.com/
 *	https://www.supremo.co.uk/typeterms/
 *	https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-*	https://waitbutwhy.com/
 *	https://unsplash.com/
 * https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Cascada_y_herencia
 *	https://specificity.keegan.st/
+* 	https://css-tricks.com/snippets/css/complete-guide-grid/
 
-website for color check:
-*	http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+Website for color check:
+*	http://paletton.com/
+*	https://coolors.co/
 
-website for fonts download:
+Website for fonts download:
 *	https://fonts.google.com/
 
 
 ******************************************************************************************
-## 7.	__Advanced CSS__
+## <a name ="07"></a>7.	__Advanced CSS__
 
+Flexbox
+*	`display: flex`
+*	`flex-direction`
+*	`flex-wrap`
+*	`flex-flow`
+*	`justify-content`
+*	`align-items`
+*	`align-content`
+*	`order`
+*	`flex`: `flex-grow`, `flex-shrink` and `flex-basis`
+*	`align-self`
+
+Properties
+*	`transition`
+*	`transform`
+*	`box-shadow`
+
+Tools
+*	Chrome Toggle Device
+*	https://codepen.io/
+
+Exercises:
+*	http://flexboxfroggy.com/
 
 Reference websites:
 *	https://caniuse.com/
 *	https://www.w3schools.com/cssref/css3_browsersupport.asp
+*	http://shouldiprefix.com/
+*	https://robots.thoughtbot.com/transitions-and-transforms
+*	https://darekkay.com/dev/flexbox-cheatsheet.html
+
+> __If you take one thing from this, it is this__: Don't worry if you don't feel 100% confident in CSS. Keep going as we will keep building on top of this knowledge.
 
 ******************************************************************************************
-## 8.	__Bootstrap 4, Templates, And Building Your Startup Landing Page__
+## <a name ="08"></a>8.	__Bootstrap 4, Templates, And Building Your Startup Landing Page__
 
 
-app for creating users list
-*	https://mailchimp.com 
+App for creating users list:
+*	https://mailchimp.com
 
 
-website with animation examples
+Website with animation examples:
 *	https://daneden.github.io/animate.css
 
-website for patterns:
+Website for patterns:
 *	https://www.creative-tim.com/bootstrap-themes/ui-kit?direction=asc&sort=price
 *	http://mashup-template.com/templates.html
 *	https://startbootstrap.com/template-categories/all/
@@ -78,23 +290,116 @@ website for patterns:
 *	https://www.creative-tim.com/
 
 
-generating animatied patterns 
+Generating animated patterns:
 *	https://daneden.github.io/animate.css/
 
 
-Installing  Github
-*	https://desktop.github.com/
+******************************************************************************************
+## <a name ="09"></a>9.	__CSS Grid + CSS Layout__
+
+Grid Cheat Sheet:
+*	http://grid.malven.co/
+
+Grid Garden:
+*	https://cssgridgarden.com/
+
+Free Design resources:
+*	https://interfacer.xyz/
 
 ******************************************************************************************
-## 9.	__Career Of A Web Developer__
+## <a name ="10"></a>10.	__Career Of A Web Developer__
 ******************************************************************************************
 
 ******************************************************************************************
-## 10.	__Javascript__
-******************************************************************************************
+## <a name ="11"></a>11.	__Javascript__
+
+Javascript types:
+1. Number
+2. String
+3. Boolean
+4. Undefined
+5. Null
+6. Symbol (new in ECMAScript 6)
+7. Object
+
+Javascript comparisons:
+- \!==
+- \===
+- \>=
+- \<=
+- \>
+- \<
+
+Javascript variables:
+- var
+- let (new in ECMAScript 6)
+- const (new in ECMAScript 6)
+
+Javascript conditionals:
+- if
+- else
+- else if
+- ternary operator
+- switch
+
+Javascript logical operators:
+- &&
+- ||
+- !
+
+Javascript functions:
+- var a = function name() {}
+- function name() {}
+- return
+- () => (new in ECMAScript 6)
+
+Javascript data structures:
+- Array
+- Object
+
+Javascript looping:
+- for
+- while
+- do
+- forEach (new in ECMAScript 5)
+
+Javascript keywords:
+- break
+- case
+- catch
+- class
+- const
+- continue
+- debugger
+- default
+- delete
+- do
+- else
+- export
+- extends
+- finally
+- for
+- function
+- if
+- import
+- in
+- instanceof
+- new
+- return
+- super
+- switch
+- this
+- throw
+- try
+- typeof
+- var
+- void
+- while
+- with
+- yield
 
 ******************************************************************************************
-## 11.	__DOM Manipulation__
+## <a name ="12"></a>12.	__DOM Manipulation__
 
 
 
@@ -106,38 +411,105 @@ Reference websites:
 *	https://babeljs.io/
 
 ******************************************************************************************
-## 12.	__Advanced Javascript__
+## <a name ="13"></a>13.	__Advanced Javascript__
+
+Variable declaration:
++ let variableName (new in ECMAScript 6) /* its value can be altered
++ const variableName (new in ECMAScript 6) /* it stands for constant, its value can't be altered once declared
++ `` /* are used instead of '' or "". Allows us to avoid the "+" separation and elements and variables should be added with syntax ${element}
++ a**b  /* it stands for a to the b potence
++ element.padStart(param1,param2) /* param1 number of characters param2 are added before the value of element declared. The default param2 is " "
++ .padEnd(param1,param2) /* Same as above but at the end
++ .trimStart() /* eliminates empty spaces from the start of a variable
++ .trimEnd() /* Same as above but from the end
++ debugger; /* Stops running the code and opens console for a step by step check
+
+*************************************************************************************************************************************** Functions:
++ Function declaration syntax: const functionname=(param1,param2...) => action /* If there is an only return, there is no need to type "return" and if it's just one parameter, no need to add "()"
++ Currying: const functionname= param1 => param2 => action /* To properly call function syntax is:  functionname (param1)(param2)
++ Compose: const functionname= (param2,param3) => param1 => param2(param3(param1)) /* Being param2 and 3 functions y param1 a value. Executes a function inside a function executed with the initial param1
+
+****************************************************************************************************************************************Arrays:
++ array.forEach(num=>{}) /* For each element num of the array, executes the actions inside {}
++ array.map(num=>{}) /* For each element num in the array, executes actions inside {} and return needs to be specified since the return will be placed in a new array.
++ array.filter(num=>{}) /* For each element num of the array a condition is checked. If the value turns out true, it will be added to teh new array. Return needs to be specified
++ array.reduce((accumulator,num)=>{}, param3) /* Acumulates values of the operation performed in previous elements, param3 beinf the initial value of the acumulator
++ array.concat(param1) /* Concats param1 to the array
++ array.includes('param1') /* Verifies the array includes param1
++ array.flat(param1) /* Elminates the nested arrays to a param1 level
++ array.flatMap(param1=>{}) /* For each element num, the operation inside {} is performed and the array is lowered to a level 1 nesting
++ array.fromEntries /* Turns the array into an object, making the first element of the array the property and the second the value of such property
+
+*************************************************************************************************************************************** Objects:
++ const(/let) {property1, property2,...} = obj  /* Given an object obj, keeps the value of the properties in new variables property1, property2,...etc
++ {...obj} /* Creates a clone object of the object obj
++ Object.assign(param1,param2) /* Clones the lements of an object param2 in an object param1
++ Object.values(obj) /* Takes the values of the properties of an object obj
++ Object.entries(obj) /* returns an array with property,value of each element of an object obj
+/* .entries and .values can be used with array methods such as .map, .forEach, etc.
++ this: When using this parameter, the method/action is applied exclusively to the element in which "this" has been summoned.
+***********************************************************************************************************************************
+Class:
++ Class creator syntax: Classname {
+&nbsp;&nbsp;&nbsp;&nbsp;constructor (param1,param2){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.param1= value;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.param2= value2;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;classmethod(){
+&nbsp;&nbsp;&nbsp;&nbsp;}
+}
+
++ Create class object syntax: new Classname(param1,param2)
+
++ Class extention syntax: Classextension extends Classname{
+&nbsp;&nbsp;&nbsp;&nbsp;constructor(param1,param2){
+&nbsp;&nbsp;&nbsp;&nbsp;super(param1,param2)
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;classextensionmethod(){
+&nbsp;&nbsp;&nbsp;&nbsp;}
+}
+
+/* You utilize a class when we are planning to create several objects with similar propperties
+/* A class extention is used when those several objects can contain properties or categories with specific properties and methods, while respecting the initial constructor.
+
+Loops:
++ for of: for (param1 of array){} /* It's a for loop in an array and an action over the element number param1 in an array array
++ for in: for (param1 in obj) {} /* It's a for loop of the properties and an action over the property number param1 in an object obj
+
+/* both arrays and strings are iterable in JS
+/* for of cannot be used in objects, but for in can be used in arrays, you get the index number as a return
+
 ******************************************************************************************
 
 ******************************************************************************************
-## 13. __Command Line__
+## <a name ="14"></a>14. __Command Line__
 
 
 
 FOR MAC OR LINUX:
 
 
-```bash
-ls
-Pwd
-cd 
-cd ..
-Clear
-Cd / —> root director
-Cd ~
-Cd folder/folder/test
-Mkdir name
-Open folder
-Touch index.html
-Open index.html
-Open -a “Sublime Text”
-Open .
-Mv index.html about.html
-Up and down arrow.
-Rm file
-Rm -r folder
-Say hello (only on Mac).
-```
+Command | Description
+--- | ---
+ls  | lists files and folders within working directory
+pwd | show current working directory
+cd  | change working directory to user directory
+cd .. | change working directory to direct parent directory
+clear | clear current terminal screen
+cd / | change current directory to root directory
+cd ~ | change current directory to user directory
+cd path/to/folder | changes working directory to specified path
+mkdir name | create folder called 'name' within current directory
+open foldername | opens folder called 'foldername' using OS GUI
+touch index.html | creates new file titled index.html within working directory
+open  index.html | opens file named index.html using default system program
+open -a “Sublime Text” | opens sublime text program. This syntax can be used to open other programs
+open . | opens and displays current folder within OS GUI
+mv index.html about.html | renames index.html file to about.html
+up and down arrow | cycles through previous commands typed within current terminal session
+rm filename | deletes a file called 'filename' within the current directory
+rm -r foldername | used to delete folders. In this case 'foldername' will be deleted
+say hello (only on Mac) | the mac will speak any text you enter after the 'say' keyword
 
 
 FOR WINDOWS:
@@ -155,16 +527,21 @@ rmdir {directory name} - remove a directory and all files within
 rename {filename} {new filename} - rename a file or folder
 start {filename} - open file in default program
 start . - open current directory
-cls - clear the terminal screen 
+cls - clear the terminal screen
 ```
 
 
 ******************************************************************************************
-## 14.	__Developer Environment__
-******************************************************************************************
+## <a name ="15"></a>15.	__Developer Environment__
+
+Popular code editors:
+* [Sublime Text 3](https://www.sublimetext.com/3)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Atom](https://atom.io/)
+* [Atom](http://brackets.io/)
 
 ******************************************************************************************
-## 15.	__Git + Github + Open Source Projects__
+## <a name ="16"></a>16.	__Git + Github + Open Source Projects__
 
 
 
@@ -172,9 +549,17 @@ Install Git:
 *	https://www.atlassian.com/git/tutorials/install-git#windows
 *	https://www.atlassian.com/git/tutorials/install-git
 
+Installing Github App for Desktop:
+*	https://desktop.github.com/
+
 
 ```
 git clone “https:……”
+git remote -v
+git remote add url “https:……”
+git remote add upstream “https:……”
+git fetch upstream
+git merge upstream/master
 git status
 git add “filename”
 git add .
@@ -214,16 +599,18 @@ Once you are in your forked project directory in your command prompt....
 3.	To verify the new upstream repository you've specified for your fork, type ```git remote -v``` again. You should see the URL for your fork as origin, and the URL for the original repository as upstream.
 
 
-4.	Now, you can keep your fork synced with the upstream repository with a few Git commands. 
-	One simple way is to do the below command from the master of your forked repository: 
+4.	Now, you can keep your fork synced with the upstream repository with a few Git commands.
+	One simple way is to do the below command from the master of your forked repository:
 ```git pull upstream master```
 
 ******************************************************************************************
-## 16.	__A Day In The Life Of A Developer__
+## <a name ="17"></a>17.	__A Day In The Life Of A Developer__
 ******************************************************************************************
 
+*  https://www.madgex.com/newsroom/a-day-in-the-life-of-a-software-developer
+*  https://www.nickang.com/2020-01-02-a-day-in-the-life-of-a-software-developer/
 ******************************************************************************************
-## 17.	__NPM + NPM Scripts__
+## <a name ="18"></a>18.	__NPM + NPM Scripts__
 
 
 ```
@@ -232,9 +619,17 @@ npm install
 npm install –g browserify
 ```
 
-install node and npm	
+Install node and npm:
 *	https://www.npmjs.com/get-npm
 *	https://nodejs.org/es/
+(Though with newer version of node, npm come pre-installed. So you don't need to do that separately)
+
+Check node and npm installed on your system by:
+```
+node -v
+npm -v
+```
+If any of these command result in error then that (node/npm) deosen't installed on your system.
 
 Reference websites:
 *	https://www.npmjs.com/
@@ -242,17 +637,25 @@ Reference websites:
 *	https://lodash.com/
 
 ******************************************************************************************
-## 18.	__React.js + Redux__
+## <a name ="19"></a>19.	__React.js + Redux__
 
-```
+old version
+---
 npm install –g create-react-app
 create-react-app “name”
+[cd "name"]
 npm start
 npm install tachyons
 ```
+new version
+---
+npx create-react-app <App-Name>
+cd <App-Name>
+npm start
+```
 
 
-website for fonts download:
+Website for fonts download:
 *	http://www.cufonfonts.com/en
 
 
@@ -267,7 +670,7 @@ Action --> Reducer --> Store --> Make changes
 ```
 npm install redux
 npm install react-redux
-npm install redux-logger 
+npm install redux-logger
 npm install redux-thunk
 ```
 
@@ -288,23 +691,79 @@ npm install redux-thunk
 *	https://facebook.github.io/immutable-js/
 
 ******************************************************************************************
-## 19.	__HTTP/JSON/AJAX + Asynchronous Javascript__
+## <a name ="20"></a>20.	__HTTP/JSON/AJAX + Asynchronous Javascript__
 ******************************************************************************************
 
-******************************************************************************************
-## 20.	__Backend Basics__
-******************************************************************************************
+There are many ways for making an API call, but the one I recommend using is Axios. 
+Here is why [https://medium.com/@thejasonfile/fetch-vs-axios-js-for-making-http-requests-2b261cdd3af5]
+
+Other available options are Fetch API or G(old) XMLHttpRequests.
+
+Axios is a Javascript library used to make HTTP requests from node.js or XMLHttpRequests from the browser
+that also supports the ES6 Promise API.
+
+### Features
+
+- Make [XMLHttpRequests](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) from the browser
+- Make [http](http://nodejs.org/api/http.html) requests from node.js
+- Supports the [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) API
+- Intercept request and response
+- Transform request and response data
+- Cancel requests
+- Automatic transforms for JSON data
+- Client side support for protecting against [XSRF](http://en.wikipedia.org/wiki/Cross-site_request_forgery)
+
+### Installing
+
+Using npm:
+
+```bash
+$ npm install axios
+```
+
+Using bower:
+
+```bash
+$ bower install axios
+```
+
+Using yarn:
+
+```bash
+$ yarn add axios
+```
+
+Using jsDelivr CDN:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+```
+
+Using unpkg CDN:
+
+```html
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+```
+
 
 ******************************************************************************************
-## 21. __APIs__
+## <a name ="21"></a>21.	__Backend Basics__
 ******************************************************************************************
+* https://nodejs.org/en/
+
+******************************************************************************************
+## <a name ="22"></a>22. __APIs__
+******************************************************************************************
+* https://explore.postman.com/
 *	https://stripe.com/docs/api
 *	https://www.twilio.com/docs/api/messaging/send-messages
 *	https://apilist.fun
+*	https://www.pexels.com/api/documentation/
+* https://apihouse.now.sh/
 
 
 ******************************************************************************************
-## 22.	__FINAL PROJECT: SmartBrain Front-End__
+## <a name ="23"></a>23.	__FINAL PROJECT: SmartBrain Front-End__
 
 
 Animated objects library:
@@ -313,32 +772,32 @@ Animated objects library:
 	npm install –save react-tilt
 	```
 
-background patterns:
+Background patterns:
 *	http://lea.verou.me/css3patterns/
 
 
-animated background library:
-*	https://vincentgarreau.com/particles.js/
+Animated background library:
+*	https://particles.matteobruni.it/
 
 	```
-	npm install react-particles-js
+	npm install react-tsparticles
 	```
 
-image and video recognition:
+Image and video recognition:
 *	https://clarifai.com/developer/guide/
 	```
 	npm install clarifai
 	```
-icons library:
+Icons library:
 *	https://icons8.com/icon
-	
+
 ******************************************************************************************
-## 23.	__Node.js + Express.js__
+## <a name ="24"></a>24.	__Node.js + Express.js__
 
 Install Postman:
 *	https://www.getpostman.com/apps
 
-Express.js
+Express.js:
 *	https://expressjs.com/en/api.html
 
 (Getting start guide)
@@ -347,13 +806,13 @@ Express.js
 npm install body-parser
 npm install express --save
 npm install --save-dev nodemon
-```	
+```
 
-Reference webs:
+Node.js Reference websites:
 *	https://nodejs.org/en/
 *	https://nodejs.org/api/modules.html
 
-storing passwords securely:
+Storing passwords securely:
 ```
 npm install bcrypt-nodejs
 ```
@@ -371,27 +830,27 @@ $ npm install bcrypt
 3.	* However this is for demonstration purposes only. Use these concepts
 4.	* to adapt to your own project needs.
 5.	*/
-6.	 
+6.
 7.	import bcrypt from'bcrypt'
-8.	const saltRounds = 10 // increase this if you want more iterations  
-9.	const userPassword = 'supersecretpassword'  
+8.	const saltRounds = 10 // increase this if you want more iterations
+9.	const userPassword = 'supersecretpassword'
 10.	const randomPassword = 'fakepassword'
-11.	 
-12.	const storeUserPassword = (password, salt) =>  
+11.
+12.	const storeUserPassword = (password, salt) =>
 13.	  bcrypt.hash(password, salt).then(storeHashInDatabase)
-14.	 
-15.	const storeHashInDatabase = (hash) => {  
+14.
+15.	const storeHashInDatabase = (hash) => {
 16.	   // Store the hash in your password DB
 17.	   return hash // For now we are returning the hash for testing at the bottom
 18.	}
-19.	 
+19.
 20.	// Returns true if user password is correct, returns false otherwise
-21.	const checkUserPassword = (enteredPassword, storedPasswordHash) =>  
+21.	const checkUserPassword = (enteredPassword, storedPasswordHash) =>
 22.	  bcrypt.compare(enteredPassword, storedPasswordHash)
-23.	 
-24.	 
+23.
+24.
 25.	// This is for demonstration purposes only.
-26.	storeUserPassword(userPassword, saltRounds)  
+26.	storeUserPassword(userPassword, saltRounds)
 27.	  .then(hash =>
 28.	    // change param userPassword to randomPassword to get false
 29.	    checkUserPassword(userPassword, hash)
@@ -402,7 +861,7 @@ $ npm install bcrypt
 
 
 ******************************************************************************************
-## 24.	__FINAL PROJECT: SmartBrain Back-End -- Server__
+## <a name ="25"></a>25.	__FINAL PROJECT: SmartBrain Back-End -- Server__
 
 
 Change localhost:
@@ -416,7 +875,7 @@ Linux (tested on Ubuntu 14.04/16.04) and MacOS (tested by @aswin-s on MacOS Sier
 
 ```"start": "PORT=3006 react-scripts start"```
 
-or (may be) more general solution by @IsaacPak to:
+or (maybe) more general solution by @IsaacPak to:
 
 ```"start": "export PORT=3006 react-scripts start"```
 
@@ -431,7 +890,7 @@ Front-end and back-end connection:
 	npm install cors
 	```
 
-front-end:  
+Front-end:
 
 ```Javascript
 fetch('http://localhost:3000/image', {
@@ -445,16 +904,16 @@ fetch('http://localhost:3000/image', {
 .then(count => {
 	this.setState(Object.assign(this.state.user, { entries:count}))
 })
-```	
+```
 Back-end:
 
 ```Javascript
 const cors = require('cors')
 app.use(cors());
-```	
+```
 
 ******************************************************************************************
-## 25.	__Databases__
+## <a name ="26"></a>26.	__Databases__
 
 
 Install PostgreSQL:
@@ -491,17 +950,17 @@ Install PostgreSQL:
 data types
 *	https://www.techonthenet.com/postgresql/datatypes.php
 
-terminal commands for windows
+Terminal commands for windows:
 
-login: (-U usuario)
+Login: (-U usuario)
 
 	psql -h localhost -U postgres
 
-create database	
+Create database:
 
 	create database database_name;
 
-show all datatables:
+Show all datatables:
 
 	\l
 
@@ -509,131 +968,133 @@ Create a user:
 
 	create user moni with password ‘moni’;
 
-delete database
+Delete a database:
 
 	drop database database_name;
 
-connect to a database:
+Connect to a database:
 
 	\c database_name;
 
-Create a squema:
+Create a schema:
 
 	create schema friends;
 
-Create a table
+Create a table:
 
-	create table Friends.test( firstname CHAR(15), lastname CHAR(20)); 
+	create table Friends.test( firstname CHAR(15), lastname CHAR(20));
 
 	create table Friends.login(id serial not null primary key, secret varchar (100) not null, name text unique not null, entries bigint default 0, joined timestamp not null);
 
-show all information of a table
+Show all information of a table:
 
 	select * from friends.test;
-describe database
+
+Describe database:
 
 	\d friends.test
 
-Insert data
+Insert data:
 
-	insert into friends.test values( ‘Mike’, ‘Smith’); 
+	insert into friends.test values( ‘Mike’, ‘Smith’);
 
 	insert into friends.test (firstname, lastname )values( ‘Sally’, ‘Jones’);
 
-add a column to an existing table
+Add a column to an existing table:
 
 	alter table Friends.test add age smallint;
 
-update data from the table
+Update data from the table:
 
 	update friends.test set age = 25 where firstname= ‘Mike’;
 
-delete data from the table
+Delete data from the table:
 
 	delete from friends.test where firstname = ‘Mike’;
 
-delete column from a tableinae
+Delete column from a table:
 
 	alter table friends.test drop column age;
 
-delete a table
+Delete a table:
 
 	drop table friends.test;
 
-functions
+Functions:
 
 	select avg(age) from friends.test;
 
-join tables
+Join tables:
 
 	select * from friends.test join friends.login on friends.test.firstname = friends.login.name;
 
-exit
+Exit:
 
 	\q
 
-List users in postgres: 
+List all users in postgresSQL database server:
 
 	\du
-List all tables in a squeme: 
 
-	\d+ nombre_Esquema.*
+List all tables in a schema:
 
-List all tables in a database : 
+	\d+ schema_name.*
 
-	\dt *.* 
+List all tables in a database:
 
-List a table in a squeme: 
+	\dt *.*
 
-	\d+ nombre_Esquema . nombre_Tabla
+List a table in a schema:
 
-Show description of a tavle, columns, type, modifications,....: 
+	\d+ schema_name . table_name
 
-	\d+ nombre_Tabla
+Show description of a table, columns, type, modifications, etc.:
 
-Create a backup of a database: 
+	\d+ table_name
 
-	pg_dum -h localhost -U postgres nombre_Base > nombre_Base.sql
+Create a backup of a database:
 
-Restore a database: 1. Create a new database where the restore file is going to be placed
+	pg_dump -h localhost -U postgres database_name > database_name.sql
 
-	psql -U postgres -d nombre_nuevaBase -f respaldo.sql
+Restore a database: 1. Create a new database where the restore file is going to be placed:
 
-	*Note:  it is important to create the restore in the same root where the database copy is saved. 
+	psql -U postgres -d new_database_name -f respaldo.sql
 
-Enter to postgres with a user different to postgres: 
+	*Note:  it is important to create the restore in the same root where the database copy is saved.
+
+Enter to postgres with a user different to postgres:
 
 	psql -h localhost -d postgres -U usuario
 
-Enter to a database with a different user: 
+Enter to a database with a different user:
 
 	psql -h localhost -d nombre_base -U nombre_usuario
 
 
 ******************************************************************************************
-## 26.	__FINAL PROJECT: SmartBrain Back-End – Database__
+## <a name ="27"></a>27.	__FINAL PROJECT: SmartBrain Back-End – Database__
 
 
-Tool for db connection with back-end
+Tool for db connection with back-end:
 *	https://knexjs.org/
 *	https://knexjs.org/#Installation-node
 *	https://github.com/vitaly-t/pg-promise
 
 ******************************************************************************************
-## 27.	__Production + Deployment__
+## <a name ="28"></a>28.	__Production + Deployment__
 
 
-Environmental variables 
+Environmental variables:
 *	http://www.dowdandassociates.com/blog/content/howto-set-an-environment-variable-in-windows-command-line-and-registry/
 
 ### PORT
 
-on terminal
+On terminal:
 
 	bash
 	-->PORT-3000 node server.js
 
-On server.js
+On server.js:
 ```JSX
 	const PORT = process.env.PORT
 	app.listen(PORT, ()=>{
@@ -643,12 +1104,12 @@ On server.js
 
 ### DATABASE
 
-on terminal
+On terminal:
 
 	bash
 	-->DATABASE_URL-123  node server.js
 
-On server.js
+On server.js:
 
 ```jsx
 	const DATABASE_URL = process.env. DATABASE_URL
@@ -659,7 +1120,7 @@ On server.js
 
 ### OTHER OPTION
 
-On terminal
+On terminal:
 
 	fish
 	-->env DATABASE_URL-‘hello’ node server.js
@@ -676,24 +1137,24 @@ Not the best one:
 
 
 
-commands for heroku on backend folder:
-install heroku:
+Commands for heroku on backend folder:
+Install heroku:
 ```
 npm install -g heroku
 heroku login
 heroku create
 ```
-In the terminal there will be an URL : ” https://limitless-bastion-10041.herokuapp.com/”
+In the terminal there will be a URL : ” https://limitless-bastion-10041.herokuapp.com/”
 ```
 git remote –v
 git push origin master
 heroku git: remote –a limitless-bastion-10041
 ```
 
-changes required in:
+Changes required in:
 
-*	BACKEND: PORT in server.js needs to be changed by an environment variable
-*	FRONT: fetch URL needs to be changed by the URL of HEROKU + “:3000”
+*	BACK END: PORT in server.js needs to be changed by an environment variable
+*	FRONT END: fetch URL needs to be changed by the URL of HEROKU + “:3000”
 
 ```
 git push heroku master
@@ -703,12 +1164,12 @@ heroku open
 ```
 
 
-connect to pg database:
+Connect to pg database:
 *	https://devcenter.heroku.com/articles/heroku-postgresql
 *	https://docs.aws.amazon.com/es_es/AmazonRDS/latest/UserGuide/USER_ConnectToPostgreSQLInstance.html
 *	https://msdn.microsoft.com/en-us/library/ms175043(v=sql.120).aspx#SSMSProcedure
-	
-create on heroku app a new postgress:
+
+Create a new postgres database using Heroku:
 
 Data: Heroku postgres: create new: install heroku postgres: select the app created
 ```
@@ -718,10 +1179,18 @@ heroku pg:psql
 ```
 
 ******************************************************************************************
-## 28.	__Where To Go From Here?__
+## <a name ="29"></a>29.	__Where To Go From Here?__
 ******************************************************************************************
 
-******************************************************************************************
-## 29.	__Bonus: AMA + Developer Morning Routine__
-******************************************************************************************
+The Complete Junior to Senior Web Developer Roadmap (2020):
+*	https://academy.zerotomastery.io/p/the-complete-junior-to-senior-web-developer-roadmap?utm_source=github&utm_medium=complete-web-developer-manual
 
+******************************************************************************************
+## <a name ="30"></a>30.	__Bonus: Extra Bits (Coding Challenges + AMA)__
+******************************************************************************************
+******************************************************************************************
+## <a name ="31"></a>31.	__Extra: For Windows Users__
+******************************************************************************************
+******************************************************************************************
+## <a name ="32"></a>32.	__Bonus: Part 2 - Special Thank You Gift (Discount Coupons)__
+******************************************************************************************
