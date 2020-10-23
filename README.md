@@ -564,15 +564,17 @@ Popular code editors:
 ******************************************************************************************
 ## <a name ="16"></a>16.	__Git + Github + Open Source Projects__
 
-
-
-Install Git:
+### Install Git:
 *	https://www.atlassian.com/git/tutorials/install-git#windows
 *	https://www.atlassian.com/git/tutorials/install-git
 
-Installing Github App for Desktop:
-*	https://desktop.github.com/
 
+### Git GUI:
+*	https://desktop.github.com/
+* https://www.gitkraken.com/git-client
+* https://www.sourcetreeapp.com/
+
+### Git Commands:
 
 ```
 git clone “https:……”
