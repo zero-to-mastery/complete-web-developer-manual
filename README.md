@@ -555,11 +555,19 @@ cls - clear the terminal screen
 ******************************************************************************************
 ## <a name ="15"></a>15.	__Developer Environment__
 
-Popular code editors:
+### Popular code editors / IDE:
 * [Sublime Text 3](https://www.sublimetext.com/3)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Atom](https://atom.io/)
-* [Atom](http://brackets.io/)
+* [Brackets](http://brackets.io/)
+* [PhpStorm](https://www.jetbrains.com/phpstorm/)
+
+### Development Environment Stack
+* [Homebrew](https://brew.sh/)
+* [Laragon](https://laragon.org/)
+* [Laravel Valet](https://laravel.com/docs/master/valet)
+* [XAMPP](https://www.apachefriends.org/index.html)
+* [Vagrant](https://www.vagrantup.com/)
 
 ******************************************************************************************
 ## <a name ="16"></a>16.	__Git + Github + Open Source Projects__
