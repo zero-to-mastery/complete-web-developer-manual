@@ -531,7 +531,7 @@ up and down arrow | cycles through previous commands typed within current termin
 rm filename | deletes a file called 'filename' within the current directory
 rm -r foldername | used to delete folders. In this case 'foldername' will be deleted
 say hello (only on Mac) | the mac will speak any text you enter after the 'say' keyword
-
+rm -rf .git | To remove git repo created by init
 
 FOR WINDOWS:
 
