@@ -308,9 +308,30 @@ Free Design resources:
 
 ******************************************************************************************
 ## <a name ="10"></a>10.	__Career Of A Web Developer__
-******************************************************************************************
+
+Updated Statistics and Surveys 2020:
+
+*	State of JavaScript
+	*	https://www.jetbrains.com/lp/devecosystem-2020/javascript/
+*	State of Salaries
+	*	https://hired.com/blog/highlights/2020-state-of-salaries-report/
+*	Developer Salaries - Glassdoor
+	*	https://www.glassdoor.ca/Salaries/san-francisco-front-end-developer-salary-SRCH_IL.0,13_IM759_KO14,33.htm
+*	Octoverse Github
+	*	https://octoverse.github.com/
+*	Stackoverflow Survey
+	*	https://insights.stackoverflow.com/survey/
+  
+Web Developer Roadmap 2020:
+*	Part 1: https://www.youtube.com/watch?v=57GuRoJ5Bfw
+*	Part 2: https://www.youtube.com/watch?v=aeKQy_08fpk
+
+Learning Guideline Roadmap:
+*	https://zerotomastery.io/courses/#roadmap
+
 
 ******************************************************************************************
+
 ## <a name ="11"></a>11.	__Javascript__
 
 Javascript types:
