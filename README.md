@@ -172,7 +172,8 @@ Properties:
 *	background
 *	list-style
 *	cursor
-*	color: html, hex, rgb or rgba
+*	display: inline-block
+*	color: hex, rgb or rgba
 
 Selectors:
 *	`.class`
