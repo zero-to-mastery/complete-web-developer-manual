@@ -1203,8 +1203,7 @@ heroku pg:psql
 ## <a name ="29"></a>29.	__Where To Go From Here?__
 ******************************************************************************************
 
-The Complete Junior to Senior Web Developer Roadmap (2020):
-*	https://academy.zerotomastery.io/p/the-complete-junior-to-senior-web-developer-roadmap?utm_source=github&utm_medium=complete-web-developer-manual
+[The Complete Junior to Senior Web Developer Roadmap (2020)](https://academy.zerotomastery.io/p/the-complete-junior-to-senior-web-developer-roadmap?utm_source=github&utm_medium=complete-web-developer-manual)
 
 ******************************************************************************************
 ## <a name ="30"></a>30.	__Bonus: Extra Bits (Coding Challenges + AMA)__
