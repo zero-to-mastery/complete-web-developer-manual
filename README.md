@@ -436,72 +436,76 @@ Reference websites:
 ## <a name ="13"></a>13.	__Advanced Javascript__
 
 Variable declaration:
-+ let variableName (new in ECMAScript 6) /* its value can be altered
-+ const variableName (new in ECMAScript 6) /* it stands for constant, its value can't be altered once declared
-+ `` /* are used instead of '' or "". Allows us to avoid the "+" separation and elements and variables should be added with syntax ${element}
-+ a**b  /* it stands for a to the b potence
-+ element.padStart(param1,param2) /* param1 number of characters param2 are added before the value of element declared. The default param2 is " "
-+ .padEnd(param1,param2) /* Same as above but at the end
-+ .trimStart() /* eliminates empty spaces from the start of a variable
-+ .trimEnd() /* Same as above but from the end
-+ debugger; /* Stops running the code and opens console for a step by step check
++ `let variableName` (new in ECMAScript 6) /* its value can be altered
++ `const variableName` (new in ECMAScript 6) /* it stands for constant, its value can't be altered once declared
++ ``` `` ``` /* are used instead of `''` or `""`. Allows us to avoid the "+" separation and elements and variables should be added with syntax `${element}`
++ `a**b`  /* it stands for a to the b potence
++ `element.padStart(param1,param2)` /* param1 number of characters param2 are added before the value of element declared. The default param2 is `" "`
++ `.padEnd(param1,param2)` /* Same as above but at the end
++ `.trimStart()` /* eliminates empty spaces from the start of a variable
++ `.trimEnd()` /* Same as above but from the end
++ `debugger;` /* Stops running the code and opens console for a step by step check
 
-*************************************************************************************************************************************** Functions:
-+ Function declaration syntax: const functionname=(param1,param2...) => action /* If there is an only return, there is no need to type "return" and if it's just one parameter, no need to add "()"
-+ Currying: const functionname= param1 => param2 => action /* To properly call function syntax is:  functionname (param1)(param2)
-+ Compose: const functionname= (param2,param3) => param1 => param2(param3(param1)) /* Being param2 and 3 functions y param1 a value. Executes a function inside a function executed with the initial param1
+Functions:
++ Function declaration syntax: `const functionname=(param1,param2...) => action` /* If there is an only return, there is no need to type "return" and if it's just one parameter, no need to add `"()"`
++ Currying: `const functionname= param1 => param2 => action` /* To properly call function syntax is:  `functionname (param1)(param2)`
++ Compose: `const functionname= (param2,param3) => param1 => param2(param3(param1))` /* Being param2 and 3 functions y param1 a value. Executes a function inside a function executed with the initial param1
 
-****************************************************************************************************************************************Arrays:
-+ array.forEach(num=>{}) /* For each element num of the array, executes the actions inside {}
-+ array.map(num=>{}) /* For each element num in the array, executes actions inside {} and return needs to be specified since the return will be placed in a new array.
-+ array.filter(num=>{}) /* For each element num of the array a condition is checked. If the value turns out true, it will be added to teh new array. Return needs to be specified
-+ array.reduce((accumulator,num)=>{}, param3) /* Acumulates values of the operation performed in previous elements, param3 beinf the initial value of the acumulator
-+ array.concat(param1) /* Concats param1 to the array
-+ array.includes('param1') /* Verifies the array includes param1
-+ array.flat(param1) /* Elminates the nested arrays to a param1 level
-+ array.flatMap(param1=>{}) /* For each element num, the operation inside {} is performed and the array is lowered to a level 1 nesting
-+ array.fromEntries /* Turns the array into an object, making the first element of the array the property and the second the value of such property
+Arrays:
++ `array.forEach(num=>{})` /* For each element num of the array, executes the actions inside {}
++ `array.map(num=>{})` /* For each element num in the array, executes actions inside {} and return needs to be specified since the return will be placed in a new array.
++ `array.filter(num=>{})` /* For each element num of the array a condition is checked. If the value turns out true, it will be added to teh new array. Return needs to be specified
++ `array.reduce((accumulator,num)=>{}, param3)` /* Acumulates values of the operation performed in previous elements, param3 beinf the initial value of the acumulator
++ `array.concat(param1)` /* Concats param1 to the array
++ `array.includes('param1')` /* Verifies the array includes param1
++ `array.flat(param1)` /* Elminates the nested arrays to a param1 level
++ `array.flatMap(param1=>{})` /* For each element num, the operation inside {} is performed and the array is lowered to a level 1 nesting
++ `array.fromEntries` /* Turns the array into an object, making the first element of the array the property and the second the value of such property
 
-*************************************************************************************************************************************** Objects:
-+ const(/let) {property1, property2,...} = obj  /* Given an object obj, keeps the value of the properties in new variables property1, property2,...etc
-+ {...obj} /* Creates a clone object of the object obj
-+ Object.assign(param1,param2) /* Clones the lements of an object param2 in an object param1
-+ Object.values(obj) /* Takes the values of the properties of an object obj
-+ Object.entries(obj) /* returns an array with property,value of each element of an object obj
-/* .entries and .values can be used with array methods such as .map, .forEach, etc.
-+ this: When using this parameter, the method/action is applied exclusively to the element in which "this" has been summoned.
-***********************************************************************************************************************************
-Class:
-+ Class creator syntax: Classname {
-&nbsp;&nbsp;&nbsp;&nbsp;constructor (param1,param2){
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.param1= value;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.param2= value2;
-&nbsp;&nbsp;&nbsp;&nbsp;}
-&nbsp;&nbsp;&nbsp;&nbsp;classmethod(){
-&nbsp;&nbsp;&nbsp;&nbsp;}
-}
+Objects:
++ `const(/let) {property1, property2,...} = obj`  /* Given an object obj, keeps the value of the properties in new variables property1, property2,...etc
++ `{...obj}` /* Creates a clone object of the object obj
++ `Object.assign(param1,param2)` /* Clones the lements of an object param2 in an object param1
++ `Object.values(obj)` /* Takes the values of the properties of an object obj
++ `Object.entries(obj)` /* returns an array with property,value of each element of an object obj
+/* `.entries` and `.values` can be used with array methods such as `.map`, `.forEach`, etc.
++ `this` /* when using this parameter, the method/action is applied exclusively to the element in which "this" has been summoned.
 
-+ Create class object syntax: new Classname(param1,param2)
+Classes:
++ Class creator syntax: 
+ ```
+ Classname {
+ constructor (param1,param2){
+    this.param1= value;
+    this.param2= value2;
+    }
+    classmethod(){
+    }
+ }
+ ```
 
-+ Class extention syntax: Classextension extends Classname{
-&nbsp;&nbsp;&nbsp;&nbsp;constructor(param1,param2){
-&nbsp;&nbsp;&nbsp;&nbsp;super(param1,param2)
-&nbsp;&nbsp;&nbsp;&nbsp;}
-&nbsp;&nbsp;&nbsp;&nbsp;classextensionmethod(){
-&nbsp;&nbsp;&nbsp;&nbsp;}
-}
++ Create class object syntax: `new Classname(param1,param2)`
+
++ Class extention syntax: 
+ ```
+ Classextension extends Classname {
+    constructor(param1,param2){
+       super(param1,param2);
+    }
+    classextensionmethod(){
+    }
+ }
+ ```
 
 /* You utilize a class when we are planning to create several objects with similar propperties
 /* A class extention is used when those several objects can contain properties or categories with specific properties and methods, while respecting the initial constructor.
 
 Loops:
-+ for of: for (param1 of array){} /* It's a for loop in an array and an action over the element number param1 in an array array
-+ for in: for (param1 in obj) {} /* It's a for loop of the properties and an action over the property number param1 in an object obj
++ for of: `for (param1 of array){}` /* It's a for loop in an array and an action over the element number param1 in an array array
++ for in: `for (param1 in obj) {}` /* It's a for loop of the properties and an action over the property number param1 in an object obj
 
-/* both arrays and strings are iterable in JS
-/* for of cannot be used in objects, but for in can be used in arrays, you get the index number as a return
-
-******************************************************************************************
+ /* both arrays and strings are iterable in JS 
+ /* for of cannot be used in objects, but for in can be used in arrays, you get the index number as a return
 
 ******************************************************************************************
 ## <a name ="14"></a>14. __Command Line__
