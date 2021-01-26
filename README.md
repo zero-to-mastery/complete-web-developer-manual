@@ -496,6 +496,39 @@ Reference websites:
 
 ## <a name ="13"></a>13. **Advanced Javascript**
 
+DOM Selectors:
+
+- getElementsByTagName
+- getElementsByClassName
+- getElementById
+
+- querySelector
+- querySelectorAll
+
+- getAttribute
+- setAttribute
+
+Changing Styles:
+- style.{property} //ok
+
+- className //best
+- classList //best
+
+- classList.add
+- classList.remove
+- classList.toggle
+
+Bonus:
+- innerHTML //DANGEROUS
+
+- parentElement
+- children
+
+It is important to CACHE selectors in variables
+
+******************************************************************************************
+## <a name ="13"></a>13.	__Advanced Javascript__
+
 Variable declaration:
 
 -  `let variableName` (new in ECMAScript 6) /\* its value can be altered
