@@ -39,11 +39,13 @@ All resources and notes from the [Complete Web Developer in 2021: Zero to Master
 [31. *Extra: For Windows Users*](#31)<br>
 [32. *Bonus: Part 2 - Special Thank You Gift (Discount Coupons)*](#32)<br>
 ******************************************************************************************
+
 ## <a name ="01"></a>1.	__Introduction__
 
 Discord Channel:
 *	~~https://discord.gg/nVmbHYY~~ You will find it inside course
 ******************************************************************************************
+
 ## <a name ="02"></a>2.	__How The Internet Works__
 
 Tools:
@@ -55,50 +57,52 @@ Topics:
 
 Submarine Cable Map:
 *	https://www.submarinecablemap.com/
+
 ******************************************************************************************
 ## <a name ="03"></a>3.	__History Of The Web__
 
-Maps that explain the Internet:
+### *Maps that explain the Internet:*
 *	https://www.vox.com/a/internet-maps
 
-First Webpage in the world:
+### *First Webpage in the world:*
 *	http://info.cern.ch/hypertext/WWW/TheProject.html
 
-Optional Videos:
+### *Optional Videos:*
 *	https://www.youtube.com/watch?v=3QhU9jd03a0&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=29
 *	https://www.youtube.com/watch?v=AEaKrq3SpW8&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=30
 *	https://www.youtube.com/watch?v=guvsH5OFizE&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=31
 
 ******************************************************************************************
+
 ## <a name ="04"></a>4. __HTML 5__
 
 
-Install a text editor (Select one):
+### *Install a text editor (Select one):*
 *	https://www.sublimetext.com/
 *	https://atom.io/
 *	https://code.visualstudio.com/
 
-Tags:
+## **Tags:**
 *	`<html>`
 *	`<head>`
 *	`<title>`
 *	`<body>`
-*	headings (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`)
-*	paragraph `<p>`
-*	bold `<strong>`, italic `<em>`
-*	ordered list `<ol>`, unordered list `<ul>`, list item`<li>`
-*	break `<br>`, horizontal rule `<hr>`
-*	image `<img>` and attributes: `src`, `width`, `height`
-*	anchor `<a href="">`
+*	Headings (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`)
+*	Paragraph `<p>`
+*	Bold `<strong>`, italic `<em>`
+*	Ordered list `<ol>`, Unordered list `<ul>`, List item`<li>`
+*	Break `<br>`, Horizontal rule `<hr>`
+*	Image `<img>` and Attributes: `src`, `width`, `height`
+*	Anchor `<a href="">`
 
-Topics:
+## **Topics:**
 *	Relative vs Absolute Path
 
-Zero to Mastery resources:
+### Zero to Mastery resources:
 *	https://github.com/zero-to-mastery/complete-web-developer-manual
 *	https://github.com/zero-to-mastery/zero-to-mastery-captions
 
-Reference websites:
+### Reference websites:
 *	https://www.w3schools.com/
 *	https://developer.mozilla.org/en-US/
 *	https://stackoverflow.com/
@@ -108,7 +112,7 @@ Reference websites:
 ## <a name ="05"></a>5.	__Advanced HTML 5__
 
 
-Tags:
+### **Tags:**
 *	`<form>`
 	*	`method`, `action`
 *	`<input>`:
@@ -119,16 +123,16 @@ Tags:
 *	comment `<!-- -->`
 *	`<div>` and `<span>`
 
-Semantic Elements
+### **Semantic Elements**
 *	`<header>`
 *	`<nav>`
 *	`<main>`
 *	`<footer>`
 
-Topics:
+### **Topics:**
 *	Chrome view Source
 
-Resources:
+### **Resources:**
 *	https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5
 *	https://waitbutwhy.com/
 
@@ -138,14 +142,14 @@ Resources:
 ******************************************************************************************
 ## <a name ="06"></a>6.	__CSS__
 
-Syntax:
+### *Syntax:*
 ```css
 Selector {
 	property: value;
 }
 ```
 
-How to:
+### *How to:*
 *	External
 	```html
 	<link rel="stylesheet type="text/css" href="style.css">
@@ -163,10 +167,10 @@ How to:
 	<header style="background-color: green;">
 	```
 
-Tools:
+### **Tools:**
 *	Chrome Inspector
 
-Properties:
+### **Properties:**
 *	text-align
 *	border
 *	background
@@ -175,7 +179,7 @@ Properties:
 *	display: inline-block
 *	color: hex, rgb or rgba
 
-Selectors:
+### **Selectors:**
 *	`.class`
 *	`#id`
 *	`*` (all elements)
@@ -190,7 +194,7 @@ Selectors:
 *	`::before` (pseudo-element)
 *	`!important` (not recommended)
 
-Text Properties
+### **Text Properties:**
 *	`text-decoration`
 *	`text-transform`
 *	`line-height`
@@ -199,27 +203,27 @@ Text Properties
 *	`font-size`
 *	`font-family`
 
-Layout Properties
+### **Layout Properties:**
 *	`float` and `clear`
 
-Box Model
+### **Box Model:**
 *	`margin`
 *	`border`
 *	`padding`
 *	`width` and `height`
 
-Sizes
+### **Sizes:**
 *	`px`
 *	`em` and `rem`
 
-Topics:
+### **Topics:**
 *	Cascading: Specificity, Importance `!`, Source Order
 *	Linking fonts and external stylesheets
 
-Exercises:
+### **Exercises:**
 *	https://flukeout.github.io/
 
-Reference websites:
+### **Reference websites:**
 *	https://css-tricks.com/
 *	https://www.supremo.co.uk/typeterms/
 *	https://css-tricks.com/snippets/css/a-guide-to-flexbox/
@@ -228,18 +232,18 @@ Reference websites:
 *	https://specificity.keegan.st/
 * 	https://css-tricks.com/snippets/css/complete-guide-grid/
 
-Website for color check:
+### **Website for color check:**
 *	http://paletton.com/
 *	https://coolors.co/
 
-Website for fonts download:
+### **Website for fonts download:**
 *	https://fonts.google.com/
 
 
 ******************************************************************************************
 ## <a name ="07"></a>7.	__Advanced CSS__
 
-Flexbox
+### **Flexbox:**
 *	`display: flex`
 *	`flex-direction`
 *	`flex-wrap`
@@ -251,19 +255,19 @@ Flexbox
 *	`flex`: `flex-grow`, `flex-shrink` and `flex-basis`
 *	`align-self`
 
-Properties
+### **Properties:**
 *	`transition`
 *	`transform`
 *	`box-shadow`
 
-Tools
+### **Tools:**
 *	Chrome Toggle Device
 *	https://codepen.io/
 
-Exercises:
+### **Exercises:**
 *	http://flexboxfroggy.com/
 
-Reference websites:
+### **Reference websites:**
 *	https://caniuse.com/
 *	https://www.w3schools.com/cssref/css3_browsersupport.asp
 *	http://shouldiprefix.com/
@@ -276,14 +280,14 @@ Reference websites:
 ## <a name ="08"></a>8.	__Bootstrap 4, Templates, And Building Your Startup Landing Page__
 
 
-App for creating users list:
+### *App for creating users list:*
 *	https://mailchimp.com
 
 
-Website with animation examples:
+### *Website with animation examples:*
 *	https://daneden.github.io/animate.css
 
-Website for patterns:
+### *Website for patterns:*
 *	https://www.creative-tim.com/bootstrap-themes/ui-kit?direction=asc&sort=price
 *	http://mashup-template.com/templates.html
 *	https://startbootstrap.com/template-categories/all/
@@ -291,26 +295,26 @@ Website for patterns:
 *	https://www.creative-tim.com/
 
 
-Generating animated patterns:
+### *Generating animated patterns:*
 *	https://daneden.github.io/animate.css/
 
 
 ******************************************************************************************
 ## <a name ="09"></a>9.	__CSS Grid + CSS Layout__
 
-Grid Cheat Sheet:
+### *Grid Cheat Sheet:*
 *	http://grid.malven.co/
 
-Grid Garden:
+### *Grid Garden:*
 *	https://cssgridgarden.com/
 
-Free Design resources:
+### *Free Design resources:*
 *	https://interfacer.xyz/
 
 ******************************************************************************************
 ## <a name ="10"></a>10.	__Career Of A Web Developer__
 
-Updated Statistics and Surveys 2020:
+### *Updated Statistics and Surveys 2020:*
 
 *	State of JavaScript
 	*	https://www.jetbrains.com/lp/devecosystem-2020/javascript/
@@ -335,7 +339,7 @@ Learning Guideline Roadmap:
 
 ## <a name ="11"></a>11.	__Javascript__
 
-Javascript types:
+### *Javascript types:*
 1. Number
 2. String
 3. Boolean
@@ -344,7 +348,7 @@ Javascript types:
 6. Symbol (new in ECMAScript 6)
 7. Object
 
-Javascript comparisons:
+### *Javascript comparisons:*
 - \!==
 - \===
 - \>=
@@ -352,40 +356,40 @@ Javascript comparisons:
 - \>
 - \<
 
-Javascript variables:
+### *Javascript variables:*
 - var
 - let (new in ECMAScript 6)
 - const (new in ECMAScript 6)
 
-Javascript conditionals:
+### *Javascript conditionals:*
 - if
 - else
 - else if
 - ternary operator
 - switch
 
-Javascript logical operators:
-- &&
-- ||
-- !
+### *Javascript logical operators:*
+- && = Sees if both values are the same/`true`.
+- || = Sees if there is at least one of the same/ `true` value.
+- ! = Turns `true` into `false`, and `false` into `true`. 
 
-Javascript functions:
+### *Javascript functions:*
 - var a = function name() {}
 - function name() {}
 - return
 - () => (new in ECMAScript 6)
 
-Javascript data structures:
+### *Javascript data structures:*
 - Array
 - Object
 
-Javascript looping:
+### *Javascript looping:*
 - for
 - while
 - do
 - forEach (new in ECMAScript 5)
 
-Javascript keywords:
+### *Javascript keywords:*
 - break
 - case
 - catch
@@ -425,14 +429,14 @@ Javascript keywords:
 
 
 
-Reference websites:
+### *Reference websites:*
 *	https://developer.mozilla.org/en-US/docs/web/Events
 *	https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes
 *	https://jquery.com/
 *	http://youmightnotneedjquery.com/
 *	https://babeljs.io/
 
-DOM Selectors:
+### *DOM Selectors:*
 
 - getElementsByTagName
 - getElementsByClassName
@@ -444,7 +448,7 @@ DOM Selectors:
 - getAttribute
 - setAttribute
 
-Changing Styles:
+### *Changing Styles:*
 - style.{property} //ok
 
 - className //best
@@ -454,7 +458,7 @@ Changing Styles:
 - classList.remove
 - classList.toggle
 
-Bonus:
+### *Bonus:*
 - innerHTML //DANGEROUS
 
 - parentElement
@@ -465,7 +469,7 @@ It is important to CACHE selectors in variables
 ******************************************************************************************
 ## <a name ="13"></a>13.	__Advanced Javascript__
 
-Variable declaration:
+### *Variable declaration:*
 + `let variableName` (new in ECMAScript 6) /* its value can be altered
 + `const variableName` (new in ECMAScript 6) /* it stands for constant, its value can't be altered once declared
 + ``` `` ``` /* are used instead of `''` or `""`. Allows us to avoid the "+" separation and elements and variables should be added with syntax `${element}`
@@ -476,12 +480,12 @@ Variable declaration:
 + `.trimEnd()` /* Same as above but from the end
 + `debugger;` /* Stops running the code and opens console for a step by step check
 
-Functions:
+### *Functions:*
 + Function declaration syntax: `const functionname=(param1,param2...) => action` /* If there is an only return, there is no need to type "return" and if it's just one parameter, no need to add `"()"`
 + Currying: `const functionname= param1 => param2 => action` /* To properly call function syntax is:  `functionname (param1)(param2)`
 + Compose: `const functionname= (param2,param3) => param1 => param2(param3(param1))` /* Being param2 and 3 functions y param1 a value. Executes a function inside a function executed with the initial param1
 
-Arrays:
+### *Arrays:*
 + `array.forEach(num=>{})` /* For each element num of the array, executes the actions inside {}
 + `array.map(num=>{})` /* For each element num in the array, executes actions inside {} and return needs to be specified since the return will be placed in a new array.
 + `array.filter(num=>{})` /* For each element num of the array a condition is checked. If the value turns out true, it will be added to the new array. If none of the elements meet the condition, it will return an empty array. Return needs to be specified
@@ -492,7 +496,7 @@ Arrays:
 + `array.flatMap(param1=>{})` /* For each element num, the operation inside {} is performed and the array is lowered to a level 1 nesting
 + `array.fromEntries` /* Turns the array into an object, making the first element of the array the property and the second the value of such property
 
-Objects:
+### *Objects:*
 + `const(/let) {property1, property2,...} = obj`  /* Given an object obj, keeps the value of the properties in new variables property1, property2,...etc
 + `{...obj}` /* Creates a clone object of the object obj
 + `Object.assign(param1,param2)` /* Clones the lements of an object param2 in an object param1
@@ -501,7 +505,7 @@ Objects:
 /* `.entries` and `.values` can be used with array methods such as `.map`, `.forEach`, etc.
 + `this` /* when using this parameter, the method/action is applied exclusively to the element in which "this" has been summoned.
 
-Classes:
+### *Classes:*
 + Class creator syntax: 
  ```
  Classname {
@@ -530,7 +534,7 @@ Classes:
 /* You utilize a class when we are planning to create several objects with similar propperties
 /* A class extention is used when those several objects can contain properties or categories with specific properties and methods, while respecting the initial constructor.
 
-Loops:
+### *Loops:*
 + for of: `for (param1 of array){}` /* It's a for loop in an array and an action over the element number param1 in an array array
 + for in: `for (param1 in obj) {}` /* It's a for loop of the properties and an action over the property number param1 in an object obj
 
@@ -542,33 +546,33 @@ Loops:
 
 
 
-FOR MAC OR LINUX:
+### **FOR MAC OR LINUX:**
 
 
-Command | Description
---- | ---
-ls  | lists files and folders within working directory
-pwd | show current working directory
-cd  | change working directory to user directory
-cd .. | change working directory to direct parent directory
-clear | clear current terminal screen
-cd / | change current directory to root directory
-cd ~ | change current directory to user directory
-cd path/to/folder | changes working directory to specified path
-mkdir name | create folder called 'name' within current directory
-open foldername | opens folder called 'foldername' using OS GUI
-touch index.html | creates new file titled index.html within working directory
-open  index.html | opens file named index.html using default system program
-open -a “Sublime Text” | opens sublime text program. This syntax can be used to open other programs
-open . | opens and displays current folder within OS GUI
-mv index.html about.html | renames index.html file to about.html
-up and down arrow | cycles through previous commands typed within current terminal session
-rm filename | deletes a file called 'filename' within the current directory
-rm -r foldername | used to delete folders. In this case 'foldername' will be deleted
-say hello (only on Mac) | the mac will speak any text you enter after the 'say' keyword
-rm -rf .git | To remove git repo created by init
+| Command                  | Description                                                                |
+| ------------------------ | -------------------------------------------------------------------------- |
+| ls                       | lists files and folders within working directory                           |
+| pwd                      | show current working directory                                             |
+| cd                       | change working directory to user directory                                 |
+| cd ..                    | change working directory to direct parent directory                        |
+| clear                    | clear current terminal screen                                              |
+| cd /                     | change current directory to root directory                                 |
+| cd ~                     | change current directory to user directory                                 |
+| cd path/to/folder        | changes working directory to specified path                                |
+| mkdir name               | create folder called 'name' within current directory                       |
+| open foldername          | opens folder called 'foldername' using OS GUI                              |
+| touch index.html         | creates new file titled index.html within working directory                |
+| open  index.html         | opens file named index.html using default system program                   |
+| open -a “Sublime Text”   | opens sublime text program. This syntax can be used to open other programs |
+| open .                   | opens and displays current folder within OS GUI                            |
+| mv index.html about.html | renames index.html file to about.html                                      |
+| up and down arrow        | cycles through previous commands typed within current terminal session     |
+| rm filename              | deletes a file called 'filename' within the current directory              |
+| rm -r foldername         | used to delete folders. In this case 'foldername' will be deleted          |
+| say hello (only on Mac)  | the mac will speak any text you enter after the 'say' keyword              |
+| rm -rf .git              | To remove git repo created by init                                         |
 
-FOR WINDOWS:
+### **FOR WINDOWS:**
 
 
 ```cmd
