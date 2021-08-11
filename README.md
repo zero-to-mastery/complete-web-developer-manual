@@ -92,7 +92,7 @@ Submarine Cable Map:
 *	Bold `<strong>`, italic `<em>`
 *	Ordered list `<ol>`, Unordered list `<ul>`, List item`<li>`
 *	Break `<br>`, Horizontal rule `<hr>`
-*	Image `<img>` and Attributes: `src`, `width`, `height`
+*	Image `<img>` and Attributes: `alt`, `src`, `width`, `height`
 *	Anchor `<a href="">`
 
 ## **Topics:**
