@@ -505,9 +505,9 @@ Classes:
 + Class creator syntax: 
  ```
  Classname {
- constructor (param1,param2){
-    this.param1= value;
-    this.param2= value2;
+    constructor(param1,param2){
+      this.param1 = value;
+      this.param2 = value2;
     }
     classmethod(){
     }
