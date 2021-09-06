@@ -285,7 +285,7 @@ Selector {
 
 
 ### *Website with animation examples:*
-*	https://daneden.github.io/animate.css
+*	https://animate.style/
 
 ### *Website for patterns:*
 *	https://www.creative-tim.com/bootstrap-themes/ui-kit?direction=asc&sort=price
@@ -296,7 +296,7 @@ Selector {
 
 
 ### *Generating animated patterns:*
-*	https://daneden.github.io/animate.css/
+*	https://animate.style/
 
 
 ******************************************************************************************
@@ -349,17 +349,17 @@ Learning Guideline Roadmap:
 7. Object
 
 ### *Javascript comparisons:*
-- \!==
-- \===
-- \>=
-- \<=
-- \>
-- \<
+- \!== : not equal to
+- \=== : equal to
+- \>= : greater than or equal to
+- \<= : less than or equal to
+- \> : less than
+- \< : greater than
 
 ### *Javascript variables:*
 - var
-- let (new in ECMAScript 6)
-- const (new in ECMAScript 6)
+- let (new in ECMAScript 6) : Used to declare variables that can be changed using code later on
+- const (new in ECMAScript 6) : Used to declare constants that remain constant throughout the execution of the program, mostly used for functions and object
 
 ### *Javascript conditionals:*
 - if
