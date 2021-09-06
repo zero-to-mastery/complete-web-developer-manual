@@ -349,12 +349,12 @@ Learning Guideline Roadmap:
 7. Object
 
 ### *Javascript comparisons:*
-- \!== : not equal to
-- \=== : equal to
-- \>= : greater than or equal to
-- \<= : less than or equal to
-- \> : less than
-- \< : greater than
+- \!== (not equal to)
+- \=== (equal to)
+- \>= (greater than or equal to)
+- \<= (less than or equal to)
+- \> (less than)
+- \< (greater than)
 
 ### *Javascript variables:*
 - var
@@ -363,10 +363,49 @@ Learning Guideline Roadmap:
 
 ### *Javascript conditionals:*
 - if
+```javascript
+if(condition) {
+	//Code written here is executed if condition is true
+}
+
+```
 - else
+```javascript
+if(condition1) {
+	//Code written here is executed if condition1 is true
+} else {
+	//Code written here is executed if condition is false
+}
+
+```
 - else if
+```javascript
+if(condition) {
+	//Code written here is executed if condition1 is true
+} else if(condition) {
+	//Code written here is executed if condition2 is true
+}
+
+```
 - ternary operator
+```javascript
+condition ? (code that runs with condition is true) : (code that runs when condition is false);
+
+```
 - switch
+```javascript
+switch(expression){
+	case result1:
+		//code that runs if expression gives result1
+		break;
+	case result2:
+		//code that runs if expression gives result2
+		break;
+	default:
+		//code that runs if expression gives neither result1 nor result2
+}
+
+```
 
 ### *Javascript logical operators:*
 - && = Sees if both values are the same/`true`.
@@ -711,6 +750,7 @@ Reference websites:
 
 old version
 ---
+```
 npm install –g create-react-app
 create-react-app “name”
 [cd "name"]
