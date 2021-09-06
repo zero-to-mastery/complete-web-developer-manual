@@ -759,6 +759,7 @@ npm install tachyons
 ```
 new version
 ---
+```
 npx create-react-app <App-Name>
 cd <App-Name>
 npm start
