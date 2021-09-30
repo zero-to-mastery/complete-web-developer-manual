@@ -334,6 +334,8 @@ Web Developer Roadmap 2021:
 Learning Guideline Roadmap:
 *	https://zerotomastery.io/courses/#roadmap
 
+Once you are Done with Learning, here is the list of best platforms for jobs and careers, which will help you get a great job or advace your career easily:
+*	https://ayedot.com/151/MiniBlog/Top-10-Best-Websites-for-Careers--Jobs
 
 ******************************************************************************************
 
