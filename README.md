@@ -489,7 +489,7 @@ It is important to CACHE selectors in variables
 + `array.forEach(num=>{})` /* For each element num of the array, executes the actions inside {}
 + `array.map(num=>{})` /* For each element num in the array, executes actions inside {} and return needs to be specified since the return will be placed in a new array.
 + `array.filter(num=>{})` /* For each element num of the array a condition is checked. If the value turns out true, it will be added to the new array. If none of the elements meet the condition, it will return an empty array. Return needs to be specified
-+ `array.reduce((accumulator,num)=>{}, param3)` /* Acumulates values of the operation performed in previous elements, param3 beinf the initial value of the acumulator
++ `array.reduce((accumulator,num)=>{}, param3)` /* Acumulates values of the operation performed in previous elements, param3 being the initial value of the acumulator
 + `array.concat(param1)` /* Concats param1 to the array
 + `array.includes('param1')` /* Verifies the array includes param1
 + `array.flat(param1)` /* Elminates the nested arrays to a param1 level
