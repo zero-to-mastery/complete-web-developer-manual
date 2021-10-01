@@ -621,6 +621,9 @@ cls - clear the terminal screen
 * https://www.gitkraken.com/git-client
 * https://www.sourcetreeapp.com/
 
+### Git in one video
+* https://missing.csail.mit.edu/2020/version-control/
+
 ### Git Commands:
 
 ```
@@ -707,6 +710,7 @@ Reference websites:
 *	https://lodash.com/
 
 ******************************************************************************************
+
 ## <a name ="19"></a>19.	__React.js + Redux__
 
 old version
@@ -759,6 +763,16 @@ npm install redux-thunk
 *	https://github.com/reactjs/reselect
 *	https://redux-saga.js.org
 *	https://facebook.github.io/immutable-js/
+
+## Additional topics you could cover 
+
+This topic is just to understand greatness of modern-day frameworks and appreciate how react will be helpful for building single page applications(CSR) or server side rendering(using NextJs) and static site generation(using Gatsby). Have a look at them
+[Static Site Generation(SSG/Pre-rendering) vs Client side rendering(CSR/SPA) vs Server Side Rendering(SSR)](https://www.section.io/engineering-education/client-side-rendering-vs-server-side-rendering-vs-static-site-generation/)
+
+## Some Additional React Based Frameworks popular now
+
+* [Gatsby Js - A Static Site Generator](https://www.gatsbyjs.com/)
+* [Next Js](https://nextjs.org/)
 
 ******************************************************************************************
 ## <a name ="20"></a>20.	__HTTP/JSON/AJAX + Asynchronous Javascript__
@@ -860,6 +874,7 @@ Image and video recognition:
 	```
 Icons library:
 *	https://icons8.com/icon
+*  https://fontawesome.com/v5.15/icons?d=gallery&p=2
 
 ******************************************************************************************
 ## <a name ="24"></a>24.	__Node.js + Express.js__
@@ -1195,7 +1210,12 @@ On terminal:
 	fish
 	-->env DATABASE_URL-‘hello’ node server.js
 
-Deploy apps:
+Deploy apps/websites:
+
+Github Pages:
+
+* Mostly now Github is free for all students and Github pages can serve static sites
+* Also have a look at Github education pack using your Institute id and email and get access to free domains for a year and many more [Github education pack](https://education.github.com/pack)
 
 Heroku:
 
