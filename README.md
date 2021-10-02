@@ -166,7 +166,15 @@ Selector {
 	```html
 	<header style="background-color: green;">
 	```
-
+* Class
+	```html
+	<header class="green">
+	```
+	```css
+		.green {
+			background-color: green;
+		}
+ 	```
 ### **Tools:**
 *	Chrome Inspector
 
@@ -215,6 +223,7 @@ Selector {
 ### **Sizes:**
 *	`px`
 *	`em` and `rem`
+* `vw` and `vh` (viewport width and height)
 
 ### **Topics:**
 *	Cascading: Specificity, Importance `!`, Source Order
@@ -302,8 +311,9 @@ Selector {
 ******************************************************************************************
 ## <a name ="09"></a>9.	__CSS Grid + CSS Layout__
 
-### *Grid Cheat Sheet:*
+### *Grid Cheat Sheets:*
 *	http://grid.malven.co/
+* https://css-tricks.com/snippets/css/complete-guide-grid/
 
 ### *Grid Garden:*
 *	https://cssgridgarden.com/
