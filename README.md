@@ -77,6 +77,10 @@ Submarine Cable Map:
 ## <a name ="04"></a>4. __HTML 5__
 
 
+### Run HTML online:
+* https://www.w3schools.com/html/tryit.asp?filename=tryhtml_intro
+* https://onecompiler.com/html
+
 ### *Install a text editor (Select one):*
 *	https://www.sublimetext.com/
 *	https://atom.io/
@@ -106,6 +110,7 @@ Submarine Cable Map:
 *	https://www.w3schools.com/
 *	https://developer.mozilla.org/en-US/
 *	https://stackoverflow.com/
+*	https://htmlreference.io/
 
 
 ******************************************************************************************
