@@ -285,7 +285,7 @@ Selector {
 
 
 ### *Website with animation examples:*
-*	https://daneden.github.io/animate.css
+*	https://animate.style/
 
 ### *Website for patterns:*
 *	https://www.creative-tim.com/bootstrap-themes/ui-kit?direction=asc&sort=price
@@ -296,7 +296,7 @@ Selector {
 
 
 ### *Generating animated patterns:*
-*	https://daneden.github.io/animate.css/
+*	https://animate.style/
 
 
 ******************************************************************************************
@@ -349,24 +349,63 @@ Learning Guideline Roadmap:
 7. Object
 
 ### *Javascript comparisons:*
-- \!==
-- \===
-- \>=
-- \<=
-- \>
-- \<
+- \!== (not equal to)
+- \=== (equal to)
+- \>= (greater than or equal to)
+- \<= (less than or equal to)
+- \> (less than)
+- \< (greater than)
 
 ### *Javascript variables:*
 - var
-- let (new in ECMAScript 6)
-- const (new in ECMAScript 6)
+- let (new in ECMAScript 6) : Used to declare variables that can be changed using code later on
+- const (new in ECMAScript 6) : Used to declare constants that remain constant throughout the execution of the program, mostly used for functions and object
 
 ### *Javascript conditionals:*
 - if
+```javascript
+if(condition) {
+	//Code written here is executed if condition is true
+}
+
+```
 - else
+```javascript
+if(condition1) {
+	//Code written here is executed if condition1 is true
+} else {
+	//Code written here is executed if condition is false
+}
+
+```
 - else if
+```javascript
+if(condition) {
+	//Code written here is executed if condition1 is true
+} else if(condition) {
+	//Code written here is executed if condition2 is true
+}
+
+```
 - ternary operator
+```javascript
+condition ? (code that runs with condition is true) : (code that runs when condition is false);
+
+```
 - switch
+```javascript
+switch(expression){
+	case result1:
+		//code that runs if expression gives result1
+		break;
+	case result2:
+		//code that runs if expression gives result2
+		break;
+	default:
+		//code that runs if expression gives neither result1 nor result2
+}
+
+```
 
 ### *Javascript logical operators:*
 - && = Sees if both values are the same/`true`.
@@ -711,6 +750,7 @@ Reference websites:
 
 old version
 ---
+```
 npm install –g create-react-app
 create-react-app “name”
 [cd "name"]
@@ -719,6 +759,7 @@ npm install tachyons
 ```
 new version
 ---
+```
 npx create-react-app <App-Name>
 cd <App-Name>
 npm start
