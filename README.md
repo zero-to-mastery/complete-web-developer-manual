@@ -679,6 +679,9 @@ git branch
 git branch “name”
 git checkout “name”
 git merge “name”
+git diff
+git checkout -b "name"
+
 ```
 
 
