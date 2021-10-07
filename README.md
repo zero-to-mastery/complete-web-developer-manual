@@ -85,6 +85,7 @@ Submarine Cable Map:
 *	https://www.sublimetext.com/
 *	https://atom.io/
 *	https://code.visualstudio.com/
+*	https://notepad-plus-plus.org/
 
 ## **Tags:**
 *	`<html>`
