@@ -1,7 +1,7 @@
 # Complete-Web-Developer-Manual
 
 
-All resources and notes from the [Complete Web Developer in 2020: Zero to Mastery course](https://academy.zerotomastery.io/p/complete-web-developer-zero-to-mastery?utm_source=github&utm_medium=complete-web-developer-manual)
+All resources and notes from the [Complete Web Developer in 2021: Zero to Mastery course](https://academy.zerotomastery.io/p/complete-web-developer-zero-to-mastery?utm_source=github&utm_medium=complete-web-developer-manual)
 
 ******************************************************************************************
 ##  __*Contents*__
@@ -39,11 +39,13 @@ All resources and notes from the [Complete Web Developer in 2020: Zero to Master
 [31. *Extra: For Windows Users*](#31)<br>
 [32. *Bonus: Part 2 - Special Thank You Gift (Discount Coupons)*](#32)<br>
 ******************************************************************************************
+
 ## <a name ="01"></a>1.	__Introduction__
 
 Discord Channel:
 *	~~https://discord.gg/nVmbHYY~~ You will find it inside course
 ******************************************************************************************
+
 ## <a name ="02"></a>2.	__How The Internet Works__
 
 Tools:
@@ -55,60 +57,68 @@ Topics:
 
 Submarine Cable Map:
 *	https://www.submarinecablemap.com/
+
 ******************************************************************************************
 ## <a name ="03"></a>3.	__History Of The Web__
 
-Maps that explain the Internet:
+### *Maps that explain the Internet:*
 *	https://www.vox.com/a/internet-maps
 
-First Webpage in the world:
+### *First Webpage in the world:*
 *	http://info.cern.ch/hypertext/WWW/TheProject.html
 
-Optional Videos:
+### *Optional Videos:*
 *	https://www.youtube.com/watch?v=3QhU9jd03a0&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=29
 *	https://www.youtube.com/watch?v=AEaKrq3SpW8&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=30
 *	https://www.youtube.com/watch?v=guvsH5OFizE&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=31
 
 ******************************************************************************************
+
 ## <a name ="04"></a>4. __HTML 5__
 
 
-Install a text editor (Select one):
+### Run HTML online:
+* https://www.w3schools.com/html/tryit.asp?filename=tryhtml_intro
+* https://onecompiler.com/html
+
+### *Install a text editor (Select one):*
 *	https://www.sublimetext.com/
 *	https://atom.io/
 *	https://code.visualstudio.com/
+*	https://notepad-plus-plus.org/
 
-Tags:
+## **Tags:**
 *	`<html>`
 *	`<head>`
 *	`<title>`
 *	`<body>`
-*	headings (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`)
-*	paragraph `<p>`
-*	bold `<strong>`, italic `<em>`
-*	ordered list `<ol>`, unordered list `<ul>`, list item`<li>`
-*	break `<br>`, horizontal rule `<hr>`
-*	image `<img>` and attributes: `src`, `width`, `height`
-*	anchor `<a href="">`
+*	Headings (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`)
+*	Paragraph `<p>`
+*	Bold `<strong>`, italic `<em>`
+*	Ordered list `<ol>`, Unordered list `<ul>`, List item`<li>`
+*	Break `<br>`, Horizontal rule `<hr>`
+*	Image `<img>` and Attributes: `alt`, `src`, `width`, `height`
+*	Anchor `<a href="">`
 
-Topics:
+## **Topics:**
 *	Relative vs Absolute Path
 
-Zero to Mastery resources:
+### Zero to Mastery resources:
 *	https://github.com/zero-to-mastery/complete-web-developer-manual
 *	https://github.com/zero-to-mastery/zero-to-mastery-captions
 
-Reference websites:
+### Reference websites:
 *	https://www.w3schools.com/
 *	https://developer.mozilla.org/en-US/
 *	https://stackoverflow.com/
+*	https://htmlreference.io/
 
 
 ******************************************************************************************
 ## <a name ="05"></a>5.	__Advanced HTML 5__
 
 
-Tags:
+### **Tags:**
 *	`<form>`
 	*	`method`, `action`
 *	`<input>`:
@@ -119,16 +129,16 @@ Tags:
 *	comment `<!-- -->`
 *	`<div>` and `<span>`
 
-Semantic Elements
+### **Semantic Elements**
 *	`<header>`
 *	`<nav>`
 *	`<main>`
 *	`<footer>`
 
-Topics:
+### **Topics:**
 *	Chrome view Source
 
-Resources:
+### **Resources:**
 *	https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5
 *	https://waitbutwhy.com/
 
@@ -138,14 +148,14 @@ Resources:
 ******************************************************************************************
 ## <a name ="06"></a>6.	__CSS__
 
-Syntax:
+### *Syntax:*
 ```css
 Selector {
 	property: value;
 }
 ```
 
-How to:
+### *How to:*
 *	External
 	```html
 	<link rel="stylesheet type="text/css" href="style.css">
@@ -162,19 +172,28 @@ How to:
 	```html
 	<header style="background-color: green;">
 	```
-
-Tools:
+* Class
+	```html
+	<header class="green">
+	```
+	```css
+		.green {
+			background-color: green;
+		}
+ 	```
+### **Tools:**
 *	Chrome Inspector
 
-Properties:
+### **Properties:**
 *	text-align
 *	border
 *	background
 *	list-style
 *	cursor
-*	color: html, hex, rgb or rgba
+*	display: inline-block
+*	color: hex, rgb or rgba
 
-Selectors:
+### **Selectors:**
 *	`.class`
 *	`#id`
 *	`*` (all elements)
@@ -189,7 +208,7 @@ Selectors:
 *	`::before` (pseudo-element)
 *	`!important` (not recommended)
 
-Text Properties
+### **Text Properties:**
 *	`text-decoration`
 *	`text-transform`
 *	`line-height`
@@ -198,27 +217,28 @@ Text Properties
 *	`font-size`
 *	`font-family`
 
-Layout Properties
+### **Layout Properties:**
 *	`float` and `clear`
 
-Box Model
+### **Box Model:**
 *	`margin`
 *	`border`
 *	`padding`
 *	`width` and `height`
 
-Sizes
+### **Sizes:**
 *	`px`
 *	`em` and `rem`
+* `vw` and `vh` (viewport width and height)
 
-Topics:
+### **Topics:**
 *	Cascading: Specificity, Importance `!`, Source Order
 *	Linking fonts and external stylesheets
 
-Exercises:
+### **Exercises:**
 *	https://flukeout.github.io/
 
-Reference websites:
+### **Reference websites:**
 *	https://css-tricks.com/
 *	https://www.supremo.co.uk/typeterms/
 *	https://css-tricks.com/snippets/css/a-guide-to-flexbox/
@@ -227,18 +247,18 @@ Reference websites:
 *	https://specificity.keegan.st/
 * 	https://css-tricks.com/snippets/css/complete-guide-grid/
 
-Website for color check:
+### **Website for color check:**
 *	http://paletton.com/
 *	https://coolors.co/
 
-Website for fonts download:
+### **Website for fonts download:**
 *	https://fonts.google.com/
 
 
 ******************************************************************************************
 ## <a name ="07"></a>7.	__Advanced CSS__
 
-Flexbox
+### **Flexbox:**
 *	`display: flex`
 *	`flex-direction`
 *	`flex-wrap`
@@ -250,19 +270,19 @@ Flexbox
 *	`flex`: `flex-grow`, `flex-shrink` and `flex-basis`
 *	`align-self`
 
-Properties
+### **Properties:**
 *	`transition`
 *	`transform`
 *	`box-shadow`
 
-Tools
+### **Tools:**
 *	Chrome Toggle Device
 *	https://codepen.io/
 
-Exercises:
+### **Exercises:**
 *	http://flexboxfroggy.com/
 
-Reference websites:
+### **Reference websites:**
 *	https://caniuse.com/
 *	https://www.w3schools.com/cssref/css3_browsersupport.asp
 *	http://shouldiprefix.com/
@@ -275,14 +295,14 @@ Reference websites:
 ## <a name ="08"></a>8.	__Bootstrap 4, Templates, And Building Your Startup Landing Page__
 
 
-App for creating users list:
+### *App for creating users list:*
 *	https://mailchimp.com
 
 
-Website with animation examples:
-*	https://daneden.github.io/animate.css
+### *Website with animation examples:*
+*	https://animate.style/
 
-Website for patterns:
+### *Website for patterns:*
 *	https://www.creative-tim.com/bootstrap-themes/ui-kit?direction=asc&sort=price
 *	http://mashup-template.com/templates.html
 *	https://startbootstrap.com/template-categories/all/
@@ -290,30 +310,54 @@ Website for patterns:
 *	https://www.creative-tim.com/
 
 
-Generating animated patterns:
-*	https://daneden.github.io/animate.css/
+### *Generating animated patterns:*
+*	https://animate.style/
 
 
 ******************************************************************************************
 ## <a name ="09"></a>9.	__CSS Grid + CSS Layout__
 
-Grid Cheat Sheet:
+### *Grid Cheat Sheets:*
 *	http://grid.malven.co/
+* https://css-tricks.com/snippets/css/complete-guide-grid/
 
-Grid Garden:
+### *Grid Garden:*
 *	https://cssgridgarden.com/
 
-Free Design resources:
+### *Free Design resources:*
 *	https://interfacer.xyz/
 
 ******************************************************************************************
 ## <a name ="10"></a>10.	__Career Of A Web Developer__
-******************************************************************************************
+
+### *Updated Statistics and Surveys 2020:*
+
+*	State of JavaScript
+	*	https://www.jetbrains.com/lp/devecosystem-2020/javascript/
+*	State of Salaries
+	*	https://hired.com/blog/highlights/2020-state-of-salaries-report/
+*	Developer Salaries - Glassdoor
+	*	https://www.glassdoor.ca/Salaries/san-francisco-front-end-developer-salary-SRCH_IL.0,13_IM759_KO14,33.htm
+*	Octoverse Github
+	*	https://octoverse.github.com/
+*	Stackoverflow Survey
+	*	https://insights.stackoverflow.com/survey/
+  
+Web Developer Roadmap 2021:
+*	Part 1: https://www.youtube.com/watch?v=57GuRoJ5Bfw
+*	Part 2: https://www.youtube.com/watch?v=aeKQy_08fpk
+
+Learning Guideline Roadmap:
+*	https://zerotomastery.io/courses/#roadmap
+
+Once you are Done with Learning, here is the list of best platforms for jobs and careers, which will help you get a great job or advace your career easily:
+*	https://ayedot.com/151/MiniBlog/Top-10-Best-Websites-for-Careers--Jobs
 
 ******************************************************************************************
+
 ## <a name ="11"></a>11.	__Javascript__
 
-Javascript types:
+### *Javascript types:*
 1. Number
 2. String
 3. Boolean
@@ -322,48 +366,87 @@ Javascript types:
 6. Symbol (new in ECMAScript 6)
 7. Object
 
-Javascript comparisons:
-- \!==
-- \===
-- \>=
-- \<=
-- \>
-- \<
+### *Javascript comparisons:*
+- \!== (not equal to)
+- \=== (equal to)
+- \>= (greater than or equal to)
+- \<= (less than or equal to)
+- \> (less than)
+- \< (greater than)
 
-Javascript variables:
+### *Javascript variables:*
 - var
-- let (new in ECMAScript 6)
-- const (new in ECMAScript 6)
+- let (new in ECMAScript 6) : Used to declare variables that can be changed using code later on
+- const (new in ECMAScript 6) : Used to declare constants that remain constant throughout the execution of the program, mostly used for functions and object
 
-Javascript conditionals:
+### *Javascript conditionals:*
 - if
+```javascript
+if(condition) {
+	//Code written here is executed if condition is true
+}
+
+```
 - else
+```javascript
+if(condition1) {
+	//Code written here is executed if condition1 is true
+} else {
+	//Code written here is executed if condition is false
+}
+
+```
 - else if
+```javascript
+if(condition) {
+	//Code written here is executed if condition1 is true
+} else if(condition) {
+	//Code written here is executed if condition2 is true
+}
+
+```
 - ternary operator
+```javascript
+condition ? (code that runs with condition is true) : (code that runs when condition is false);
+
+```
 - switch
+```javascript
+switch(expression){
+	case result1:
+		//code that runs if expression gives result1
+		break;
+	case result2:
+		//code that runs if expression gives result2
+		break;
+	default:
+		//code that runs if expression gives neither result1 nor result2
+}
 
-Javascript logical operators:
-- &&
-- ||
-- !
+```
 
-Javascript functions:
+### *Javascript logical operators:*
+- && = Sees if both values are the same/`true`.
+- || = Sees if there is at least one of the same/ `true` value.
+- ! = Turns `true` into `false`, and `false` into `true`. 
+
+### *Javascript functions:*
 - var a = function name() {}
 - function name() {}
 - return
 - () => (new in ECMAScript 6)
 
-Javascript data structures:
+### *Javascript data structures:*
 - Array
 - Object
 
-Javascript looping:
+### *Javascript looping:*
 - for
 - while
 - do
 - forEach (new in ECMAScript 5)
 
-Javascript keywords:
+### *Javascript keywords:*
 - break
 - case
 - catch
@@ -403,116 +486,150 @@ Javascript keywords:
 
 
 
-Reference websites:
+### *Reference websites:*
 *	https://developer.mozilla.org/en-US/docs/web/Events
 *	https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes
 *	https://jquery.com/
 *	http://youmightnotneedjquery.com/
 *	https://babeljs.io/
 
+### *DOM Selectors:*
+
+- getElementsByTagName
+- getElementsByClassName
+- getElementById
+
+- querySelector
+- querySelectorAll
+
+- getAttribute
+- setAttribute
+
+### *Changing Styles:*
+- style.{property} //ok
+
+- className //best
+- classList //best
+
+- classList.add
+- classList.remove
+- classList.toggle
+
+### *Bonus:*
+- innerHTML //DANGEROUS
+
+- parentElement
+- children
+
+It is important to CACHE selectors in variables
+
 ******************************************************************************************
 ## <a name ="13"></a>13.	__Advanced Javascript__
 
-Variable declaration:
-+ let variableName (new in ECMAScript 6) /* its value can be altered
-+ const variableName (new in ECMAScript 6) /* it stands for constant, its value can't be altered once declared
-+ `` /* are used instead of '' or "". Allows us to avoid the "+" separation and elements and variables should be added with syntax ${element}
-+ a**b  /* it stands for a to the b potence
-+ element.padStart(param1,param2) /* param1 number of characters param2 are added before the value of element declared. The default param2 is " "
-+ .padEnd(param1,param2) /* Same as above but at the end
-+ .trimStart() /* eliminates empty spaces from the start of a variable
-+ .trimEnd() /* Same as above but from the end
-+ debugger; /* Stops running the code and opens console for a step by step check
+### *Variable declaration:*
++ `let variableName` (new in ECMAScript 6) /* its value can be altered
++ `const variableName` (new in ECMAScript 6) /* it stands for constant, its value can't be altered once declared
++ ``` `` ``` /* are used instead of `''` or `""`. Allows us to avoid the "+" separation and elements and variables should be added with syntax `${element}`
++ `a**b`  /* it stands for a to the b potence
++ `element.padStart(param1,param2)` /* param1 number of characters param2 are added before the value of element declared. The default param2 is `" "`
++ `.padEnd(param1,param2)` /* Same as above but at the end
++ `.trimStart()` /* eliminates empty spaces from the start of a variable
++ `.trimEnd()` /* Same as above but from the end
++ `debugger;` /* Stops running the code and opens console for a step by step check
 
-*************************************************************************************************************************************** Functions:
-+ Function declaration syntax: const functionname=(param1,param2...) => action /* If there is an only return, there is no need to type "return" and if it's just one parameter, no need to add "()"
-+ Currying: const functionname= param1 => param2 => action /* To properly call function syntax is:  functionname (param1)(param2)
-+ Compose: const functionname= (param2,param3) => param1 => param2(param3(param1)) /* Being param2 and 3 functions y param1 a value. Executes a function inside a function executed with the initial param1
+### *Functions:*
++ Function declaration syntax: `const functionname=(param1,param2...) => action` /* If there is an only return, there is no need to type "return" and if it's just one parameter, no need to add `"()"`
++ Currying: `const functionname= param1 => param2 => action` /* To properly call function syntax is:  `functionname (param1)(param2)`
++ Compose: `const functionname= (param2,param3) => param1 => param2(param3(param1))` /* Being param2 and 3 functions y param1 a value. Executes a function inside a function executed with the initial param1
 
-****************************************************************************************************************************************Arrays:
-+ array.forEach(num=>{}) /* For each element num of the array, executes the actions inside {}
-+ array.map(num=>{}) /* For each element num in the array, executes actions inside {} and return needs to be specified since the return will be placed in a new array.
-+ array.filter(num=>{}) /* For each element num of the array a condition is checked. If the value turns out true, it will be added to teh new array. Return needs to be specified
-+ array.reduce((accumulator,num)=>{}, param3) /* Acumulates values of the operation performed in previous elements, param3 beinf the initial value of the acumulator
-+ array.concat(param1) /* Concats param1 to the array
-+ array.includes('param1') /* Verifies the array includes param1
-+ array.flat(param1) /* Elminates the nested arrays to a param1 level
-+ array.flatMap(param1=>{}) /* For each element num, the operation inside {} is performed and the array is lowered to a level 1 nesting
-+ array.fromEntries /* Turns the array into an object, making the first element of the array the property and the second the value of such property
+### *Arrays:*
++ `array.forEach(num=>{})` /* For each element num of the array, executes the actions inside {}
++ `array.map(num=>{})` /* For each element num in the array, executes actions inside {} and return needs to be specified since the return will be placed in a new array.
++ `array.filter(num=>{})` /* For each element num of the array a condition is checked. If the value turns out true, it will be added to the new array. If none of the elements meet the condition, it will return an empty array. Return needs to be specified
++ `array.reduce((accumulator,num)=>{}, param3)` /* Acumulates values of the operation performed in previous elements, param3 being the initial value of the accumulator
++ `array.concat(param1)` /* Concats param1 to the array
++ `array.includes('param1')` /* Verifies the array includes param1
++ `array.flat(param1)` /* Eliminates the nested arrays to a param1 level
++ `array.flatMap(param1=>{})` /* For each element num, the operation inside {} is performed and the array is lowered to a level 1 nesting
++ `array.fromEntries` /* Turns the array into an object, making the first element of the array the property and the second the value of such property
 
-*************************************************************************************************************************************** Objects:
-+ const(/let) {property1, property2,...} = obj  /* Given an object obj, keeps the value of the properties in new variables property1, property2,...etc
-+ {...obj} /* Creates a clone object of the object obj
-+ Object.assign(param1,param2) /* Clones the lements of an object param2 in an object param1
-+ Object.values(obj) /* Takes the values of the properties of an object obj
-+ Object.entries(obj) /* returns an array with property,value of each element of an object obj
-/* .entries and .values can be used with array methods such as .map, .forEach, etc.
-+ this: When using this parameter, the method/action is applied exclusively to the element in which "this" has been summoned.
-***********************************************************************************************************************************
-Class:
-+ Class creator syntax: Classname {
-&nbsp;&nbsp;&nbsp;&nbsp;constructor (param1,param2){
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.param1= value;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.param2= value2;
-&nbsp;&nbsp;&nbsp;&nbsp;}
-&nbsp;&nbsp;&nbsp;&nbsp;classmethod(){
-&nbsp;&nbsp;&nbsp;&nbsp;}
-}
+### *Objects:*
++ `const(/let) {property1, property2,...} = obj`  /* Given an object obj, keeps the value of the properties in new variables property1, property2,...etc
++ `{...obj}` /* Creates a clone object of the object obj
++ `Object.assign(param1,param2)` /* Clones the lements of an object param2 in an object param1
++ `Object.values(obj)` /* Takes the values of the properties of an object obj
++ `Object.entries(obj)` /* returns an array with property,value of each element of an object obj
+/* `.entries` and `.values` can be used with array methods such as `.map`, `.forEach`, etc.
++ `this` /* when using this parameter, the method/action is applied exclusively to the element in which "this" has been summoned.
 
-+ Create class object syntax: new Classname(param1,param2)
+### *Classes:*
++ Class creator syntax: 
+ ```
+ Classname {
+    constructor(param1,param2){
+      this.param1 = value;
+      this.param2 = value2;
+    }
+    classmethod(){
+    }
+ }
+ ```
 
-+ Class extention syntax: Classextension extends Classname{
-&nbsp;&nbsp;&nbsp;&nbsp;constructor(param1,param2){
-&nbsp;&nbsp;&nbsp;&nbsp;super(param1,param2)
-&nbsp;&nbsp;&nbsp;&nbsp;}
-&nbsp;&nbsp;&nbsp;&nbsp;classextensionmethod(){
-&nbsp;&nbsp;&nbsp;&nbsp;}
-}
++ Create class object syntax: `new Classname(param1,param2)`
+
++ Class extention syntax: 
+ ```
+ Classextension extends Classname {
+    constructor(param1,param2){
+       super(param1,param2);
+    }
+    classextensionmethod(){
+    }
+ }
+ ```
 
 /* You utilize a class when we are planning to create several objects with similar propperties
 /* A class extention is used when those several objects can contain properties or categories with specific properties and methods, while respecting the initial constructor.
 
-Loops:
-+ for of: for (param1 of array){} /* It's a for loop in an array and an action over the element number param1 in an array array
-+ for in: for (param1 in obj) {} /* It's a for loop of the properties and an action over the property number param1 in an object obj
+### *Loops:*
++ for of: `for (param1 of array){}` /* It's a for loop in an array and an action over the element number param1 in an array array
++ for in: `for (param1 in obj) {}` /* It's a for loop of the properties and an action over the property number param1 in an object obj
 
-/* both arrays and strings are iterable in JS
-/* for of cannot be used in objects, but for in can be used in arrays, you get the index number as a return
-
-******************************************************************************************
+ /* both arrays and strings are iterable in JS 
+ /* for of cannot be used in objects, but for in can be used in arrays, you get the index number as a return
 
 ******************************************************************************************
 ## <a name ="14"></a>14. __Command Line__
 
 
 
-FOR MAC OR LINUX:
+### **FOR MAC OR LINUX:**
 
 
-Command | Description
---- | ---
-ls  | lists files and folders within working directory
-pwd | show current working directory
-cd  | change working directory to user directory
-cd .. | change working directory to direct parent directory
-clear | clear current terminal screen
-cd / | change current directory to root directory
-cd ~ | change current directory to user directory
-cd path/to/folder | changes working directory to specified path
-mkdir name | create folder called 'name' within current directory
-open foldername | opens folder called 'foldername' using OS GUI
-touch index.html | creates new file titled index.html within working directory
-open  index.html | opens file named index.html using default system program
-open -a “Sublime Text” | opens sublime text program. This syntax can be used to open other programs
-open . | opens and displays current folder within OS GUI
-mv index.html about.html | renames index.html file to about.html
-up and down arrow | cycles through previous commands typed within current terminal session
-rm filename | deletes a file called 'filename' within the current directory
-rm -r foldername | used to delete folders. In this case 'foldername' will be deleted
-say hello (only on Mac) | the mac will speak any text you enter after the 'say' keyword
+| Command                  | Description                                                                |
+| ------------------------ | -------------------------------------------------------------------------- |
+| ls                       | lists files and folders within working directory                           |
+| pwd                      | show current working directory                                             |
+| cd                       | change working directory to user directory                                 |
+| cd ..                    | change working directory to direct parent directory                        |
+| clear                    | clear current terminal screen                                              |
+| cd /                     | change current directory to root directory                                 |
+| cd ~                     | change current directory to user directory                                 |
+| cd path/to/folder        | changes working directory to specified path                                |
+| mkdir name               | create folder called 'name' within current directory                       |
+| open foldername          | opens folder called 'foldername' using OS GUI                              |
+| touch index.html         | creates new file titled index.html within working directory                |
+| open  index.html         | opens file named index.html using default system program                   |
+| open -a “Sublime Text”   | opens sublime text program. This syntax can be used to open other programs |
+| open .                   | opens and displays current folder within OS GUI                            |
+| mv index.html about.html | renames index.html file to about.html                                      |
+| up and down arrow        | cycles through previous commands typed within current terminal session     |
+| rm filename              | deletes a file called 'filename' within the current directory              |
+| rm -r foldername         | used to delete folders. In this case 'foldername' will be deleted          |
+| say hello (only on Mac)  | the mac will speak any text you enter after the 'say' keyword              |
+| rm -rf .git              | To remove git repo created by init                                         |
 
-
-FOR WINDOWS:
+### **FOR WINDOWS:**
 
 
 ```cmd
@@ -534,24 +651,37 @@ cls - clear the terminal screen
 ******************************************************************************************
 ## <a name ="15"></a>15.	__Developer Environment__
 
-Popular code editors:
+### Popular code editors / IDE:
 * [Sublime Text 3](https://www.sublimetext.com/3)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Atom](https://atom.io/)
-* [Atom](http://brackets.io/)
+* [Brackets](http://brackets.io/)
+* [PhpStorm](https://www.jetbrains.com/phpstorm/)
+
+### Development Environment Stack
+* [Homebrew](https://brew.sh/)
+* [Laragon](https://laragon.org/)
+* [Laravel Valet](https://laravel.com/docs/master/valet)
+* [XAMPP](https://www.apachefriends.org/index.html)
+* [Vagrant](https://www.vagrantup.com/)
 
 ******************************************************************************************
 ## <a name ="16"></a>16.	__Git + Github + Open Source Projects__
 
-
-
-Install Git:
+### Install Git:
 *	https://www.atlassian.com/git/tutorials/install-git#windows
 *	https://www.atlassian.com/git/tutorials/install-git
 
-Installing Github App for Desktop:
-*	https://desktop.github.com/
 
+### Git GUI:
+*	https://desktop.github.com/
+* https://www.gitkraken.com/git-client
+* https://www.sourcetreeapp.com/
+
+### Git in one video
+* https://missing.csail.mit.edu/2020/version-control/
+
+### Git Commands:
 
 ```
 git clone “https:……”
@@ -570,6 +700,9 @@ git branch
 git branch “name”
 git checkout “name”
 git merge “name”
+git diff
+git checkout -b "name"
+
 ```
 
 
@@ -637,10 +770,12 @@ Reference websites:
 *	https://lodash.com/
 
 ******************************************************************************************
+
 ## <a name ="19"></a>19.	__React.js + Redux__
 
 old version
 ---
+```
 npm install –g create-react-app
 create-react-app “name”
 [cd "name"]
@@ -649,6 +784,7 @@ npm install tachyons
 ```
 new version
 ---
+```
 npx create-react-app <App-Name>
 cd <App-Name>
 npm start
@@ -689,6 +825,16 @@ npm install redux-thunk
 *	https://github.com/reactjs/reselect
 *	https://redux-saga.js.org
 *	https://facebook.github.io/immutable-js/
+
+## Additional topics you could cover 
+
+This topic is just to understand greatness of modern-day frameworks and appreciate how react will be helpful for building single page applications(CSR) or server side rendering(using NextJs) and static site generation(using Gatsby). Have a look at them
+[Static Site Generation(SSG/Pre-rendering) vs Client side rendering(CSR/SPA) vs Server Side Rendering(SSR)](https://www.section.io/engineering-education/client-side-rendering-vs-server-side-rendering-vs-static-site-generation/)
+
+## Some Additional React Based Frameworks popular now
+
+* [Gatsby Js - A Static Site Generator](https://www.gatsbyjs.com/)
+* [Next Js](https://nextjs.org/)
 
 ******************************************************************************************
 ## <a name ="20"></a>20.	__HTTP/JSON/AJAX + Asynchronous Javascript__
@@ -790,6 +936,7 @@ Image and video recognition:
 	```
 Icons library:
 *	https://icons8.com/icon
+*  https://fontawesome.com/v5.15/icons?d=gallery&p=2
 
 ******************************************************************************************
 ## <a name ="24"></a>24.	__Node.js + Express.js__
@@ -1125,7 +1272,12 @@ On terminal:
 	fish
 	-->env DATABASE_URL-‘hello’ node server.js
 
-Deploy apps:
+Deploy apps/websites:
+
+Github Pages:
+
+* Mostly now Github is free for all students and Github pages can serve static sites
+* Also have a look at Github education pack using your Institute id and email and get access to free domains for a year and many more [Github education pack](https://education.github.com/pack)
 
 Heroku:
 
@@ -1182,8 +1334,7 @@ heroku pg:psql
 ## <a name ="29"></a>29.	__Where To Go From Here?__
 ******************************************************************************************
 
-The Complete Junior to Senior Web Developer Roadmap (2020):
-*	https://academy.zerotomastery.io/p/the-complete-junior-to-senior-web-developer-roadmap?utm_source=github&utm_medium=complete-web-developer-manual
+[The Complete Junior to Senior Web Developer Roadmap (2021)](https://academy.zerotomastery.io/p/the-complete-junior-to-senior-web-developer-roadmap?utm_source=github&utm_medium=complete-web-developer-manual)
 
 ******************************************************************************************
 ## <a name ="30"></a>30.	__Bonus: Extra Bits (Coding Challenges + AMA)__
