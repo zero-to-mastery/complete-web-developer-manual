@@ -697,13 +697,16 @@ git status
 git add “filename”
 git add .
 git commit –m”message”
+git commit -am "commit message"
 git push
+git push origin "branchName"
 git pull
 git branch
 git branch “name”
 git checkout “name”
 git merge “name”
 git diff
+git diff "fileName"
 git checkout -b "name"
 
 ```
