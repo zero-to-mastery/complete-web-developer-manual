@@ -758,14 +758,14 @@ npm install –g browserify
 Install node and npm:
 *	https://www.npmjs.com/get-npm
 *	https://nodejs.org/es/
-(Though with newer version of node, npm come pre-installed. So you don't need to do that separately)
+(Though with newer version of node, npm comes pre-installed. So you don't need to do that separately)
 
-Check node and npm installed on your system by:
+Check if node and npm are installed on your system by:
 ```
 node -v
 npm -v
 ```
-If any of these command result in error then that (node/npm) deosen't installed on your system.
+If any of these commands result in an error then that (node/npm) isn't installed on your system.
 
 Reference websites:
 *	https://www.npmjs.com/
@@ -950,7 +950,7 @@ Install Postman:
 Express.js:
 *	https://expressjs.com/en/api.html
 
-(Getting start guide)
+(Getting started guide)
 
 ```
 npm install body-parser
@@ -1017,7 +1017,7 @@ $ npm install bcrypt
 Change localhost:
 *	https://stackoverflow.com/questions/40714583/how-to-specify-a-port-to-run-a-create-react-app-based-project
 
-If you don't want set environment variable, other option - modify scripts part of package.json from:
+If you don't want to set environment variable, other option - modify scripts part of package.json from:
 
 ```"start": "react-scripts start"```
 
