@@ -587,8 +587,7 @@ It is important to CACHE selectors in variables
     }
  }
  ```
-
-/* You utilize a class when we are planning to create several objects with similar propperties
+ 
 /* A class extension is used when those several objects can contain properties or categories with specific properties and methods, while respecting the initial constructor.
 
 ### *Loops:*
