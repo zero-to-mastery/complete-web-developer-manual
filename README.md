@@ -926,7 +926,7 @@ Background patterns:
 
 
 Animated background library:
-*	https://particles.matteobruni.it/
+*	https://particles.js.org/
 
 	```
 	npm install react-tsparticles
