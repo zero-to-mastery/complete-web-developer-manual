@@ -644,6 +644,7 @@ rmdir {directory name} - remove a directory and all files within
 rename {filename} {new filename} - rename a file or folder
 start {filename} - open file in default program
 start . - open current directory
+exit - exits the command prompt or a batch file
 cls - clear the terminal screen
 ```
 
@@ -657,6 +658,7 @@ cls - clear the terminal screen
 * [Atom](https://atom.io/)
 * [Brackets](http://brackets.io/)
 * [PhpStorm](https://www.jetbrains.com/phpstorm/)
+* [Codespace](https://codespace.app/download)
 
 ### Development Environment Stack
 * [Homebrew](https://brew.sh/)
@@ -705,6 +707,7 @@ git checkout “name”
 git merge “name”
 git diff
 git checkout -b "name"
+git stash
 
 ```
 
