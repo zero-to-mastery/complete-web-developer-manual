@@ -577,7 +577,7 @@ It is important to CACHE selectors in variables
 
 + Create class object syntax: `new Classname(param1,param2)`
 
-+ Class extention syntax: 
++ Class extension syntax: 
  ```
  Classextension extends Classname {
     constructor(param1,param2){
@@ -588,8 +588,8 @@ It is important to CACHE selectors in variables
  }
  ```
 
-/* You utilize a class when we are planning to create several objects with similar propperties
-/* A class extention is used when those several objects can contain properties or categories with specific properties and methods, while respecting the initial constructor.
+/* You utilize a class when we are planning to create several objects with similar properties
+/* A class extension is used when those several objects can contain properties or categories with specific properties and methods, while respecting the initial constructor.
 
 ### *Loops:*
 + for of: `for (param1 of array){}` /* It's a for loop in an array and an action over the element number param1 in an array array
