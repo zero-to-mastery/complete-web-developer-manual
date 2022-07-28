@@ -359,7 +359,7 @@ Once you are Done with Learning, here is the list of best platforms for jobs and
 
 ### *Javascript types:*
 1. Number
-2. String
+2. [String](https://www.scaler.com/topics/javascript/javascript-string/)
 3. Boolean
 4. Undefined
 5. Null
