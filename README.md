@@ -827,7 +827,7 @@ npm install redux-thunk
 *	https://react.semantic-ui.com/elements/button
 *	https://github.com/reactjs/reselect
 *	https://redux-saga.js.org
-*	https://facebook.github.io/immutable-js/
+*	https://immutable-js.com/
 
 ## Additional topics you could cover 
 
@@ -926,7 +926,7 @@ Background patterns:
 
 
 Animated background library:
-*	https://particles.matteobruni.it/
+*	https://particles.js.org/
 
 	```
 	npm install react-tsparticles
@@ -1321,7 +1321,7 @@ heroku open
 
 Connect to pg database:
 *	https://devcenter.heroku.com/articles/heroku-postgresql
-*	https://docs.aws.amazon.com/es_es/AmazonRDS/latest/UserGuide/USER_ConnectToPostgreSQLInstance.html
+*	https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ConnectToPostgreSQLInstance.html
 *	https://msdn.microsoft.com/en-us/library/ms175043(v=sql.120).aspx#SSMSProcedure
 
 Create a new postgres database using Heroku:
