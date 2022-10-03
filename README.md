@@ -680,6 +680,7 @@ cls - clear the terminal screen
 
 ### Git in one video
 * https://missing.csail.mit.edu/2020/version-control/
+* https://youtu.be/apGV9Kg7ics
 
 ### Git and version control practice/learning playground
 * https://learngitbranching.js.org/
