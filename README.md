@@ -776,10 +776,42 @@ npm -v
 
 If any of these command result in error then that (node/npm) deosen't installed on your system.
 
+
+
 Reference websites:
 *	https://www.npmjs.com/
 *	https://www.npmjs.com/package/react
 *	https://lodash.com/
+
+If you want to run multiple version of node on system then we can utlized Node version manager(nvm) 
+
+Install nvm :
+
+*	https://github.com/coreybutler/nvm-windows#installation--upgrades
+
+
+Steps to install NVM on local machine
+
+*	https://www.freecodecamp.org/news/nvm-for-windows-how-to-download-and-install-node-version-manager-in-windows-10/#followthestepsbelowtodownloadnvmwindows
+
+
+Check  nvm installed on your system by:
+```
+nvm -v
+
+```
+
+Check nvm list available on your system by:
+```
+nvm list 
+
+```
+
+Use nvm version on your system by (nvm use with specify version of node):
+```
+nvm use 14.12.0
+
+```
 
 ******************************************************************************************
 
