@@ -158,7 +158,7 @@ Selector {
 ### *How to:*
 *	External
 	```html
-	<link rel="stylesheet type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	```
 *	Internal
 	```html
