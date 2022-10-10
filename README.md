@@ -43,7 +43,7 @@ All resources and notes from the [Complete Web Developer in 2022: Zero to Master
 ## <a name ="01"></a>1.	__Introduction__
 
 Discord Channel:
-*	~~https://discord.gg/nVmbHYY~~ You will find it inside course
+*	~~https://discord.gg/nVmbHYY~~ You will find it inside of the course
 ******************************************************************************************
 
 ## <a name ="02"></a>2.	__How The Internet Works__
