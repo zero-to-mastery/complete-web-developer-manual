@@ -769,6 +769,8 @@ Check node and npm installed on your system by:
 node -v
 npm -v
 ```
+* [Manage Multiple Versions of Node.js Using NVM](https://www.sitepoint.com/quick-tip-multiple-versions-node-nvm/)
+
 If any of these command result in error then that (node/npm) deosen't installed on your system.
 
 Reference websites:
