@@ -15,29 +15,30 @@ All resources and notes from the [Complete Web Developer in 2022: Zero to Master
 [ 7. *Advanced CSS*](#07)<br>
 [ 8. *Bootstrap 4, Templates, And Building Your Startup Landing Page*](#08)<br>
 [ 9. *CSS Grid + CSS Layout*](#09)<br>
-[10. *Career Of A Web Developer*](#10)<br>
-[11. *Javascript*](#11)<br>
-[12. *DOM Manipulation*](#12)<br>
-[13. *Advanced Javascript*](#13)<br>
-[14. *Command Line*](#14)<br>
-[15. *Developer Environment*](#15)<br>
-[16. *Git + Github + Open Source Projects*](#16)<br>
-[17. *A Day In The Life Of A Developer*](#17)<br>
-[18. *NPM + NPM Scripts*](#18)<br>
-[19. *React.js + Redux*](#19)<br>
-[20. *HTTP/JSON/AJAX + Asynchronous Javascript*](#20)<br>
-[21. *Backend Basics*](#21)<br>
-[22. *APIs*](#22)<br>
-[23. *FINAL PROJECT: SmartBrain Front-End*](#23)<br>
-[24. *Node.js + Express.js*](#24)<br>
-[25. *FINAL PROJECT: SmartBrain Back-End -- Server*](#25)<br>
-[26. *Databases*](#26)<br>
-[27. *FINAL PROJECT: SmartBrain Back-End – Database*](#27)<br>
-[28. *Production + Deployment*](#28)<br>
-[29. *Where To Go From Here?*](#29)<br>
-[30. *Bonus: Extra Bits (Coding Challenges + AMA)*](#30)<br>
-[31. *Extra: For Windows Users*](#31)<br>
-[32. *Bonus: Part 2 - Special Thank You Gift (Discount Coupons)*](#32)<br>
+[10. *Tailwind CSS*](#10)<br>
+[11. *Career Of A Web Developer*](#11)<br>
+[12. *Javascript*](#12)<br>
+[13. *DOM Manipulation*](#13)<br>
+[14. *Advanced Javascript*](#14)<br>
+[15. *Command Line*](#15)<br>
+[16. *Developer Environment*](#16)<br>
+[17. *Git + Github + Open Source Projects*](#17)<br>
+[18. *A Day In The Life Of A Developer*](#18)<br>
+[19. *NPM + NPM Scripts*](#19)<br>
+[20. *React.js + Redux*](#20)<br>
+[21. *HTTP/JSON/AJAX + Asynchronous Javascript*](#21)<br>
+[22. *Backend Basics*](#22)<br>
+[23. *APIs*](#23)<br>
+[24. *FINAL PROJECT: SmartBrain Front-End*](#24)<br>
+[25. *Node.js + Express.js*](#25)<br>
+[26. *FINAL PROJECT: SmartBrain Back-End -- Server*](#26)<br>
+[27. *Databases*](#27)<br>
+[28. *FINAL PROJECT: SmartBrain Back-End – Database*](#28)<br>
+[29. *Production + Deployment*](#29)<br>
+[30. *Where To Go From Here?*](#30)<br>
+[31. *Bonus: Extra Bits (Coding Challenges + AMA)*](#31)<br>
+[32. *Extra: For Windows Users*](#32)<br>
+[33. *Bonus: Part 2 - Special Thank You Gift (Discount Coupons)*](#33)<br>
 ******************************************************************************************
 
 ## <a name ="01"></a>1.	__Introduction__
@@ -328,7 +329,12 @@ Selector {
 *	https://interfacer.xyz/
 
 ******************************************************************************************
-## <a name ="10"></a>10.	__Career Of A Web Developer__
+## <a name ="10"></a>10.	__Tailwind CSS__
+
+### *Reference websites:*
+*	https://tailwindcss.com/
+******************************************************************************************
+## <a name ="11"></a>11.	__Career Of A Web Developer__
 
 ### *Updated Statistics and Surveys 2020:*
 
@@ -355,7 +361,7 @@ Once you are Done with Learning, here is the list of best platforms for jobs and
 
 ******************************************************************************************
 
-## <a name ="11"></a>11.	__Javascript__
+## <a name ="12"></a>12.	__Javascript__
 
 ### *Javascript types:*
 1. Number
@@ -482,7 +488,7 @@ switch(expression){
 - yield
 
 ******************************************************************************************
-## <a name ="12"></a>12.	__DOM Manipulation__
+## <a name ="13"></a>13.	__DOM Manipulation__
 
 
 
@@ -524,7 +530,7 @@ switch(expression){
 It is important to CACHE selectors in variables
 
 ******************************************************************************************
-## <a name ="13"></a>13.	__Advanced Javascript__
+## <a name ="14"></a>14.	__Advanced Javascript__
 
 ### *Variable declaration:*
 + `let variableName` (new in ECMAScript 6) /* its value can be altered
@@ -599,7 +605,7 @@ It is important to CACHE selectors in variables
  /* for of cannot be used in objects, but for in can be used in arrays, you get the index number as a return
 
 ******************************************************************************************
-## <a name ="14"></a>14. __Command Line__
+## <a name ="15"></a>15. __Command Line__
 
 
 
@@ -650,7 +656,7 @@ cls - clear the terminal screen
 
 
 ******************************************************************************************
-## <a name ="15"></a>15.	__Developer Environment__
+## <a name ="16"></a>16.	__Developer Environment__
 
 ### Popular code editors / IDE:
 * [Sublime Text 3](https://www.sublimetext.com/3)
@@ -668,7 +674,7 @@ cls - clear the terminal screen
 * [Vagrant](https://www.vagrantup.com/)
 
 ******************************************************************************************
-## <a name ="16"></a>16.	__Git + Github + Open Source Projects__
+## <a name ="17"></a>17.	__Git + Github + Open Source Projects__
 
 ### Install Git:
 *	https://www.atlassian.com/git/tutorials/install-git#windows
@@ -747,13 +753,13 @@ Once you are in your forked project directory in your command prompt....
 ```git pull upstream master```
 
 ******************************************************************************************
-## <a name ="17"></a>17.	__A Day In The Life Of A Developer__
+## <a name ="18"></a>18.	__A Day In The Life Of A Developer__
 ******************************************************************************************
 
 *  https://www.weareadam.com/blog/2020/11/a-day-in-the-life-of-a-front-end-developer/
 *  https://www.nickang.com/2020-01-02-a-day-in-the-life-of-a-software-developer/
 ******************************************************************************************
-## <a name ="18"></a>18.	__NPM + NPM Scripts__
+## <a name ="19"></a>19.	__NPM + NPM Scripts__
 
 
 ```
@@ -815,7 +821,7 @@ nvm use 14.12.0
 
 ******************************************************************************************
 
-## <a name ="19"></a>19.	__React.js + Redux__
+## <a name ="20"></a>20.	__React.js + Redux__
 
 old version
 ---
@@ -881,7 +887,7 @@ This topic is just to understand greatness of modern-day frameworks and apprecia
 * [Next Js](https://nextjs.org/)
 
 ******************************************************************************************
-## <a name ="20"></a>20.	__HTTP/JSON/AJAX + Asynchronous Javascript__
+## <a name ="21"></a>21.	__HTTP/JSON/AJAX + Asynchronous Javascript__
 ******************************************************************************************
 
 There are many ways for making an API call, but the one I recommend using is Axios. 
@@ -937,12 +943,12 @@ Using unpkg CDN:
 
 
 ******************************************************************************************
-## <a name ="21"></a>21.	__Backend Basics__
+## <a name ="22"></a>22.	__Backend Basics__
 ******************************************************************************************
 * https://nodejs.org/en/
 
 ******************************************************************************************
-## <a name ="22"></a>22. __APIs__
+## <a name ="23"></a>23. __APIs__
 ******************************************************************************************
 * https://explore.postman.com/
 *	https://stripe.com/docs/api
@@ -953,7 +959,7 @@ Using unpkg CDN:
 
 
 ******************************************************************************************
-## <a name ="23"></a>23.	__FINAL PROJECT: SmartBrain Front-End__
+## <a name ="24"></a>24.	__FINAL PROJECT: SmartBrain Front-End__
 
 
 Animated objects library:
@@ -983,7 +989,7 @@ Icons library:
 *  https://fontawesome.com/v5.15/icons?d=gallery&p=2
 
 ******************************************************************************************
-## <a name ="24"></a>24.	__Node.js + Express.js__
+## <a name ="25"></a>25.	__Node.js + Express.js__
 
 Install Postman:
 *	https://www.getpostman.com/apps
@@ -1052,7 +1058,7 @@ $ npm install bcrypt
 
 
 ******************************************************************************************
-## <a name ="25"></a>25.	__FINAL PROJECT: SmartBrain Back-End -- Server__
+## <a name ="26"></a>26.	__FINAL PROJECT: SmartBrain Back-End -- Server__
 
 
 Change localhost:
@@ -1104,7 +1110,7 @@ app.use(cors());
 ```
 
 ******************************************************************************************
-## <a name ="26"></a>26.	__Databases__
+## <a name ="27"></a>27.	__Databases__
 
 
 Install PostgreSQL:
@@ -1263,7 +1269,7 @@ Enter to a database with a different user:
 
 
 ******************************************************************************************
-## <a name ="27"></a>27.	__FINAL PROJECT: SmartBrain Back-End – Database__
+## <a name ="28"></a>28.	__FINAL PROJECT: SmartBrain Back-End – Database__
 
 
 Tool for db connection with back-end:
@@ -1272,7 +1278,7 @@ Tool for db connection with back-end:
 *	https://github.com/vitaly-t/pg-promise
 
 ******************************************************************************************
-## <a name ="28"></a>28.	__Production + Deployment__
+## <a name ="29"></a>29.	__Production + Deployment__
 
 
 Environmental variables:
@@ -1375,17 +1381,17 @@ heroku pg:psql
 ```
 
 ******************************************************************************************
-## <a name ="29"></a>29.	__Where To Go From Here?__
+## <a name ="30"></a>30.	__Where To Go From Here?__
 ******************************************************************************************
 
 [The Complete Junior to Senior Web Developer Roadmap (2022)](https://academy.zerotomastery.io/p/the-complete-junior-to-senior-web-developer-roadmap?utm_source=github&utm_medium=complete-web-developer-manual)
 
 ******************************************************************************************
-## <a name ="30"></a>30.	__Bonus: Extra Bits (Coding Challenges + AMA)__
+## <a name ="31"></a>31.	__Bonus: Extra Bits (Coding Challenges + AMA)__
 ******************************************************************************************
 ******************************************************************************************
-## <a name ="31"></a>31.	__Extra: For Windows Users__
+## <a name ="32"></a>32.	__Extra: For Windows Users__
 ******************************************************************************************
 ******************************************************************************************
-## <a name ="32"></a>32.	__Bonus: Part 2 - Special Thank You Gift (Discount Coupons)__
+## <a name ="33"></a>33.	__Bonus: Part 2 - Special Thank You Gift (Discount Coupons)__
 ******************************************************************************************
