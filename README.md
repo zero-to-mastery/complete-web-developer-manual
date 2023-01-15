@@ -88,6 +88,7 @@ Submarine Cable Map:
 *	https://notepad-plus-plus.org/
 
 ## **Tags:**
+<!-- These are some HTML Tags -->
 *	`<html>`
 *	`<head>`
 *	`<title>`
