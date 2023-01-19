@@ -358,14 +358,20 @@ Once you are Done with Learning, here is the list of best platforms for jobs and
 
 ## <a name ="11"></a>11.	__Javascript__
 
-### *Javascript types:*
+### *Javascript Data types:*
+*Primitive*
+
 1. Number
 2. String
 3. Boolean
 4. Undefined
 5. Null
-6. Symbol (new in ECMAScript 6)
-7. Object
+6. Symbol (new in ECMAScript 6) 
+7. BigInt 
+
+*Non-primitive*  
+
+8. Object (Array is not a special data types in JavaScript it belongs to the object data types)
 
 ### *Javascript comparisons:*
 - \!== (not equal to)
