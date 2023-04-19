@@ -640,8 +640,9 @@ It is important to CACHE selectors in variables
 | rm filename              | deletes a file called 'filename' within the current directory              |
 | rm -r foldername         | used to delete folders. In this case 'foldername' will be deleted          |
 | say hello (only on Mac)  | the mac will speak any text you enter after the 'say' keyword              |
-| rm -rf .git              | To remove git repo created by init                                         |
-
+| rm -rf .git       	   | To remove git repo created by init                                         |
+| {program name }          | allows you to execute a program by calling it's name. Eg. ```code```will   |
+|                          | open vscode. ```vlc``` will open vlc media player                          |
 ### **FOR WINDOWS:**
 
 
@@ -659,6 +660,7 @@ start {filename} - open file in default program
 start . - open current directory
 exit - exits the command prompt or a batch file
 cls - clear the terminal screen
+type {filename} - displays the content of the file 
 ```
 
 
@@ -712,7 +714,7 @@ git merge upstream/master
 git status
 git add “filename”
 git add .
-git commit –m”message”
+git commit –m ”message”
 git commit -am "commit message"
 git push
 git push origin "branchName"
