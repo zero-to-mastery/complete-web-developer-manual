@@ -101,6 +101,7 @@ Submarine Cable Map:
 *	Break `<br>`, Horizontal rule `<hr>`
 *	Image `<img>` and Attributes: `alt`, `src`, `width`, `height`
 *	Anchor `<a href="">`
+*       `<div>` for Division/Section
 
 ## **Topics:**
 *	Relative vs Absolute Path
