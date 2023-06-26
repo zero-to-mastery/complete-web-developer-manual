@@ -246,9 +246,11 @@ Selector {
 *	https://www.supremo.co.uk/typeterms/
 *	https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 *	https://unsplash.com/
-* https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Cascada_y_herencia
+*   https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Cascada_y_herencia
 *	https://specificity.keegan.st/
 * 	https://css-tricks.com/snippets/css/complete-guide-grid/
+*   https://css-diner.netlify.app/#
+*   https://elementor.com/help/whats-the-difference-between-px-em-rem-vw-and-vh/
 
 ### **Website for color check:**
 *	http://paletton.com/
@@ -612,6 +614,11 @@ It is important to CACHE selectors in variables
  /* both arrays and strings are iterable in JS 
  /* for of cannot be used in objects, but for in can be used in arrays, you get the index number as a return
 
+### Extra Javascript Practice:
+
+* <https://github.com/getify/You-Dont-Know-JS>  
+* <http://javascript.info/>  
+* <http://dmitrysoshnikov.com/ecmascript/javascript-the-core-2nd-edition/>
 ******************************************************************************************
 ## <a name ="15"></a>15. __Command Line__
 
@@ -950,7 +957,8 @@ Using unpkg CDN:
 ```html
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 ```
-
+### Reference websites:
+* <https://github.com/daumann/ECMAScript-new-features-list>
 
 ******************************************************************************************
 ## <a name ="22"></a>22.	__Backend Basics__
@@ -960,13 +968,14 @@ Using unpkg CDN:
 ******************************************************************************************
 ## <a name ="23"></a>23. __APIs__
 ******************************************************************************************
-* https://explore.postman.com/
+*   https://explore.postman.com/
 *	https://stripe.com/docs/api
 *	https://www.twilio.com/docs/api/messaging/send-messages
 *	https://apilist.fun
 *	https://www.pexels.com/api/documentation/
-* https://apihouse.now.sh/
-
+*   https://apihouse.now.sh/
+*   https://play.elevatorsaga.com
+*   https://publicapis.dev
 
 ******************************************************************************************
 ## <a name ="24"></a>24.	__FINAL PROJECT: SmartBrain Front-End__
@@ -1118,6 +1127,9 @@ Back-end:
 const cors = require('cors')
 app.use(cors());
 ```
+### Resource: CORS
+* <https://en.wikipedia.org/wiki/Same-origin_policy>
+* <https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS>
 
 ******************************************************************************************
 ## <a name ="27"></a>27.	__Databases__
