@@ -1,7 +1,7 @@
 # Complete-Web-Developer-Manual
 
 
-All resources and notes from the [Complete Web Developer in 2022: Zero to Mastery course](https://academy.zerotomastery.io/p/complete-web-developer-zero-to-mastery?utm_source=github&utm_medium=complete-web-developer-manual)
+All resources and notes from the [Complete Web Developer: Zero to Mastery course](https://academy.zerotomastery.io/p/complete-web-developer-zero-to-mastery?utm_source=github&utm_medium=complete-web-developer-manual)
 
 ******************************************************************************************
 ##  __*Contents*__
@@ -353,7 +353,7 @@ Selector {
 *	Stackoverflow Survey
 	*	https://insights.stackoverflow.com/survey/
   
-Web Developer Roadmap 2022:
+Web Developer Roadmap:
 *	Part 1: https://www.youtube.com/watch?v=57GuRoJ5Bfw
 *	Part 2: https://www.youtube.com/watch?v=aeKQy_08fpk
 
@@ -1406,7 +1406,7 @@ heroku pg:psql
 ## <a name ="30"></a>30.	__Where To Go From Here?__
 ******************************************************************************************
 
-[The Complete Junior to Senior Web Developer Roadmap (2022)](https://academy.zerotomastery.io/p/the-complete-junior-to-senior-web-developer-roadmap?utm_source=github&utm_medium=complete-web-developer-manual)
+[The Complete Junior to Senior Web Developer Roadmap](https://academy.zerotomastery.io/p/the-complete-junior-to-senior-web-developer-roadmap?utm_source=github&utm_medium=complete-web-developer-manual)
 
 ******************************************************************************************
 ## <a name ="31"></a>31.	__Bonus: Extra Bits (Coding Challenges + AMA)__
