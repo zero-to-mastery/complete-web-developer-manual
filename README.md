@@ -1,7 +1,7 @@
 # Complete-Web-Developer-Manual
 
 
-All resources and notes from the [Complete Web Developer: Zero to Mastery course](https://academy.zerotomastery.io/p/complete-web-developer-zero-to-mastery?utm_source=github&utm_medium=complete-web-developer-manual)
+All resources and notes from the [Complete Web Developer: Zero to Mastery course]([https://academy.zerotomastery.io/p/complete-web-developer-zero-to-mastery](https://zerotomastery.io/courses/coding-bootcamp/)?utm_source=github&utm_medium=complete-web-developer-manual)
 
 ******************************************************************************************
 ##  __*Contents*__
