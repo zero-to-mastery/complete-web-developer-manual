@@ -96,7 +96,7 @@ Submarine Cable Map:
 *	`<body>`
 *	Headings (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`)
 *	Paragraph `<p>`
-*	Bold `<strong>`, italic `<em>`
+*	Bold `<strong>`, italic `<i>`, underline `<ul>`, strong `<strong>`, emphasize `<em>`
 *	Ordered list `<ol>`, Unordered list `<ul>`, List item`<li>`
 *	Break `<br>`, Horizontal rule `<hr>`
 *	Image `<img>` and Attributes: `alt`, `src`, `width`, `height`
