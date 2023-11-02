@@ -682,6 +682,7 @@ type {filename} - displays the content of the file
 * [Brackets](http://brackets.io/)
 * [PhpStorm](https://www.jetbrains.com/phpstorm/)
 * [Codespace](https://codespace.app/download)
+* [CodeLobster](https://codelobster.com/)
 
 ### Development Environment Stack
 * [Homebrew](https://brew.sh/)
