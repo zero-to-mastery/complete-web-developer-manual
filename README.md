@@ -136,10 +136,14 @@ Submarine Cable Map:
 *	`<header>`
 *	`<nav>`
 *	`<main>`
+*	`<section>`
+*	`<article>`
+*	`<aside>`
+*	`<summary>`
 *	`<footer>`
 
 ### **Topics:**
-*	Chrome view Source
+*	Chrome View Source
 
 ### **Resources:**
 *	https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5
