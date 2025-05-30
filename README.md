@@ -125,7 +125,7 @@ Submarine Cable Map:
 *	`<form>`
 	*	`method`, `action`
 *	`<input>`:
-	*	`type`= `"text"`, `"submit"`, `"reset"`, `"email"`, `"date"`, `"radio"`, `"checkbox"`, `"password"`
+	*	`type`= `"text"`, `"submit"`, `"reset"`, `"email"`, `"date"`, `"radio"`, `"checkbox"`, `"password"`, `"button"`
 	*	`required`, `value`, `name`, `minlength`
 *	dropdown `<select>`
 	*	option `<option>`
