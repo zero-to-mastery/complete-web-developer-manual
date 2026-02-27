@@ -391,8 +391,8 @@ Once you are Done with Learning, here is the list of best platforms for jobs and
 - \=== (equal to)
 - \>= (greater than or equal to)
 - \<= (less than or equal to)
-- \> (less than)
-- \< (greater than)
+- \< (less than)
+- \> (greater than)
 
 ### *Javascript variables:*
 - var
